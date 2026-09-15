@@ -1,0 +1,803 @@
+<!DOCTYPE html>
+<html lang="zh-TW">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>外送優惠券查詢</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@400;500;600;700;900&display=swap" rel="stylesheet" />
+  <style>
+    * { font-family: 'Noto Sans TC', sans-serif; }
+
+    .platform-btn {
+      flex: 1;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      gap: 10px;
+      padding: 14px 20px;
+      border-radius: 14px;
+      border: 2.5px solid transparent;
+      font-size: 1.05rem;
+      font-weight: 700;
+      cursor: pointer;
+      transition: all 0.2s;
+      background: white;
+    }
+    .platform-btn.uber-inactive {
+      border-color: #e0f7fa;
+      color: #94a3b8;
+    }
+    .platform-btn.uber-inactive:hover {
+      border-color: #06b6d4;
+      color: #0284c7;
+    }
+    .platform-btn.uber-active {
+      background: linear-gradient(135deg, #06b6d4, #0284c7);
+      color: white;
+      box-shadow: 0 4px 16px rgba(6,182,212,0.35);
+    }
+    .platform-btn.panda-inactive {
+      border-color: #fce4ec;
+      color: #94a3b8;
+    }
+    .platform-btn.panda-inactive:hover {
+      border-color: #f43f5e;
+      color: #e11d48;
+    }
+    .platform-btn.panda-active {
+      background: linear-gradient(135deg, #f43f5e, #e11d48);
+      color: white;
+      box-shadow: 0 4px 16px rgba(244,63,94,0.35);
+    }
+
+    .filter-pill {
+      display: inline-flex;
+      align-items: center;
+      gap: 5px;
+      padding: 5px 14px;
+      border-radius: 20px;
+      border: 1.5px solid #e2e8f0;
+      font-size: 0.8rem;
+      font-weight: 600;
+      cursor: pointer;
+      transition: all 0.18s;
+      background: white;
+      color: #64748b;
+      user-select: none;
+    }
+    .filter-pill:hover { border-color: #94a3b8; color: #334155; }
+    .filter-pill.active-uber { background: #e0f7fa; border-color: #06b6d4; color: #0284c7; }
+    .filter-pill.active-panda { background: #fce4ec; border-color: #f43f5e; color: #e11d48; }
+
+    .coupon-card {
+      border-radius: 10px;
+      border: 1.5px solid #e5e7eb;
+      background: white;
+      transition: box-shadow 0.18s, transform 0.18s;
+      margin-bottom: 5px;
+      overflow: hidden;
+    }
+    .coupon-card:hover {
+      box-shadow: 0 4px 20px rgba(0,0,0,0.09);
+      transform: translateY(-1px);
+    }
+    .coupon-card.uber-card { border-top: 3px solid #06b6d4; }
+    .coupon-card.panda-card { border-top: 3px solid #f43f5e; }
+
+    .code-box {
+      font-family: 'Courier New', monospace;
+      font-size: 0.88rem;
+      font-weight: 700;
+      letter-spacing: 1px;
+      background: #f8fafc;
+      border: 1px solid #dbe4ee;
+      border-radius: 7px;
+      padding: 5px 8px;
+      color: #1e40af;
+      word-break: break-all;
+      min-width: 0;
+    }
+
+    .action-btn {
+      display: inline-flex;
+      align-items: center;
+      gap: 6px;
+      padding: 6px 9px;
+      border-radius: 7px;
+      font-size: 0.72rem;
+      font-weight: 700;
+      border: none;
+      cursor: pointer;
+      color: white;
+      transition: opacity 0.18s;
+    }
+    .action-btn:hover { opacity: 0.88; }
+    .action-btn.uber-color { background: linear-gradient(90deg,#06b6d4,#0284c7); }
+    .action-btn.panda-color { background: linear-gradient(90deg,#f43f5e,#e11d48); }
+    .action-btn.copied { background: #10b981 !important; }
+
+    .tag {
+      display: inline-flex;
+      align-items: center;
+      gap: 3px;
+      font-size: 0.72rem;
+      font-weight: 500;
+      padding: 2px 9px;
+      border-radius: 20px;
+    }
+    .tag-scope { background: #f1f5f9; color: #475569; }
+    .tag-period { background: #fef9c3; color: #92400e; }
+    .coupon-content {
+      white-space: pre-line;
+      line-height: 1.35;
+      display: -webkit-box;
+      -webkit-box-orient: vertical;
+      -webkit-line-clamp: 2;
+      overflow: hidden;
+    }
+    .coupon-missing {
+      color: #94a3b8;
+      font-size: 0.82rem;
+      font-weight: 500;
+      line-height: 1.5;
+    }
+    .coupon-detail {
+      white-space: pre-line;
+      line-height: 1.35;
+    }
+
+    .compact-facts {
+      display: flex;
+      flex-wrap: wrap;
+      align-items: center;
+      gap: 4px 6px;
+      border-top: 1px solid #f1f5f9;
+      padding-top: 5px;
+      margin-bottom: 6px;
+    }
+    .compact-fact {
+      max-width: 100%;
+      overflow: hidden;
+      text-overflow: ellipsis;
+      white-space: nowrap;
+      border-radius: 5px;
+      padding: 2px 6px;
+      background: #f8fafc;
+      color: #475569;
+      font-size: 0.68rem;
+      line-height: 1.35;
+    }
+    .compact-code-row {
+      display: flex;
+      align-items: center;
+      gap: 6px;
+    }
+    .compact-code-row .code-box {
+      flex: 1 1 auto;
+    }
+    .compact-code-row .action-btn {
+      flex: 0 0 auto;
+      white-space: nowrap;
+    }
+
+    .section-group { margin-bottom: 9px; }
+    .section-label {
+      font-size: 0.75rem;
+      font-weight: 700;
+      text-transform: uppercase;
+      letter-spacing: 0.5px;
+      padding: 3px 12px;
+      border-radius: 20px;
+      display: inline-flex;
+      align-items: center;
+      gap: 5px;
+      margin-bottom: 7px;
+    }
+    .section-label-uber { background: #e0f7fa; color: #0284c7; }
+    .section-label-panda { background: #fce4ec; color: #e11d48; }
+
+    .spinner { animation: spin 1s linear infinite; }
+    @keyframes spin { from{transform:rotate(0deg)} to{transform:rotate(360deg)} }
+    .fade-in { animation: fadeIn 0.25s ease; }
+    @keyframes fadeIn { from{opacity:0;transform:translateY(6px)} to{opacity:1;transform:translateY(0)} }
+
+    .toast {
+      position: fixed; bottom: 24px; left: 50%;
+      transform: translateX(-50%);
+      background: #1e293b; color: white;
+      padding: 11px 22px; border-radius: 12px;
+      font-size: 0.86rem; font-weight: 500;
+      z-index: 9999; opacity: 0; transition: opacity 0.3s;
+      pointer-events: none; white-space: nowrap;
+    }
+    .toast.show { opacity: 1; }
+
+    .badge {
+      display: inline-flex; align-items: center; justify-content: center;
+      background: white; border-radius: 20px;
+      font-size: 0.72rem; font-weight: 700;
+      padding: 1px 8px; min-width: 24px;
+    }
+    .badge-uber { color: #0284c7; }
+    .badge-panda { color: #e11d48; }
+
+    .type-pill {
+      display: inline-flex;
+      align-items: center;
+      gap: 5px;
+      padding: 5px 11px;
+      border-radius: 20px;
+      border: 1.5px solid #e2e8f0;
+      font-size: 0.76rem;
+      font-weight: 700;
+      cursor: pointer;
+      transition: all 0.18s;
+      background: white;
+      color: #64748b;
+      user-select: none;
+    }
+    .type-pill:hover { border-color: #94a3b8; color: #334155; }
+    .type-pill.active-uber { background: #e0f7fa; border-color: #06b6d4; color: #0284c7; }
+    .type-pill.active-panda { background: #fce4ec; border-color: #f43f5e; color: #e11d48; }
+    .type-pill .type-count {
+      font-size: 0.68rem;
+      opacity: 0.65;
+    }
+
+    @media (max-width: 640px) {
+      .coupon-card:hover { transform: none; }
+      .section-group { margin-bottom: 6px; }
+      .section-label { margin-bottom: 3px; }
+      .compact-fact { max-width: calc(50% - 3px); }
+    }
+  </style>
+</head>
+<body class="bg-slate-50 min-h-screen">
+<div id="toast" class="toast"></div>
+
+<div class="max-w-3xl mx-auto px-4 py-8">
+
+  <!-- Header -->
+  <div class="text-center mb-7">
+    <h1 class="text-3xl font-black text-gray-900 mb-1">外送優惠券查詢</h1>
+    <p class="text-gray-400 text-sm">每日自動更新 · 當月折扣碼總整理</p>
+  </div>
+
+  <!-- Platform Switch Buttons -->
+  <div class="flex gap-3 mb-5">
+    <button id="btn-uber" class="platform-btn uber-active" onclick="switchPlatform('ubereats')">
+      <span class="text-xl">🚗</span>
+      <span>Uber Eats</span>
+      <span id="badge-uber" class="badge badge-uber">—</span>
+    </button>
+    <button id="btn-panda" class="platform-btn panda-inactive" onclick="switchPlatform('foodpanda')">
+      <span class="text-xl">🐼</span>
+      <span>foodpanda</span>
+      <span id="badge-panda" class="badge badge-panda">—</span>
+    </button>
+  </div>
+
+  <!-- Settings Panel -->
+  <div class="bg-white rounded-2xl shadow-sm border border-gray-100 p-5 mb-5">
+    <div class="grid grid-cols-2 gap-4 mb-4">
+      <div>
+        <label class="block text-xs font-semibold text-gray-400 uppercase tracking-wide mb-1.5">📍 地區</label>
+        <div class="flex gap-2">
+        <select id="regionSelect" class="flex-1 border border-gray-200 rounded-xl px-3 py-2.5 text-sm focus:outline-none focus:ring-2 focus:ring-cyan-400 bg-white">
+          <option value="台北市">台北市</option>
+          <option value="新北市">新北市</option>
+          <option value="桃園市">桃園市</option>
+          <option value="基隆市">基隆市</option>
+          <option value="新竹市">新竹市</option>
+          <option value="新竹縣">新竹縣</option>
+          <option value="苗栗縣">苗栗縣</option>
+          <option value="台中市">台中市</option>
+          <option value="彰化縣">彰化縣</option>
+          <option value="南投縣">南投縣</option>
+          <option value="雲林縣">雲林縣</option>
+          <option value="嘉義市">嘉義市</option>
+          <option value="嘉義縣">嘉義縣</option>
+          <option value="台南市" selected>台南市</option>
+          <option value="高雄市">高雄市</option>
+          <option value="屏東縣">屏東縣</option>
+          <option value="宜蘭縣">宜蘭縣</option>
+          <option value="花蓮縣">花蓮縣</option>
+          <option value="台東縣">台東縣</option>
+          <option value="澎湖縣">澎湖縣</option>
+          <option value="金門縣">金門縣</option>
+        </select>
+        <button id="gpsBtn" onclick="detectLocation()" title="自動偵測位置"
+          class="shrink-0 w-10 h-10 flex items-center justify-center border border-gray-200 rounded-xl text-gray-400 hover:border-cyan-400 hover:text-cyan-500 transition-all bg-white">
+          <svg id="gpsIcon" class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.827 0l-4.244-4.243a8 8 0 1111.314 0z"/>
+            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 11a3 3 0 11-6 0 3 3 0 016 0z"/>
+          </svg>
+        </button>
+        </div>
+      </div>
+      <div>
+        <label class="block text-xs font-semibold text-gray-400 uppercase tracking-wide mb-1.5">👤 用戶身份</label>
+        <select id="userTypeSelect" class="w-full border border-gray-200 rounded-xl px-3 py-2.5 text-sm focus:outline-none focus:ring-2 focus:ring-cyan-400 bg-white">
+          <option value="false" selected>舊用戶（非新用戶）</option>
+          <option value="true">新用戶（首次使用）</option>
+        </select>
+      </div>
+    </div>
+    <button onclick="loadCoupons()"
+      class="w-full bg-slate-800 hover:bg-slate-700 text-white font-bold py-2.5 px-6 rounded-xl transition-all text-sm flex items-center justify-center gap-2">
+      <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5" d="M4 4v5h.582m15.356 2A8.001 8.001 0 004.582 9m0 0H9m11 11v-5h-.581m0 0a8.003 8.003 0 01-15.357-2m15.357 2H15"/>
+      </svg>
+      重新抓取
+    </button>
+  </div>
+
+  <!-- Filter Bar (shown after load) -->
+  <div id="filter-bar" class="hidden bg-white rounded-2xl border border-gray-100 shadow-sm p-4 mb-5">
+    <div class="text-xs font-semibold text-gray-400 uppercase tracking-wide mb-2">顯示類型</div>
+    <div class="flex flex-wrap gap-2 mb-4" id="type-filter-pills"></div>
+    <div class="text-xs font-semibold text-gray-400 uppercase tracking-wide mb-2">分類篩選</div>
+    <div class="flex flex-wrap gap-2" id="filter-pills"></div>
+  </div>
+
+  <!-- Loading -->
+  <div id="loading" class="hidden text-center py-16">
+    <svg class="spinner w-9 h-9 text-slate-400 mx-auto mb-3" fill="none" viewBox="0 0 24 24">
+      <circle class="opacity-25" cx="12" cy="12" r="10" stroke="currentColor" stroke-width="4"/>
+      <path class="opacity-75" fill="currentColor" d="M4 12a8 8 0 018-8V0C5.373 0 0 5.373 0 12h4z"/>
+    </svg>
+    <p class="text-gray-400 text-sm">正在抓取最新優惠券資料...</p>
+  </div>
+
+  <!-- Error -->
+  <div id="error" class="hidden bg-red-50 border border-red-200 rounded-2xl p-5 text-center text-red-500 text-sm mb-5"></div>
+
+  <!-- Results -->
+  <div id="results" class="hidden fade-in">
+    <div id="result-info" class="flex items-center justify-between mb-3 text-sm text-gray-400"></div>
+    <div id="coupon-list"></div>
+    <div id="no-match" class="hidden text-center py-10 text-gray-400 text-sm bg-white rounded-2xl border border-gray-100">
+      沒有符合篩選條件的優惠券，請調整篩選條件
+    </div>
+  </div>
+
+</div>
+
+<script>
+const STORES = ['星巴克','必勝客','麥當勞','肯德基','漢堡王','頂呱呱','全聯','家樂福','全家','7-11','統一超商','優市'];
+const CITY_NAMES = ['台北','新北','桃園','基隆','新竹','苗栗','台中','彰化','南投','雲林','嘉義','台南','高雄','屏東','宜蘭','花蓮','台東','澎湖','金門','臺北','臺中','臺南','臺東'];
+
+let allData = { ubereats: [], foodpanda: [] };
+let currentPlatform = 'ubereats';
+let activeFilters = new Set(['all']);
+let activeTypes = new Set(['code', 'link']);
+
+const TYPE_DEFS = [
+  { key: 'code', label: '可輸入代碼', icon: '⌨️' },
+  { key: 'link', label: '免輸入優惠', icon: '🎁' },
+  { key: 'info', label: '平台資訊', icon: '💳' },
+];
+
+function getCouponType(coupon) {
+  if (coupon.code && !coupon.is_link_only) return 'code';
+  if (coupon.is_link_only) return 'link';
+  return 'info';
+}
+
+function resetDisplayTypes() {
+  activeTypes = new Set(['code', 'link']);
+}
+
+function classifyCoupon(coupon) {
+  const scope = coupon.scope || '';
+  const section = coupon.section || '';
+  const cats = [];
+  if (coupon.is_link_only) cats.push('link');
+  else if (coupon.code) cats.push('has-code');
+  const hasCity = CITY_NAMES.some(c => scope.includes(c));
+  const hasStore = STORES.some(s => scope.includes(s) || section.includes(s));
+  if (hasCity) cats.push('region');
+  if (hasStore) cats.push('store');
+  if (!hasCity && !hasStore) cats.push('general');
+  if (section.includes('生鮮') || section.includes('雜貨') || section.includes('超市') || section.includes('全聯')) cats.push('grocery');
+  if (section.includes('外帶') || section.includes('自取')) cats.push('takeout');
+  if (cats.length === 0) cats.push('general');
+  return cats;
+}
+
+const FILTER_DEFS = [
+  { key: 'all',      label: '全部',      icon: '✦' },
+  { key: 'general',  label: '全區通用',  icon: '🌐' },
+  { key: 'region',   label: '限定地區',  icon: '📍' },
+  { key: 'store',    label: '限定店家',  icon: '🏪' },
+  { key: 'grocery',  label: '生鮮超市',  icon: '🛒' },
+  { key: 'takeout',  label: '外帶自取',  icon: '🥡' },
+];
+
+function buildFilters() {
+  const coupons = allData[currentPlatform] || [];
+  const available = new Set();
+  available.add('all');
+  coupons.forEach(c => {
+    const cats = classifyCoupon(c);
+    cats.forEach(cat => available.add(cat));
+  });
+
+  const isUber = currentPlatform === 'ubereats';
+  const activeClass = isUber ? 'active-uber' : 'active-panda';
+  const typeContainer = document.getElementById('type-filter-pills');
+  const container = document.getElementById('filter-pills');
+  typeContainer.innerHTML = '';
+  container.innerHTML = '';
+
+  TYPE_DEFS.forEach(def => {
+    const count = coupons.filter(c => getCouponType(c) === def.key).length;
+    if (!count) return;
+    const pill = document.createElement('button');
+    pill.className = 'type-pill' + (activeTypes.has(def.key) ? ' ' + activeClass : '');
+    pill.innerHTML = `${def.icon} ${def.label} <span class="type-count">${count}</span>`;
+    pill.onclick = () => toggleType(def.key);
+    typeContainer.appendChild(pill);
+  });
+
+  FILTER_DEFS.forEach(def => {
+    if (!available.has(def.key)) return;
+    const pill = document.createElement('button');
+    pill.className = 'filter-pill' + (activeFilters.has(def.key) ? ' ' + activeClass : '');
+    pill.innerHTML = `${def.icon} ${def.label}`;
+    pill.onclick = () => toggleFilter(def.key);
+    container.appendChild(pill);
+  });
+}
+
+function toggleType(key) {
+  if (activeTypes.has(key)) {
+    activeTypes.delete(key);
+  } else {
+    activeTypes.add(key);
+  }
+  if (activeTypes.size === 0) resetDisplayTypes();
+  buildFilters();
+  renderCoupons();
+}
+
+function toggleFilter(key) {
+  if (key === 'all') {
+    activeFilters = new Set(['all']);
+  } else {
+    activeFilters.delete('all');
+    if (activeFilters.has(key)) {
+      activeFilters.delete(key);
+      if (activeFilters.size === 0) activeFilters.add('all');
+    } else {
+      activeFilters.add(key);
+    }
+  }
+  buildFilters();
+  renderCoupons();
+}
+
+function getFilteredCoupons() {
+  const coupons = allData[currentPlatform] || [];
+  return coupons.filter(c => {
+    if (!activeTypes.has(getCouponType(c))) return false;
+    if (activeFilters.has('all')) return true;
+    const cats = classifyCoupon(c);
+    if (activeFilters.has('region') && cats.includes('general')) return true;
+    return cats.some(cat => activeFilters.has(cat));
+  });
+}
+
+function switchPlatform(platform) {
+  currentPlatform = platform;
+  activeFilters = new Set(['all']);
+  resetDisplayTypes();
+  const uberBtn = document.getElementById('btn-uber');
+  const pandaBtn = document.getElementById('btn-panda');
+  if (platform === 'ubereats') {
+    uberBtn.className = 'platform-btn uber-active';
+    pandaBtn.className = 'platform-btn panda-inactive';
+  } else {
+    uberBtn.className = 'platform-btn uber-inactive';
+    pandaBtn.className = 'platform-btn panda-active';
+  }
+  if (allData[platform] && allData[platform].length > 0) {
+    buildFilters();
+    renderCoupons();
+  }
+}
+
+async function loadCoupons() {
+  const region = document.getElementById('regionSelect').value;
+  const isNewUser = document.getElementById('userTypeSelect').value;
+  document.getElementById('loading').classList.remove('hidden');
+  document.getElementById('results').classList.add('hidden');
+  document.getElementById('filter-bar').classList.add('hidden');
+  document.getElementById('error').classList.add('hidden');
+
+  try {
+    const resp = await fetch(`/api/coupons?region=${encodeURIComponent(region)}&is_new_user=${isNewUser}&platform=both`);
+    const data = await resp.json();
+    if (data.error) throw new Error(data.error);
+    allData = data;
+
+    const ueCount = data.ubereats.length;
+    const fpCount = data.foodpanda.length;
+    document.getElementById('badge-uber').textContent = ueCount;
+    document.getElementById('badge-panda').textContent = fpCount;
+
+    activeFilters = new Set(['all']);
+    buildFilters();
+    document.getElementById('filter-bar').classList.remove('hidden');
+    document.getElementById('results').classList.remove('hidden');
+    renderCoupons();
+  } catch(e) {
+    document.getElementById('error').textContent = '抓取失敗：' + e.message;
+    document.getElementById('error').classList.remove('hidden');
+  } finally {
+    document.getElementById('loading').classList.add('hidden');
+  }
+}
+
+function renderCoupons() {
+  const isUber = currentPlatform === 'ubereats';
+  const cardClass = isUber ? 'uber-card' : 'panda-card';
+  const colorClass = isUber ? 'uber-color' : 'panda-color';
+  const sectionLabelClass = isUber ? 'section-label-uber' : 'section-label-panda';
+  const filtered = getFilteredCoupons().slice().sort((a, b) => {
+    const typeOrder = { code: 0, link: 1, info: 2 };
+    return typeOrder[getCouponType(a)] - typeOrder[getCouponType(b)];
+  });
+  const list = document.getElementById('coupon-list');
+  const noMatch = document.getElementById('no-match');
+  const info = document.getElementById('result-info');
+
+  if (filtered.length === 0) {
+    list.innerHTML = '';
+    noMatch.classList.remove('hidden');
+    info.innerHTML = '';
+    return;
+  }
+  noMatch.classList.add('hidden');
+
+  const total = (allData[currentPlatform] || []).length;
+  const showing = filtered.length;
+  const activeTypeTotal = (allData[currentPlatform] || [])
+    .filter(c => activeTypes.has(getCouponType(c))).length;
+  info.innerHTML = `
+    <span>顯示 <strong class="text-gray-700">${showing}</strong> / ${activeTypeTotal} 張
+      <span class="text-xs text-gray-300">（共 ${total} 張）</span></span>
+    <button onclick="openPlatform('${currentPlatform}')"
+      class="text-xs font-semibold ${isUber ? 'text-cyan-600 hover:text-cyan-700' : 'text-rose-500 hover:text-rose-600'} flex items-center gap-1">
+      開啟 ${isUber ? 'Uber Eats' : 'foodpanda'}
+      <svg class="w-3 h-3" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14"/>
+      </svg>
+    </button>
+  `;
+
+  const grouped = {};
+  filtered.forEach(c => {
+    if (!grouped[c.section]) grouped[c.section] = [];
+    grouped[c.section].push(c);
+  });
+
+  list.innerHTML = '';
+  Object.entries(grouped).forEach(([section, items]) => {
+    const group = document.createElement('div');
+    group.className = 'section-group fade-in';
+    group.innerHTML = `<div class="section-label ${sectionLabelClass}">📋 ${esc(section)} <span class="opacity-60 ml-1">${items.length} 張</span></div>`;
+
+    items.forEach(coupon => {
+      const card = document.createElement('div');
+      card.className = `coupon-card ${cardClass}`;
+
+      const descriptionHtml = coupon.has_description
+        ? `<div class="coupon-content text-[0.98rem] font-bold text-gray-800">${esc(coupon.content)}</div>`
+        : coupon.details && coupon.details.length
+          ? `<div class="coupon-missing">優惠詳細資料請查看下方活動資訊。</div>`
+        : `<div class="coupon-missing">來源未提供這張優惠的折扣數字或活動說明，請以平台套用後的結帳頁為準。</div>`;
+
+      let codeHtml = '';
+      if (coupon.is_link_only) {
+        codeHtml = `
+          <div class="flex items-center gap-2 text-[0.72rem] font-semibold text-gray-500">
+            <span>免輸入代碼</span>
+            <span class="text-gray-300">·</span>
+            <span>前往平台領取</span>
+          </div>`;
+      } else if (coupon.code) {
+        codeHtml = `
+          <button class="code-box text-left flex items-center gap-1.5 hover:border-slate-400 transition-colors"
+            onclick="copyCode('${ea(coupon.code)}',this)" title="點擊複製優惠代碼">
+            <svg class="w-3.5 h-3.5 shrink-0 text-slate-400" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M8 16H6a2 2 0 01-2-2V6a2 2 0 012-2h8a2 2 0 012 2v2m-6 12h8a2 2 0 002-2v-8a2 2 0 00-2-2h-8a2 2 0 00-2 2v8a2 2 0 002 2z"/>
+            </svg>
+            <span class="truncate">${esc(coupon.code)}</span>
+          </button>`;
+      }
+
+      let factsHtml = '';
+      if (coupon.scope && coupon.scope.trim() && coupon.scope.trim() !== '對象') {
+        factsHtml += `
+          <span class="compact-fact" title="使用條件／適用對象：${ea(coupon.scope)}">條件：${esc(coupon.scope)}</span>`;
+      }
+      if (coupon.period && coupon.period.trim()) {
+        factsHtml += `
+          <span class="compact-fact" title="使用期限：${ea(coupon.period)}">期限：${esc(coupon.period)}</span>`;
+      }
+
+      const actionHtml = coupon.code && !coupon.is_link_only
+        ? `<button class="action-btn ${colorClass} shrink-0" onclick="copyAndOpen('${ea(coupon.code)}','${currentPlatform}',this)">
+            <svg class="w-3.5 h-3.5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14"/>
+            </svg>
+            複製並開啟
+          </button>`
+        : `<button class="action-btn ${colorClass} shrink-0" onclick="openPlatform('${currentPlatform}')">
+            <svg class="w-3.5 h-3.5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14"/>
+            </svg>
+            前往平台
+          </button>`;
+
+      card.innerHTML = `
+        <div class="px-3 py-2">
+          <div class="flex items-start gap-2 mb-1">
+            <div class="min-w-0 flex-1">${descriptionHtml}</div>
+            <span class="text-[0.65rem] font-semibold text-gray-400 shrink-0">${coupon.is_link_only ? '免輸碼' : coupon.code ? '可輸入代碼' : '優惠資訊'}</span>
+          </div>
+          ${coupon.details && coupon.details.length ? `
+            <div class="mb-1 rounded-lg bg-slate-50 border border-slate-100 px-2 py-1 text-[0.68rem] text-slate-600 space-y-0.5">
+              ${coupon.details.map(detail => `<div>${esc(detail)}</div>`).join('')}
+            </div>` : ''}
+          ${factsHtml ? `<div class="compact-facts">${factsHtml}</div>` : ''}
+          <div class="compact-code-row">
+            <div class="min-w-0 flex-1">${codeHtml}</div>
+            <div class="shrink-0">${actionHtml}</div>
+          </div>
+        </div>`;
+      group.appendChild(card);
+    });
+
+    list.appendChild(group);
+  });
+}
+
+function esc(s) {
+  if (!s) return '';
+  return s.replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/>/g,'&gt;').replace(/"/g,'&quot;');
+}
+function ea(s) {
+  if (!s) return '';
+  return s.replace(/\\/g,'\\\\').replace(/'/g,"\\'");
+}
+
+async function copyCode(code, btn) {
+  try {
+    await navigator.clipboard.writeText(code);
+    const orig = btn.textContent;
+    btn.classList.add('copied');
+    btn.textContent = '✓';
+    showToast('✓ 已複製：' + code);
+    setTimeout(() => { btn.textContent = orig; btn.classList.remove('copied'); }, 2000);
+  } catch { showToast('請手動複製：' + code); }
+}
+
+function openPlatform(platform) {
+  const isUber = platform === 'ubereats';
+  const url = isUber ? 'https://www.ubereats.com/tw' : 'https://www.foodpanda.com.tw/vouchers';
+  window.open(url, '_blank');
+}
+
+async function copyAndOpen(code, platform, btn) {
+  try {
+    await navigator.clipboard.writeText(code);
+    btn.classList.add('copied');
+    const orig = btn.innerHTML;
+    btn.textContent = '✓ 已複製！';
+    showToast('✓ 已複製代碼「' + code + '」');
+    setTimeout(() => { btn.innerHTML = orig; btn.classList.remove('copied'); }, 2500);
+  } catch { showToast('代碼：' + code); }
+  setTimeout(() => openPlatform(platform), 400);
+}
+
+function showToast(msg) {
+  const t = document.getElementById('toast');
+  t.textContent = msg;
+  t.classList.add('show');
+  setTimeout(() => t.classList.remove('show'), 3000);
+}
+
+const COUNTY_MAP = {
+  '台北市':['taipei city','台北市'],
+  '新北市':['new taipei','新北市'],
+  '桃園市':['taoyuan','桃園市'],
+  '基隆市':['keelung','基隆市'],
+  '新竹市':['hsinchu city','新竹市'],
+  '新竹縣':['hsinchu county','新竹縣'],
+  '苗栗縣':['miaoli','苗栗縣'],
+  '台中市':['taichung','台中市'],
+  '彰化縣':['changhua','彰化縣'],
+  '南投縣':['nantou','南投縣'],
+  '雲林縣':['yunlin','雲林縣'],
+  '嘉義市':['chiayi city','嘉義市'],
+  '嘉義縣':['chiayi county','嘉義縣'],
+  '台南市':['tainan','台南市','永康'],
+  '高雄市':['kaohsiung','高雄市'],
+  '屏東縣':['pingtung','屏東縣'],
+  '宜蘭縣':['yilan','宜蘭縣'],
+  '花蓮縣':['hualien','花蓮縣'],
+  '台東縣':['taitung','台東縣'],
+  '澎湖縣':['penghu','澎湖縣'],
+  '金門縣':['kinmen','金門縣'],
+};
+
+function coordsToCity(data) {
+  const addr = data.address || {};
+  const parts = [
+    addr.city, addr.county, addr.town, addr.suburb,
+    addr.state, addr.region, addr.municipality
+  ].filter(Boolean).map(s => s.toLowerCase());
+  const raw = JSON.stringify(addr).toLowerCase();
+  for (const [city, keywords] of Object.entries(COUNTY_MAP)) {
+    for (const kw of keywords) {
+      if (raw.includes(kw.toLowerCase())) return city;
+    }
+  }
+  return null;
+}
+
+async function detectLocation() {
+  if (!navigator.geolocation) {
+    showToast('此裝置不支援定位功能');
+    return;
+  }
+  const btn = document.getElementById('gpsBtn');
+  const icon = document.getElementById('gpsIcon');
+  btn.disabled = true;
+  icon.innerHTML = `<circle class="opacity-25" cx="12" cy="12" r="10" stroke="currentColor" stroke-width="4"/><path class="opacity-75" fill="currentColor" d="M4 12a8 8 0 018-8V0C5.373 0 0 5.373 0 12h4z"/>`;
+  icon.classList.add('spinner');
+  showToast('正在偵測位置...');
+
+  navigator.geolocation.getCurrentPosition(
+    async (pos) => {
+      try {
+        const { latitude: lat, longitude: lon } = pos.coords;
+        const resp = await fetch(
+          `https://nominatim.openstreetmap.org/reverse?lat=${lat}&lon=${lon}&format=json&accept-language=zh-TW`,
+          { headers: { 'Accept-Language': 'zh-TW' } }
+        );
+        const data = await resp.json();
+        const city = coordsToCity(data);
+        if (city) {
+          document.getElementById('regionSelect').value = city;
+          showToast(`✓ 偵測到：${city}，重新載入中...`);
+          setTimeout(() => loadCoupons(), 600);
+        } else {
+          showToast('無法識別所在縣市，請手動選擇');
+        }
+      } catch {
+        showToast('定位解析失敗，請手動選擇地區');
+      } finally {
+        btn.disabled = false;
+        icon.classList.remove('spinner');
+        icon.innerHTML = `<path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.827 0l-4.244-4.243a8 8 0 1111.314 0z"/><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 11a3 3 0 11-6 0 3 3 0 016 0z"/>`;
+      }
+    },
+    (err) => {
+      btn.disabled = false;
+      icon.classList.remove('spinner');
+      icon.innerHTML = `<path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.827 0l-4.244-4.243a8 8 0 1111.314 0z"/><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 11a3 3 0 11-6 0 3 3 0 016 0z"/>`;
+      if (err.code === 1) showToast('位置權限被拒絕，請手動選擇地區');
+      else showToast('無法取得位置，請手動選擇地區');
+    },
+    { timeout: 10000, enableHighAccuracy: false }
+  );
+}
+
+window.onload = loadCoupons;
+</script>
+</body>
+</html>
