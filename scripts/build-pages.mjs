@@ -21,5 +21,14 @@ if (oldLoadStart < 0 || oldLoadEnd < 0) {
 const staticLoader = String.raw`async function load(){q("#content").className="state";q("#content").innerHTML='<div><div class="spin"></div>正在抓取最新優惠券…</div>';try{const region=q("#region").value;const [u,p]=await Promise.all([fetch("https://raw.githubusercontent.com/ridemountainpig/tasty-coupon/main/coupon-json/ubereats-coupon.json"),fetch("https://raw.githubusercontent.com/ridemountainpig/tasty-coupon/main/coupon-json/foodpanda-coupon.json")]);if(!u.ok||!p.ok)throw Error("優惠資料來源暫時無法連線");const parse=async(r,platform)=>{const raw=await r.json(),out=[];for(const[section,rows]of Object.entries(raw?.[Object.keys(raw||{})[0]]||{})){if(!identityMatches(section,isNew))continue;for(const row of Array.isArray(rows)?rows:[]){const scope=val(row,["適用對象","適用範圍","使用條件","col_2"]);if(!inRegion(scope,region))continue;const content=val(row,["優惠內容","優惠說明","內容","col_0"])||[val(row,["銀行／支付工具"]),val(row,["最高回饋"])].filter(Boolean).join("｜");const code=parseCode(val(row,["優惠碼","優惠代碼","優惠碼／使用方式","優惠碼／使用連結"]));out.push({section,scope,period:val(row,["使用期限","優惠期間","活動期間","期限","col_1"]),content,platform,...code})}}return out};data={ubereats:await parse(u,"ubereats"),foodpanda:await parse(p,"foodpanda"),updated:"資料來源即時讀取"};q("#updated").textContent=data.updated;q("#uc").textContent=data.ubereats.length+" 張";q("#pc").textContent=data.foodpanda.length+" 張";shown=new Set(["code","link"]);category="all";filters();render()}catch(x){q("#content").innerHTML='<div><strong>目前無法取得優惠資料</strong><p>'+e(x.message)+'</p><button class="refresh" onclick="load()">再試一次</button></div>'}}`;
 
 page = page.slice(0, oldLoadStart) + staticLoader + page.slice(oldLoadEnd);
+
+const workerLocationRequest = 'const r=await fetch("/api/location?lat="+p.coords.latitude+"&lon="+p.coords.longitude),j=await r.json();if(j.city){';
+const staticLocationRequest = 'const r=await fetch("https://nominatim.openstreetmap.org/reverse?format=jsonv2&accept-language=zh-TW&lat="+p.coords.latitude+"&lon="+p.coords.longitude),raw=await r.json(),label=(raw.address?.city||raw.address?.county||raw.address?.state||raw.address?.town||"").replace("臺","台"),city=cities.find(x=>label.includes(x.replace("臺","台"))||(label&&x.replace("臺","台").includes(label))),j={city};if(j.city){';
+
+if (!page.includes(workerLocationRequest)) {
+  throw new Error("Unable to locate the Worker-only location request");
+}
+
+page = page.replace(workerLocationRequest, staticLocationRequest);
 await mkdir(new URL("../docs", import.meta.url), { recursive: true });
 await writeFile(new URL("../docs/index.html", import.meta.url), page);
