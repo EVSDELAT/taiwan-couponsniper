@@ -49,13 +49,17 @@ const normalize = (raw, platform) => {
       const scope = value(row, ["適用對象", "適用範圍", "使用條件", "col_2"]);
       const content = value(row, ["優惠內容", "優惠說明", "內容", "col_0"])
         || [value(row, ["銀行／支付工具"]), value(row, ["最高回饋"])].filter(Boolean).join("｜");
+      const explicitOffer = value(row, ["優惠碼", "優惠代碼", "優惠碼／使用方式", "優惠碼／使用連結"]);
+      const embeddedOffer = /複製並前往使用|點擊複製並前往|點擊複製|複製並前往|點擊前往|免輸碼直達|點擊領取|前往合作頁面/.test(content)
+        ? content
+        : "";
       coupons.push({
         section,
         scope,
         period: value(row, ["使用期限", "優惠期間", "活動期間", "期限", "col_1"]),
         content,
         platform,
-        ...parseCode(value(row, ["優惠碼", "優惠代碼", "優惠碼／使用方式", "優惠碼／使用連結"])),
+        ...parseCode(explicitOffer || embeddedOffer),
       });
     }
   }

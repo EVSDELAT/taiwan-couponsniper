@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-09-16T18:53:21.871Z",
-  "updated": "2026-09-17 02:53",
+  "generatedAt": "2026-09-16T21:10:44.521Z",
+  "updated": "2026-09-17 05:10",
   "sources": {
     "ubereats": "https://raw.githubusercontent.com/ridemountainpig/tasty-coupon/main/coupon-json/ubereats-coupon.json",
     "foodpanda": "https://raw.githubusercontent.com/ridemountainpig/tasty-coupon/main/coupon-json/foodpanda-coupon.json"
@@ -16,7 +16,7 @@
         "period": "9/1 ~ 9/30",
         "content": "afftweats926(複製並前往使用)",
         "platform": "ubereats",
-        "code": null,
+        "code": "afftweats926",
         "link": false
       },
       {
@@ -25,7 +25,7 @@
         "period": "9/9 ~ 9/22",
         "content": "九月嚴選(複製並前往使用)",
         "platform": "ubereats",
-        "code": null,
+        "code": "九月嚴選",
         "link": false
       },
       {
@@ -34,7 +34,7 @@
         "period": "9/9 ~ 9/22",
         "content": "九愛中秋(複製並前往使用)",
         "platform": "ubereats",
-        "code": null,
+        "code": "九愛中秋",
         "link": false
       },
       {
@@ -43,7 +43,7 @@
         "period": "9/1 ~ 9/30",
         "content": "九月會員點(複製並前往使用)",
         "platform": "ubereats",
-        "code": null,
+        "code": "九月會員點",
         "link": false
       },
       {
@@ -52,7 +52,7 @@
         "period": "9/1 ~ 9/30",
         "content": "九月會員吃(複製並前往使用)",
         "platform": "ubereats",
-        "code": null,
+        "code": "九月會員吃",
         "link": false
       },
       {
@@ -61,7 +61,7 @@
         "period": "9/1 ~ 9/30",
         "content": "九月來外帶(複製並前往使用)",
         "platform": "ubereats",
-        "code": null,
+        "code": "九月來外帶",
         "link": false
       },
       {
@@ -70,7 +70,7 @@
         "period": "9/1 ~ 9/30",
         "content": "年訂閱限定(複製並前往使用)",
         "platform": "ubereats",
-        "code": null,
+        "code": "年訂閱限定",
         "link": false
       },
       {
@@ -80,7 +80,7 @@
         "content": "立即領取優惠(前往合作頁面)",
         "platform": "ubereats",
         "code": null,
-        "link": false
+        "link": true
       },
       {
         "section": "Uber One 訂閱會員優惠資訊",
@@ -88,7 +88,7 @@
         "period": "6/12 ~ 12/25",
         "content": "初夏買優市(複製並前往使用)",
         "platform": "ubereats",
-        "code": null,
+        "code": "初夏買優市",
         "link": false
       },
       {
@@ -97,7 +97,7 @@
         "period": "~ 12/31",
         "content": "優市五歲優(複製並前往使用)",
         "platform": "ubereats",
-        "code": null,
+        "code": "優市五歲優",
         "link": false
       },
       {
@@ -106,7 +106,7 @@
         "period": "9/4 ~ 9/17",
         "content": "感謝祭好優(複製並前往使用)",
         "platform": "ubereats",
-        "code": null,
+        "code": "感謝祭好優",
         "link": false
       },
       {
@@ -115,7 +115,7 @@
         "period": "9/17 ~ 10/1",
         "content": "中秋買優市(複製並前往使用)",
         "platform": "ubereats",
-        "code": null,
+        "code": "中秋買優市",
         "link": false
       },
       {
@@ -124,7 +124,7 @@
         "period": "9/18 ~ 10/1",
         "content": "中秋大買優(複製並前往使用)",
         "platform": "ubereats",
-        "code": null,
+        "code": "中秋大買優",
         "link": false
       },
       {
@@ -133,7 +133,7 @@
         "period": "~ 10/15",
         "content": "開學jo要吃(複製並前往使用)開學完蛋(複製並前往使用)開學吃美食(複製並前往使用)開學有ni(複製並前往使用)",
         "platform": "ubereats",
-        "code": null,
+        "code": "開學jo要吃",
         "link": false
       },
       {
@@ -142,7 +142,7 @@
         "period": "7/1 ~ 12/31",
         "content": "彰銀省隊友26(複製並前往使用)",
         "platform": "ubereats",
-        "code": null,
+        "code": "彰銀省隊友26",
         "link": false
       },
       {
@@ -151,7 +151,7 @@
         "period": "9/1 ~ 10/31",
         "content": "躺著點(複製並前往使用)",
         "platform": "ubereats",
-        "code": null,
+        "code": "躺著點",
         "link": false
       },
       {
@@ -160,7 +160,7 @@
         "period": "9/16 限定",
         "content": "週三愛取(複製並前往使用)",
         "platform": "ubereats",
-        "code": null,
+        "code": "週三愛取",
         "link": false
       },
       {
@@ -169,7 +169,7 @@
         "period": "9/23 限定",
         "content": "週三愛省(複製並前往使用)",
         "platform": "ubereats",
-        "code": null,
+        "code": "週三愛省",
         "link": false
       },
       {
@@ -178,7 +178,7 @@
         "period": "9/30 限定",
         "content": "週三愛拿(複製並前往使用)",
         "platform": "ubereats",
-        "code": null,
+        "code": "週三愛拿",
         "link": false
       },
       {
@@ -187,7 +187,7 @@
         "period": "~ 12/31",
         "content": "省吃七餐(複製並前往使用)",
         "platform": "ubereats",
-        "code": null,
+        "code": "省吃七餐",
         "link": false
       },
       {
@@ -196,7 +196,7 @@
         "period": "領取後期限14天",
         "content": "中華電信九月生快(複製並前往使用)",
         "platform": "ubereats",
-        "code": null,
+        "code": "中華電信九月生快",
         "link": false
       },
       {
@@ -205,7 +205,7 @@
         "period": "用完為止",
         "content": "玉山限定優惠(複製並前往使用)玉山限定好禮(複製並前往使用)",
         "platform": "ubereats",
-        "code": null,
+        "code": "玉山限定優惠",
         "link": false
       },
       {
@@ -214,7 +214,7 @@
         "period": "9/1 ~ 9/30",
         "content": "九月吃好(複製並前往使用)九月點來吃(複製並前往使用)",
         "platform": "ubereats",
-        "code": null,
+        "code": "九月吃好",
         "link": false
       },
       {
@@ -223,7 +223,7 @@
         "period": "9/1 ~ 9/15",
         "content": "九點七折(複製並前往使用)",
         "platform": "ubereats",
-        "code": null,
+        "code": "九點七折",
         "link": false
       },
       {
@@ -232,7 +232,7 @@
         "period": "9/1 ~ 9/15",
         "content": "九點五折(複製並前往使用)",
         "platform": "ubereats",
-        "code": null,
+        "code": "九點五折",
         "link": false
       },
       {
@@ -241,7 +241,7 @@
         "period": "9/1 ~ 9/15",
         "content": "九好五折(複製並前往使用)",
         "platform": "ubereats",
-        "code": null,
+        "code": "九好五折",
         "link": false
       },
       {
@@ -250,7 +250,7 @@
         "period": "9/1 ~ 9/15",
         "content": "九吃五折(複製並前往使用)",
         "platform": "ubereats",
-        "code": null,
+        "code": "九吃五折",
         "link": false
       },
       {
@@ -259,7 +259,7 @@
         "period": "9/1 ~ 9/15",
         "content": "九喜五折(複製並前往使用)",
         "platform": "ubereats",
-        "code": null,
+        "code": "九喜五折",
         "link": false
       },
       {
@@ -268,7 +268,7 @@
         "period": "9/1 ~ 9/15",
         "content": "九飽五折(複製並前往使用)",
         "platform": "ubereats",
-        "code": null,
+        "code": "九飽五折",
         "link": false
       },
       {
@@ -277,7 +277,7 @@
         "period": "9/1 ~ 9/15",
         "content": "九要五折(複製並前往使用)",
         "platform": "ubereats",
-        "code": null,
+        "code": "九要五折",
         "link": false
       },
       {
@@ -286,7 +286,7 @@
         "period": "9/1 ~ 9/15",
         "content": "九狂五折(複製並前往使用)",
         "platform": "ubereats",
-        "code": null,
+        "code": "九狂五折",
         "link": false
       },
       {
@@ -295,7 +295,7 @@
         "period": "9/1 ~ 9/15",
         "content": "九省五折(複製並前往使用)",
         "platform": "ubereats",
-        "code": null,
+        "code": "九省五折",
         "link": false
       },
       {
@@ -304,7 +304,7 @@
         "period": "9/1 ~ 9/15",
         "content": "九好七折(複製並前往使用)",
         "platform": "ubereats",
-        "code": null,
+        "code": "九好七折",
         "link": false
       },
       {
@@ -313,7 +313,7 @@
         "period": "9/1 ~ 9/15",
         "content": "九吃七折(複製並前往使用)",
         "platform": "ubereats",
-        "code": null,
+        "code": "九吃七折",
         "link": false
       },
       {
@@ -322,7 +322,7 @@
         "period": "9/1 ~ 9/15",
         "content": "九省七折(複製並前往使用)",
         "platform": "ubereats",
-        "code": null,
+        "code": "九省七折",
         "link": false
       },
       {
@@ -331,7 +331,7 @@
         "period": "9/1 ~ 9/15",
         "content": "九飽七折(複製並前往使用)",
         "platform": "ubereats",
-        "code": null,
+        "code": "九飽七折",
         "link": false
       },
       {
@@ -340,7 +340,7 @@
         "period": "9/1 ~ 9/15",
         "content": "九樂七折(複製並前往使用)",
         "platform": "ubereats",
-        "code": null,
+        "code": "九樂七折",
         "link": false
       },
       {
@@ -349,7 +349,7 @@
         "period": "~ 12/31",
         "content": "青春享點(複製並前往使用)青春我點(複製並前往使用)",
         "platform": "ubereats",
-        "code": null,
+        "code": "青春享點",
         "link": false
       },
       {
@@ -358,7 +358,7 @@
         "period": "9/1 ~ 9/30",
         "content": "九月省250(複製並前往使用)",
         "platform": "ubereats",
-        "code": null,
+        "code": "九月省250",
         "link": false
       },
       {
@@ -367,7 +367,7 @@
         "period": "9/1 ~ 9/30",
         "content": "九月省300(複製並前往使用)",
         "platform": "ubereats",
-        "code": null,
+        "code": "九月省300",
         "link": false
       },
       {
@@ -376,7 +376,7 @@
         "period": "9/1 ~ 9/30",
         "content": "九月新朋友(複製並前往使用)",
         "platform": "ubereats",
-        "code": null,
+        "code": "九月新朋友",
         "link": false
       },
       {
@@ -386,7 +386,7 @@
         "content": "立即領取優惠(前往合作頁面)",
         "platform": "ubereats",
         "code": null,
-        "link": false
+        "link": true
       },
       {
         "section": "連鎖特選餐廳買一送一活動一覽",
@@ -395,7 +395,7 @@
         "content": "立即領取優惠(前往合作頁面)",
         "platform": "ubereats",
         "code": null,
-        "link": false
+        "link": true
       },
       {
         "section": "連鎖特選餐廳買一送一活動一覽",
@@ -404,7 +404,7 @@
         "content": "立即領取優惠(前往合作頁面)",
         "platform": "ubereats",
         "code": null,
-        "link": false
+        "link": true
       },
       {
         "section": "連鎖特選餐廳買一送一活動一覽",
@@ -413,7 +413,7 @@
         "content": "立即領取優惠(前往合作頁面)",
         "platform": "ubereats",
         "code": null,
-        "link": false
+        "link": true
       },
       {
         "section": "連鎖特選餐廳買一送一活動一覽",
@@ -422,7 +422,7 @@
         "content": "立即領取優惠(前往合作頁面)",
         "platform": "ubereats",
         "code": null,
-        "link": false
+        "link": true
       },
       {
         "section": "連鎖特選餐廳買一送一活動一覽",
@@ -431,7 +431,7 @@
         "content": "立即領取優惠(前往合作頁面)",
         "platform": "ubereats",
         "code": null,
-        "link": false
+        "link": true
       },
       {
         "section": "連鎖特選餐廳買一送一活動一覽",
@@ -440,7 +440,7 @@
         "content": "立即領取優惠(前往合作頁面)",
         "platform": "ubereats",
         "code": null,
-        "link": false
+        "link": true
       },
       {
         "section": "連鎖特選餐廳買一送一活動一覽",
@@ -449,7 +449,7 @@
         "content": "立即領取優惠(前往合作頁面)",
         "platform": "ubereats",
         "code": null,
-        "link": false
+        "link": true
       },
       {
         "section": "連鎖特選餐廳買一送一活動一覽",
@@ -458,7 +458,7 @@
         "content": "立即領取優惠(前往合作頁面)",
         "platform": "ubereats",
         "code": null,
-        "link": false
+        "link": true
       },
       {
         "section": "連鎖特選餐廳買一送一活動一覽",
@@ -467,7 +467,7 @@
         "content": "立即領取優惠(前往合作頁面)",
         "platform": "ubereats",
         "code": null,
-        "link": false
+        "link": true
       },
       {
         "section": "連鎖特選餐廳買一送一活動一覽",
@@ -476,7 +476,7 @@
         "content": "立即領取優惠(前往合作頁面)",
         "platform": "ubereats",
         "code": null,
-        "link": false
+        "link": true
       },
       {
         "section": "連鎖特選餐廳買一送一活動一覽",
@@ -485,7 +485,7 @@
         "content": "立即領取優惠(前往合作頁面)",
         "platform": "ubereats",
         "code": null,
-        "link": false
+        "link": true
       },
       {
         "section": "連鎖特選餐廳買一送一活動一覽",
@@ -494,7 +494,7 @@
         "content": "立即領取優惠(前往合作頁面)",
         "platform": "ubereats",
         "code": null,
-        "link": false
+        "link": true
       },
       {
         "section": "連鎖特選餐廳買一送一活動一覽",
@@ -503,7 +503,7 @@
         "content": "立即領取優惠(前往合作頁面)",
         "platform": "ubereats",
         "code": null,
-        "link": false
+        "link": true
       },
       {
         "section": "連鎖特選餐廳買一送一活動一覽",
@@ -512,7 +512,7 @@
         "content": "立即領取優惠(前往合作頁面)",
         "platform": "ubereats",
         "code": null,
-        "link": false
+        "link": true
       },
       {
         "section": "連鎖特選餐廳買一送一活動一覽",
@@ -521,7 +521,7 @@
         "content": "立即領取優惠(前往合作頁面)",
         "platform": "ubereats",
         "code": null,
-        "link": false
+        "link": true
       },
       {
         "section": "連鎖特選餐廳買一送一活動一覽",
@@ -530,7 +530,7 @@
         "content": "立即領取優惠(前往合作頁面)",
         "platform": "ubereats",
         "code": null,
-        "link": false
+        "link": true
       },
       {
         "section": "連鎖特選餐廳買一送一活動一覽",
@@ -539,7 +539,7 @@
         "content": "立即領取優惠(前往合作頁面)",
         "platform": "ubereats",
         "code": null,
-        "link": false
+        "link": true
       },
       {
         "section": "連鎖特選餐廳買一送一活動一覽",
@@ -548,7 +548,7 @@
         "content": "立即領取優惠(前往合作頁面)",
         "platform": "ubereats",
         "code": null,
-        "link": false
+        "link": true
       },
       {
         "section": "連鎖特選餐廳買一送一活動一覽",
@@ -557,7 +557,7 @@
         "content": "立即領取優惠(前往合作頁面)",
         "platform": "ubereats",
         "code": null,
-        "link": false
+        "link": true
       },
       {
         "section": "連鎖特選餐廳買一送一活動一覽",
@@ -566,7 +566,7 @@
         "content": "立即領取優惠(前往合作頁面)",
         "platform": "ubereats",
         "code": null,
-        "link": false
+        "link": true
       },
       {
         "section": "連鎖特選餐廳買一送一活動一覽",
@@ -575,7 +575,7 @@
         "content": "立即領取優惠(前往合作頁面)",
         "platform": "ubereats",
         "code": null,
-        "link": false
+        "link": true
       },
       {
         "section": "連鎖特選餐廳買一送一活動一覽",
@@ -584,7 +584,7 @@
         "content": "立即領取優惠(前往合作頁面)",
         "platform": "ubereats",
         "code": null,
-        "link": false
+        "link": true
       },
       {
         "section": "連鎖特選餐廳買一送一活動一覽",
@@ -593,7 +593,7 @@
         "content": "立即領取優惠(前往合作頁面)",
         "platform": "ubereats",
         "code": null,
-        "link": false
+        "link": true
       },
       {
         "section": "連鎖特選餐廳買一送一活動一覽",
@@ -602,7 +602,7 @@
         "content": "立即領取優惠(前往合作頁面)",
         "platform": "ubereats",
         "code": null,
-        "link": false
+        "link": true
       },
       {
         "section": "連鎖特選餐廳買一送一活動一覽",
@@ -611,7 +611,7 @@
         "content": "立即領取優惠(前往合作頁面)",
         "platform": "ubereats",
         "code": null,
-        "link": false
+        "link": true
       },
       {
         "section": "連鎖特選餐廳買一送一活動一覽",
@@ -620,7 +620,7 @@
         "content": "立即領取優惠(前往合作頁面)",
         "platform": "ubereats",
         "code": null,
-        "link": false
+        "link": true
       },
       {
         "section": "2026 下半年 Uber Eats 信用卡／行動支付優惠總整理",
