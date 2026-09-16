@@ -40,7 +40,7 @@ if (!page.includes(workerLocationRequest)) {
 }
 
 page = page.replace(workerLocationRequest, staticLocationRequest);
-const versionedMarkup = '<div class="live">V1.03 · 更新日期：<span id="updated">讀取中</span></div>';
+const versionedMarkup = '<div class="live">V1.04 · 更新日期：<span id="updated">讀取中</span></div>';
 page = page.replace(/<div class="live">(?:V[\d.]+ · )?更新日期：<span id="updated">讀取中<\/span><\/div>/, versionedMarkup);
 
 await mkdir(new URL("../docs", import.meta.url), { recursive: true });
