@@ -1,12 +1,14 @@
-name: Deploy Taiwan Coupon Sniper to GitHub Pages
+name: 台灣外送優惠券 GitHub Pages 部署
 
 on:
   push:
     branches: [main]
+  schedule:
+    - cron: "17 */3 * * *"
   workflow_dispatch:
 
 permissions:
-  contents: read
+  contents: write
   pages: write
   id-token: write
 
@@ -16,23 +18,37 @@ concurrency:
 
 jobs:
   deploy:
+    runs-on: ubuntu-latest
     environment:
       name: github-pages
-      url: ${{ steps.deployment.outputs.page_url }}
-    runs-on: ubuntu-latest
     steps:
-      - name: Checkout
+      - name: 下載專案
         uses: actions/checkout@v4
-      - name: Build static page
+      - name: 更新優惠券快取
+        if: github.event_name == 'schedule' || github.event_name == 'workflow_dispatch'
+        run: node scripts/fetch-coupons.mjs
+      - name: 提交排程快取
+        if: github.event_name == 'schedule' || github.event_name == 'workflow_dispatch'
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add docs/coupons.json
+          if git diff --cached --quiet; then
+            echo "優惠券內容沒有變更，不建立提交"
+          else
+            git commit -m "V1.01：更新優惠券排程快取"
+            git push
+          fi
+      - name: 建置靜態頁面
         run: node scripts/build-pages.mjs
-      - name: Configure Pages
+      - name: 啟用 Pages
         uses: actions/configure-pages@v5
         with:
           enablement: true
-      - name: Upload Pages artifact
+      - name: 上傳 Pages artifact
         uses: actions/upload-pages-artifact@v3
         with:
           path: docs
-      - name: Deploy to Pages
+      - name: 發布到 Pages
         id: deployment
         uses: actions/deploy-pages@v4

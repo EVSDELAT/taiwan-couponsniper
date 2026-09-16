@@ -6,7 +6,7 @@
 
 ## 主要功能
 
-- 自動讀取當月最新優惠資料
+- 每三小時由 GitHub Actions 更新優惠資料快取
 - 支援 Uber Eats 與 foodpanda
 - 可依台灣縣市篩選優惠
 - 支援全部用戶、新用戶及舊用戶
@@ -32,6 +32,8 @@
 
 優惠內容、適用資格及期限可能隨時調整，實際資訊請以外送平台結帳頁面為準。
 
+GitHub Pages 讀取專案內的 docs/coupons.json，不會讓每位訪客直接呼叫第三方來源。排程抓取、錯誤備援與資料流請見 docs/05_系統架構說明.md。
+
 ## 專案結構
 
 ```text
@@ -51,6 +53,10 @@ scripts/build.sh             ChatGPT Site 建置工具
 ### ChatGPT Site
 
 ChatGPT Site 版本使用 Worker 執行環境，包含伺服器端優惠資料整理與定位反查功能。
+
+### GitHub Actions 排程
+
+.github/workflows/pages.yml 每三小時執行一次 scripts/fetch-coupons.mjs，成功後更新 docs/coupons.json，並在同一次工作流程發布 Pages。若來源暫時失敗，會保留上一份成功快取。
 
 ## 授權與聲明
 

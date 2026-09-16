@@ -1,0 +1,1064 @@
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-09-16T14:01:29.506Z",
+  "updated": "2026-09-16 22:01",
+  "sources": {
+    "ubereats": "https://raw.githubusercontent.com/ridemountainpig/tasty-coupon/main/coupon-json/ubereats-coupon.json",
+    "foodpanda": "https://raw.githubusercontent.com/ridemountainpig/tasty-coupon/main/coupon-json/foodpanda-coupon.json"
+  },
+  "errors": [],
+  "ubereats": {
+    "month": "Uber Eats 優惠碼 2026年9月｜新戶2單5折、最高折$150 2026 年 09 月",
+    "coupons": [
+      {
+        "section": "Uber Eats 新用戶專屬優惠與免運代碼",
+        "scope": "未曾下單之新用戶",
+        "period": "9/1 ~ 9/30",
+        "content": "afftweats926(複製並前往使用)",
+        "platform": "ubereats",
+        "code": null,
+        "link": false
+      },
+      {
+        "section": "Uber One 訂閱會員優惠資訊",
+        "scope": "指定活動商家",
+        "period": "9/9 ~ 9/22",
+        "content": "九月嚴選(複製並前往使用)",
+        "platform": "ubereats",
+        "code": null,
+        "link": false
+      },
+      {
+        "section": "Uber One 訂閱會員優惠資訊",
+        "scope": "指定活動商家",
+        "period": "9/9 ~ 9/22",
+        "content": "九愛中秋(複製並前往使用)",
+        "platform": "ubereats",
+        "code": null,
+        "link": false
+      },
+      {
+        "section": "Uber One 訂閱會員優惠資訊",
+        "scope": "指定活動餐廳",
+        "period": "9/1 ~ 9/30",
+        "content": "九月會員點(複製並前往使用)",
+        "platform": "ubereats",
+        "code": null,
+        "link": false
+      },
+      {
+        "section": "Uber One 訂閱會員優惠資訊",
+        "scope": "指定活動餐廳",
+        "period": "9/1 ~ 9/30",
+        "content": "九月會員吃(複製並前往使用)",
+        "platform": "ubereats",
+        "code": null,
+        "link": false
+      },
+      {
+        "section": "Uber One 訂閱會員優惠資訊",
+        "scope": "外帶自取",
+        "period": "9/1 ~ 9/30",
+        "content": "九月來外帶(複製並前往使用)",
+        "platform": "ubereats",
+        "code": null,
+        "link": false
+      },
+      {
+        "section": "Uber One 訂閱會員優惠資訊",
+        "scope": "年訂閱制會員限定",
+        "period": "9/1 ~ 9/30",
+        "content": "年訂閱限定(複製並前往使用)",
+        "platform": "ubereats",
+        "code": null,
+        "link": false
+      },
+      {
+        "section": "Uber One 訂閱會員優惠資訊",
+        "scope": "無訂閱身分用戶",
+        "period": "~ 12/31",
+        "content": "立即領取優惠(前往合作頁面)",
+        "platform": "ubereats",
+        "code": null,
+        "link": false
+      },
+      {
+        "section": "Uber One 訂閱會員優惠資訊",
+        "scope": "優市",
+        "period": "6/12 ~ 12/25",
+        "content": "初夏買優市(複製並前往使用)",
+        "platform": "ubereats",
+        "code": null,
+        "link": false
+      },
+      {
+        "section": "Uber One 訂閱會員優惠資訊",
+        "scope": "優市",
+        "period": "~ 12/31",
+        "content": "優市五歲優(複製並前往使用)",
+        "platform": "ubereats",
+        "code": null,
+        "link": false
+      },
+      {
+        "section": "Uber One 訂閱會員優惠資訊",
+        "scope": "優市",
+        "period": "9/4 ~ 9/17",
+        "content": "感謝祭好優(複製並前往使用)",
+        "platform": "ubereats",
+        "code": null,
+        "link": false
+      },
+      {
+        "section": "Uber One 訂閱會員優惠資訊",
+        "scope": "優市",
+        "period": "9/17 ~ 10/1",
+        "content": "中秋買優市(複製並前往使用)",
+        "platform": "ubereats",
+        "code": null,
+        "link": false
+      },
+      {
+        "section": "Uber One 訂閱會員優惠資訊",
+        "scope": "優市",
+        "period": "9/18 ~ 10/1",
+        "content": "中秋大買優(複製並前往使用)",
+        "platform": "ubereats",
+        "code": null,
+        "link": false
+      },
+      {
+        "section": "美食外送丨外帶自取 優惠",
+        "scope": "外送、自取",
+        "period": "~ 10/15",
+        "content": "開學jo要吃(複製並前往使用)開學完蛋(複製並前往使用)開學吃美食(複製並前往使用)開學有ni(複製並前往使用)",
+        "platform": "ubereats",
+        "code": null,
+        "link": false
+      },
+      {
+        "section": "美食外送丨外帶自取 優惠",
+        "scope": "彰化銀行Visa無限卡友、商旅御璽Fun心卡友",
+        "period": "7/1 ~ 12/31",
+        "content": "彰銀省隊友26(複製並前往使用)",
+        "platform": "ubereats",
+        "code": null,
+        "link": false
+      },
+      {
+        "section": "美食外送丨外帶自取 優惠",
+        "scope": "外送、自取",
+        "period": "9/1 ~ 10/31",
+        "content": "躺著點(複製並前往使用)",
+        "platform": "ubereats",
+        "code": null,
+        "link": false
+      },
+      {
+        "section": "美食外送丨外帶自取 優惠",
+        "scope": "外帶自取",
+        "period": "9/16 限定",
+        "content": "週三愛取(複製並前往使用)",
+        "platform": "ubereats",
+        "code": null,
+        "link": false
+      },
+      {
+        "section": "美食外送丨外帶自取 優惠",
+        "scope": "外帶自取",
+        "period": "9/23 限定",
+        "content": "週三愛省(複製並前往使用)",
+        "platform": "ubereats",
+        "code": null,
+        "link": false
+      },
+      {
+        "section": "美食外送丨外帶自取 優惠",
+        "scope": "外帶自取",
+        "period": "9/30 限定",
+        "content": "週三愛拿(複製並前往使用)",
+        "platform": "ubereats",
+        "code": null,
+        "link": false
+      },
+      {
+        "section": "美食外送丨外帶自取 優惠",
+        "scope": "指定用戶",
+        "period": "~ 12/31",
+        "content": "省吃七餐(複製並前往使用)",
+        "platform": "ubereats",
+        "code": null,
+        "link": false
+      },
+      {
+        "section": "美食外送丨外帶自取 優惠",
+        "scope": "外送、自取",
+        "period": "領取後期限14天",
+        "content": "中華電信九月生快(複製並前往使用)",
+        "platform": "ubereats",
+        "code": null,
+        "link": false
+      },
+      {
+        "section": "美食外送丨外帶自取 優惠",
+        "scope": "玉山卡友",
+        "period": "用完為止",
+        "content": "玉山限定優惠(複製並前往使用)玉山限定好禮(複製並前往使用)",
+        "platform": "ubereats",
+        "code": null,
+        "link": false
+      },
+      {
+        "section": "區域限定與分眾專屬折價券（含青少年帳號）",
+        "scope": "指定新用戶",
+        "period": "9/1 ~ 9/30",
+        "content": "九月吃好(複製並前往使用)九月點來吃(複製並前往使用)",
+        "platform": "ubereats",
+        "code": null,
+        "link": false
+      },
+      {
+        "section": "區域限定與分眾專屬折價券（含青少年帳號）",
+        "scope": "基隆市",
+        "period": "9/1 ~ 9/15",
+        "content": "九點七折(複製並前往使用)",
+        "platform": "ubereats",
+        "code": null,
+        "link": false
+      },
+      {
+        "section": "區域限定與分眾專屬折價券（含青少年帳號）",
+        "scope": "苗栗縣",
+        "period": "9/1 ~ 9/15",
+        "content": "九點五折(複製並前往使用)",
+        "platform": "ubereats",
+        "code": null,
+        "link": false
+      },
+      {
+        "section": "區域限定與分眾專屬折價券（含青少年帳號）",
+        "scope": "彰化縣",
+        "period": "9/1 ~ 9/15",
+        "content": "九好五折(複製並前往使用)",
+        "platform": "ubereats",
+        "code": null,
+        "link": false
+      },
+      {
+        "section": "區域限定與分眾專屬折價券（含青少年帳號）",
+        "scope": "南投縣",
+        "period": "9/1 ~ 9/15",
+        "content": "九吃五折(複製並前往使用)",
+        "platform": "ubereats",
+        "code": null,
+        "link": false
+      },
+      {
+        "section": "區域限定與分眾專屬折價券（含青少年帳號）",
+        "scope": "雲林縣",
+        "period": "9/1 ~ 9/15",
+        "content": "九喜五折(複製並前往使用)",
+        "platform": "ubereats",
+        "code": null,
+        "link": false
+      },
+      {
+        "section": "區域限定與分眾專屬折價券（含青少年帳號）",
+        "scope": "嘉義縣市",
+        "period": "9/1 ~ 9/15",
+        "content": "九飽五折(複製並前往使用)",
+        "platform": "ubereats",
+        "code": null,
+        "link": false
+      },
+      {
+        "section": "區域限定與分眾專屬折價券（含青少年帳號）",
+        "scope": "台南市",
+        "period": "9/1 ~ 9/15",
+        "content": "九要五折(複製並前往使用)",
+        "platform": "ubereats",
+        "code": null,
+        "link": false
+      },
+      {
+        "section": "區域限定與分眾專屬折價券（含青少年帳號）",
+        "scope": "屏東縣",
+        "period": "9/1 ~ 9/15",
+        "content": "九狂五折(複製並前往使用)",
+        "platform": "ubereats",
+        "code": null,
+        "link": false
+      },
+      {
+        "section": "區域限定與分眾專屬折價券（含青少年帳號）",
+        "scope": "宜蘭縣",
+        "period": "9/1 ~ 9/15",
+        "content": "九省五折(複製並前往使用)",
+        "platform": "ubereats",
+        "code": null,
+        "link": false
+      },
+      {
+        "section": "區域限定與分眾專屬折價券（含青少年帳號）",
+        "scope": "花蓮縣",
+        "period": "9/1 ~ 9/15",
+        "content": "九好七折(複製並前往使用)",
+        "platform": "ubereats",
+        "code": null,
+        "link": false
+      },
+      {
+        "section": "區域限定與分眾專屬折價券（含青少年帳號）",
+        "scope": "台東縣",
+        "period": "9/1 ~ 9/15",
+        "content": "九吃七折(複製並前往使用)",
+        "platform": "ubereats",
+        "code": null,
+        "link": false
+      },
+      {
+        "section": "區域限定與分眾專屬折價券（含青少年帳號）",
+        "scope": "金門縣",
+        "period": "9/1 ~ 9/15",
+        "content": "九省七折(複製並前往使用)",
+        "platform": "ubereats",
+        "code": null,
+        "link": false
+      },
+      {
+        "section": "區域限定與分眾專屬折價券（含青少年帳號）",
+        "scope": "澎湖縣",
+        "period": "9/1 ~ 9/15",
+        "content": "九飽七折(複製並前往使用)",
+        "platform": "ubereats",
+        "code": null,
+        "link": false
+      },
+      {
+        "section": "區域限定與分眾專屬折價券（含青少年帳號）",
+        "scope": "分眾",
+        "period": "9/1 ~ 9/15",
+        "content": "九樂七折(複製並前往使用)",
+        "platform": "ubereats",
+        "code": null,
+        "link": false
+      },
+      {
+        "section": "區域限定與分眾專屬折價券（含青少年帳號）",
+        "scope": "青少年新用戶",
+        "period": "~ 12/31",
+        "content": "青春享點(複製並前往使用)青春我點(複製並前往使用)",
+        "platform": "ubereats",
+        "code": null,
+        "link": false
+      },
+      {
+        "section": "本月精選：生鮮雜貨與全聯折扣碼總整理",
+        "scope": "生鮮雜貨首購",
+        "period": "9/1 ~ 9/30",
+        "content": "九月省250(複製並前往使用)",
+        "platform": "ubereats",
+        "code": null,
+        "link": false
+      },
+      {
+        "section": "本月精選：生鮮雜貨與全聯折扣碼總整理",
+        "scope": "生鮮雜貨首購",
+        "period": "9/1 ~ 9/30",
+        "content": "九月省300(複製並前往使用)",
+        "platform": "ubereats",
+        "code": null,
+        "link": false
+      },
+      {
+        "section": "本月精選：生鮮雜貨與全聯折扣碼總整理",
+        "scope": "優市 首購",
+        "period": "9/1 ~ 9/30",
+        "content": "九月新朋友(複製並前往使用)",
+        "platform": "ubereats",
+        "code": null,
+        "link": false
+      },
+      {
+        "section": "連鎖特選餐廳買一送一活動一覽",
+        "scope": "王品牛排",
+        "period": "9/9 ~ 9/22",
+        "content": "立即領取優惠(前往合作頁面)",
+        "platform": "ubereats",
+        "code": null,
+        "link": false
+      },
+      {
+        "section": "連鎖特選餐廳買一送一活動一覽",
+        "scope": "西堤牛排",
+        "period": "9/9 ~ 9/22",
+        "content": "立即領取優惠(前往合作頁面)",
+        "platform": "ubereats",
+        "code": null,
+        "link": false
+      },
+      {
+        "section": "連鎖特選餐廳買一送一活動一覽",
+        "scope": "藝奇 日式料理",
+        "period": "9/9 ~ 9/22",
+        "content": "立即領取優惠(前往合作頁面)",
+        "platform": "ubereats",
+        "code": null,
+        "link": false
+      },
+      {
+        "section": "連鎖特選餐廳買一送一活動一覽",
+        "scope": "陶板屋",
+        "period": "9/9 ~ 9/22",
+        "content": "立即領取優惠(前往合作頁面)",
+        "platform": "ubereats",
+        "code": null,
+        "link": false
+      },
+      {
+        "section": "連鎖特選餐廳買一送一活動一覽",
+        "scope": "夏慕尼",
+        "period": "9/9 ~ 9/22",
+        "content": "立即領取優惠(前往合作頁面)",
+        "platform": "ubereats",
+        "code": null,
+        "link": false
+      },
+      {
+        "section": "連鎖特選餐廳買一送一活動一覽",
+        "scope": "就饗 鐵板燒",
+        "period": "9/9 ~ 9/22",
+        "content": "立即領取優惠(前往合作頁面)",
+        "platform": "ubereats",
+        "code": null,
+        "link": false
+      },
+      {
+        "section": "連鎖特選餐廳買一送一活動一覽",
+        "scope": "品田牧場",
+        "period": "9/9 ~ 9/22",
+        "content": "立即領取優惠(前往合作頁面)",
+        "platform": "ubereats",
+        "code": null,
+        "link": false
+      },
+      {
+        "section": "連鎖特選餐廳買一送一活動一覽",
+        "scope": "聚 日式鍋物",
+        "period": "9/9 ~ 9/22",
+        "content": "立即領取優惠(前往合作頁面)",
+        "platform": "ubereats",
+        "code": null,
+        "link": false
+      },
+      {
+        "section": "連鎖特選餐廳買一送一活動一覽",
+        "scope": "青花驕",
+        "period": "9/9 ~ 9/22",
+        "content": "立即領取優惠(前往合作頁面)",
+        "platform": "ubereats",
+        "code": null,
+        "link": false
+      },
+      {
+        "section": "連鎖特選餐廳買一送一活動一覽",
+        "scope": "和牛涮",
+        "period": "9/9 ~ 9/22",
+        "content": "立即領取優惠(前往合作頁面)",
+        "platform": "ubereats",
+        "code": null,
+        "link": false
+      },
+      {
+        "section": "連鎖特選餐廳買一送一活動一覽",
+        "scope": "尬鍋",
+        "period": "9/9 ~ 9/22",
+        "content": "立即領取優惠(前往合作頁面)",
+        "platform": "ubereats",
+        "code": null,
+        "link": false
+      },
+      {
+        "section": "連鎖特選餐廳買一送一活動一覽",
+        "scope": "享鴨",
+        "period": "9/9 ~ 9/22",
+        "content": "立即領取優惠(前往合作頁面)",
+        "platform": "ubereats",
+        "code": null,
+        "link": false
+      },
+      {
+        "section": "連鎖特選餐廳買一送一活動一覽",
+        "scope": "莆田",
+        "period": "9/9 ~ 9/22",
+        "content": "立即領取優惠(前往合作頁面)",
+        "platform": "ubereats",
+        "code": null,
+        "link": false
+      },
+      {
+        "section": "連鎖特選餐廳買一送一活動一覽",
+        "scope": "丰禾",
+        "period": "9/9 ~ 9/22",
+        "content": "立即領取優惠(前往合作頁面)",
+        "platform": "ubereats",
+        "code": null,
+        "link": false
+      },
+      {
+        "section": "連鎖特選餐廳買一送一活動一覽",
+        "scope": "肉次方",
+        "period": "9/9 ~ 9/22",
+        "content": "立即領取優惠(前往合作頁面)",
+        "platform": "ubereats",
+        "code": null,
+        "link": false
+      },
+      {
+        "section": "連鎖特選餐廳買一送一活動一覽",
+        "scope": "金咕",
+        "period": "9/9 ~ 9/22",
+        "content": "立即領取優惠(前往合作頁面)",
+        "platform": "ubereats",
+        "code": null,
+        "link": false
+      },
+      {
+        "section": "連鎖特選餐廳買一送一活動一覽",
+        "scope": "12mini快煮小火鍋",
+        "period": "9/9 ~ 9/22",
+        "content": "立即領取優惠(前往合作頁面)",
+        "platform": "ubereats",
+        "code": null,
+        "link": false
+      },
+      {
+        "section": "連鎖特選餐廳買一送一活動一覽",
+        "scope": "石二鍋",
+        "period": "9/9 ~ 9/22",
+        "content": "立即領取優惠(前往合作頁面)",
+        "platform": "ubereats",
+        "code": null,
+        "link": false
+      },
+      {
+        "section": "連鎖特選餐廳買一送一活動一覽",
+        "scope": "肯德基",
+        "period": "贈完為止",
+        "content": "立即領取優惠(前往合作頁面)",
+        "platform": "ubereats",
+        "code": null,
+        "link": false
+      },
+      {
+        "section": "連鎖特選餐廳買一送一活動一覽",
+        "scope": "達美樂",
+        "period": "贈完為止",
+        "content": "立即領取優惠(前往合作頁面)",
+        "platform": "ubereats",
+        "code": null,
+        "link": false
+      },
+      {
+        "section": "連鎖特選餐廳買一送一活動一覽",
+        "scope": "21PLUS風味館",
+        "period": "贈完為止",
+        "content": "立即領取優惠(前往合作頁面)",
+        "platform": "ubereats",
+        "code": null,
+        "link": false
+      },
+      {
+        "section": "連鎖特選餐廳買一送一活動一覽",
+        "scope": "日向咖啡",
+        "period": "贈完為止",
+        "content": "立即領取優惠(前往合作頁面)",
+        "platform": "ubereats",
+        "code": null,
+        "link": false
+      },
+      {
+        "section": "連鎖特選餐廳買一送一活動一覽",
+        "scope": "樂法",
+        "period": "贈完為止",
+        "content": "立即領取優惠(前往合作頁面)",
+        "platform": "ubereats",
+        "code": null,
+        "link": false
+      },
+      {
+        "section": "連鎖特選餐廳買一送一活動一覽",
+        "scope": "黛黛茶 指定分店",
+        "period": "贈完為止",
+        "content": "立即領取優惠(前往合作頁面)",
+        "platform": "ubereats",
+        "code": null,
+        "link": false
+      },
+      {
+        "section": "連鎖特選餐廳買一送一活動一覽",
+        "scope": "初韻",
+        "period": "贈完為止",
+        "content": "立即領取優惠(前往合作頁面)",
+        "platform": "ubereats",
+        "code": null,
+        "link": false
+      },
+      {
+        "section": "連鎖特選餐廳買一送一活動一覽",
+        "scope": "西雅圖極品咖啡",
+        "period": "贈完為止",
+        "content": "立即領取優惠(前往合作頁面)",
+        "platform": "ubereats",
+        "code": null,
+        "link": false
+      },
+      {
+        "section": "連鎖特選餐廳買一送一活動一覽",
+        "scope": "一番茶",
+        "period": "贈完為止",
+        "content": "立即領取優惠(前往合作頁面)",
+        "platform": "ubereats",
+        "code": null,
+        "link": false
+      },
+      {
+        "section": "2026 下半年 Uber Eats 信用卡／行動支付優惠總整理",
+        "scope": "",
+        "period": "2026/7/1～12/31",
+        "content": "",
+        "platform": "ubereats",
+        "code": null,
+        "link": false
+      },
+      {
+        "section": "2026 下半年 Uber Eats 信用卡／行動支付優惠總整理",
+        "scope": "",
+        "period": "2026/7/1～12/31",
+        "content": "",
+        "platform": "ubereats",
+        "code": null,
+        "link": false
+      },
+      {
+        "section": "2026 下半年 Uber Eats 信用卡／行動支付優惠總整理",
+        "scope": "",
+        "period": "2026/7/1～12/31",
+        "content": "",
+        "platform": "ubereats",
+        "code": null,
+        "link": false
+      },
+      {
+        "section": "2026 下半年 Uber Eats 信用卡／行動支付優惠總整理",
+        "scope": "",
+        "period": "2026/1/1～12/31",
+        "content": "",
+        "platform": "ubereats",
+        "code": null,
+        "link": false
+      },
+      {
+        "section": "2026 下半年 Uber Eats 信用卡／行動支付優惠總整理",
+        "scope": "",
+        "period": "2026/7/1～2027/3/31",
+        "content": "",
+        "platform": "ubereats",
+        "code": null,
+        "link": false
+      },
+      {
+        "section": "2026 下半年 Uber Eats 信用卡／行動支付優惠總整理",
+        "scope": "",
+        "period": "2026/7/1～2027/6/30",
+        "content": "",
+        "platform": "ubereats",
+        "code": null,
+        "link": false
+      },
+      {
+        "section": "Uber Eats 行動支付支援與回饋",
+        "scope": "",
+        "period": "",
+        "content": "",
+        "platform": "ubereats",
+        "code": null,
+        "link": false
+      },
+      {
+        "section": "Uber Eats 行動支付支援與回饋",
+        "scope": "",
+        "period": "",
+        "content": "",
+        "platform": "ubereats",
+        "code": null,
+        "link": false
+      },
+      {
+        "section": "Uber Eats 行動支付支援與回饋",
+        "scope": "",
+        "period": "",
+        "content": "",
+        "platform": "ubereats",
+        "code": null,
+        "link": false
+      }
+    ]
+  },
+  "foodpanda": {
+    "month": "foodpanda 優惠碼 2026年9月｜熊貓優惠券＋PandaPro 年費優惠 2026 年 09 月",
+    "coupons": [
+      {
+        "section": "新用戶優惠碼",
+        "scope": "首購",
+        "period": "期限未提供",
+        "content": "foodpanda複製優惠碼並前往使用",
+        "platform": "foodpanda",
+        "code": null,
+        "link": false
+      },
+      {
+        "section": "pandapro 訂閱優惠碼",
+        "scope": "尚未訂閱之用戶",
+        "period": "用完為止",
+        "content": "HALF3複製優惠碼並前往使用BTS3複製優惠碼並前往使用",
+        "platform": "foodpanda",
+        "code": null,
+        "link": false
+      },
+      {
+        "section": "pandapro 訂閱優惠碼",
+        "scope": "尚未訂閱之用戶",
+        "period": "~ 9/30",
+        "content": "YEAR3複製優惠碼並前往使用",
+        "platform": "foodpanda",
+        "code": null,
+        "link": false
+      },
+      {
+        "section": "pandapro 訂閱優惠碼",
+        "scope": "尚未訂閱之用戶",
+        "period": "用完為止",
+        "content": "查看優惠月費制方案免費前往查看優惠",
+        "platform": "foodpanda",
+        "code": null,
+        "link": false
+      },
+      {
+        "section": "pandapro 訂閱優惠碼",
+        "scope": "新竹市限定",
+        "period": "9/1 ~ 9/30",
+        "content": "HC4複製優惠碼並前往使用",
+        "platform": "foodpanda",
+        "code": null,
+        "link": false
+      },
+      {
+        "section": "pandapro 訂閱優惠碼",
+        "scope": "非訂閱會員",
+        "period": "用完為止",
+        "content": "semi3複製優惠碼並前往使用",
+        "platform": "foodpanda",
+        "code": null,
+        "link": false
+      },
+      {
+        "section": "pandapro 會員優惠碼",
+        "scope": "甜蜜蜜",
+        "period": "~ 10/16",
+        "content": "甜蜜蜜請你吃複製優惠碼並前往使用",
+        "platform": "foodpanda",
+        "code": null,
+        "link": false
+      },
+      {
+        "section": "pandapro 會員優惠碼",
+        "scope": "必勝客",
+        "period": "~ 9/30",
+        "content": "必勝客請你吃複製優惠碼並前往使用",
+        "platform": "foodpanda",
+        "code": null,
+        "link": false
+      },
+      {
+        "section": "pandapro 會員優惠碼",
+        "scope": "喜相逢",
+        "period": "~ 10/7",
+        "content": "喜相逢請你吃複製優惠碼並前往使用",
+        "platform": "foodpanda",
+        "code": null,
+        "link": false
+      },
+      {
+        "section": "pandapro 會員優惠碼",
+        "scope": "指定用戶",
+        "period": "9/1 ~ 9/30",
+        "content": "揪你叫外送複製優惠碼並前往使用",
+        "platform": "foodpanda",
+        "code": null,
+        "link": false
+      },
+      {
+        "section": "pandapro 會員優惠碼",
+        "scope": "中信聯名卡友",
+        "period": "9/1 ~ 9/30",
+        "content": "揪你刷這張複製優惠碼並前往使用",
+        "platform": "foodpanda",
+        "code": null,
+        "link": false
+      },
+      {
+        "section": "美食外送優惠碼整理｜9 月滿額現折、星巴克週二、外帶自取優惠",
+        "scope": "外帶自取",
+        "period": "9/1 ~ 9/30",
+        "content": "揪你自取複製優惠碼並前往使用",
+        "platform": "foodpanda",
+        "code": null,
+        "link": false
+      },
+      {
+        "section": "美食外送優惠碼整理｜9 月滿額現折、星巴克週二、外帶自取優惠",
+        "scope": "指定用戶",
+        "period": "9/1 ~ 9/30",
+        "content": "爽爽送複製優惠碼並前往使用",
+        "platform": "foodpanda",
+        "code": null,
+        "link": false
+      },
+      {
+        "section": "美食外送優惠碼整理｜9 月滿額現折、星巴克週二、外帶自取優惠",
+        "scope": "星巴克指定專區",
+        "period": "9/1 ~ 9/30",
+        "content": "週二星享日複製優惠碼並前往使用",
+        "platform": "foodpanda",
+        "code": null,
+        "link": false
+      },
+      {
+        "section": "生鮮雜貨優惠碼整理｜9 月最新折扣、全聯週末優惠一次看",
+        "scope": "指定生鮮雜貨商店",
+        "period": "9/1 ~ 9/30",
+        "content": "揪你買生鮮複製優惠碼並前往使用",
+        "platform": "foodpanda",
+        "code": null,
+        "link": false
+      },
+      {
+        "section": "生鮮雜貨優惠碼整理｜9 月最新折扣、全聯週末優惠一次看",
+        "scope": "全聯福利中心",
+        "period": "9/1 ~ 9/30 每週六日",
+        "content": "週末買全聯複製優惠碼並前往使用",
+        "platform": "foodpanda",
+        "code": null,
+        "link": false
+      },
+      {
+        "section": "生鮮雜貨優惠碼整理｜9 月最新折扣、全聯週末優惠一次看",
+        "scope": "全聯福利中心",
+        "period": "9/1 ~ 9/30 每週日",
+        "content": "週日買全聯複製優惠碼並前往使用",
+        "platform": "foodpanda",
+        "code": null,
+        "link": false
+      },
+      {
+        "section": "pandago 即時快遞 優惠碼",
+        "scope": "首次使用",
+        "period": "",
+        "content": "運費 5 折最高折抵 $80",
+        "platform": "foodpanda",
+        "code": "快送",
+        "link": false
+      },
+      {
+        "section": "學生、企業用戶優惠",
+        "scope": "",
+        "period": "",
+        "content": "首次訂閱免月費",
+        "platform": "foodpanda",
+        "code": "CORPTW",
+        "link": false
+      },
+      {
+        "section": "學生、企業用戶優惠",
+        "scope": "",
+        "period": "",
+        "content": "續訂 半年 5折",
+        "platform": "foodpanda",
+        "code": "corPro5",
+        "link": false
+      },
+      {
+        "section": "學生、企業用戶優惠",
+        "scope": "企業、學生新客",
+        "period": "",
+        "content": "滿 $299 享 69 折可用２次",
+        "platform": "foodpanda",
+        "code": "classmeal",
+        "link": false
+      },
+      {
+        "section": "學生、企業用戶優惠",
+        "scope": "",
+        "period": "早餐時段 6:00~11:00",
+        "content": "8 折 優惠",
+        "platform": "foodpanda",
+        "code": "公司吃早餐學校吃早餐",
+        "link": false
+      },
+      {
+        "section": "學生、企業用戶優惠",
+        "scope": "",
+        "period": "下午茶時段14:00~16:00",
+        "content": "8 折 優惠",
+        "platform": "foodpanda",
+        "code": "辦公室午茶學校下午茶",
+        "link": false
+      },
+      {
+        "section": "學生、企業用戶優惠",
+        "scope": "",
+        "period": "晚餐時段16:00~23:59",
+        "content": "8 折 優惠",
+        "platform": "foodpanda",
+        "code": "下班吃什麼下課吃什麼",
+        "link": false
+      },
+      {
+        "section": "學生、企業用戶優惠",
+        "scope": "",
+        "period": "",
+        "content": "滿 $499 享 79 折可用２次",
+        "platform": "foodpanda",
+        "code": "上課吃飽",
+        "link": false
+      },
+      {
+        "section": "學生、企業用戶優惠",
+        "scope": "",
+        "period": "",
+        "content": "滿$399 享 8 折最高折$100可用３次",
+        "platform": "foodpanda",
+        "code": "下課吃好",
+        "link": false
+      },
+      {
+        "section": "學生、企業用戶優惠",
+        "scope": "",
+        "period": "",
+        "content": "滿$499 享 9 折最高折$60可用３次",
+        "platform": "foodpanda",
+        "code": "下課吃好點",
+        "link": false
+      },
+      {
+        "section": "學生、企業用戶優惠",
+        "scope": "",
+        "period": "",
+        "content": "滿$299 現折 $100",
+        "platform": "foodpanda",
+        "code": "上班吃飽",
+        "link": false
+      },
+      {
+        "section": "信用卡優惠整理｜9 月中信 LINE Pay、 聯名卡回饋與刷卡禮",
+        "scope": "中國信託 LINE Pay 信用卡用戶",
+        "period": "9/1 ~ 9/30",
+        "content": "查看優惠中國信託 LINE Pay 信用卡 早餐時段滿 $200 折 $15前往查看優惠",
+        "platform": "foodpanda",
+        "code": null,
+        "link": false
+      },
+      {
+        "section": "信用卡優惠整理｜9 月中信 LINE Pay、 聯名卡回饋與刷卡禮",
+        "scope": "中國信託 LINE Pay 信用卡用戶",
+        "period": "9/1 ~ 9/30",
+        "content": "psctbc609複製優惠碼並前往使用",
+        "platform": "foodpanda",
+        "code": null,
+        "link": false
+      },
+      {
+        "section": "信用卡優惠整理｜9 月中信 LINE Pay、 聯名卡回饋與刷卡禮",
+        "scope": "pandapro 用戶",
+        "period": "2026/09/25",
+        "content": "當日公布於 App 內複製優惠碼並前往使用",
+        "platform": "foodpanda",
+        "code": null,
+        "link": false
+      },
+      {
+        "section": "信用卡優惠整理｜9 月中信 LINE Pay、 聯名卡回饋與刷卡禮",
+        "scope": "中信聯名卡",
+        "period": "9/1 ~ 9/30",
+        "content": "揪你刷這張複製優惠碼並前往使用",
+        "platform": "foodpanda",
+        "code": null,
+        "link": false
+      },
+      {
+        "section": "2026 年 9 月香港地區優惠碼整理",
+        "scope": "限首次下單的新用戶，每個帳戶限用 1 次。",
+        "period": "至 12/31",
+        "content": "首張外送訂單滿 HK$150 享 6 折，最高減 HK$120。",
+        "platform": "foodpanda",
+        "code": "FP120",
+        "link": false
+      },
+      {
+        "section": "2026 年 9 月香港地區優惠碼整理",
+        "scope": "限首次使用 Pick-up 的新客；實際最低消費及折抵額以帳號顯示為準。",
+        "period": "App 顯示為準",
+        "content": "首次使用外帶自取可享指定折扣。",
+        "platform": "foodpanda",
+        "code": "PU50",
+        "link": false
+      },
+      {
+        "section": "2026 年 9 月香港地區優惠碼整理",
+        "scope": "須使用指定渣打信用卡付款；每月限前 14,000 筆合資格交易。",
+        "period": "活動期內",
+        "content": "美食外送或自取滿 HK$150 減 HK$20。",
+        "platform": "foodpanda",
+        "code": "SCBDINE",
+        "link": false
+      },
+      {
+        "section": "2026 年 9 月香港地區優惠碼整理",
+        "scope": "須使用指定渣打信用卡付款；每月限前 1,000 筆合資格交易。",
+        "period": "活動期內",
+        "content": "foodpanda mall 或 pandamart 滿 HK$150 減 HK$30。",
+        "platform": "foodpanda",
+        "code": "SCBSHOP",
+        "link": false
+      },
+      {
+        "section": "2026 年 9 月香港地區優惠碼整理",
+        "scope": "限新用戶並須使用指定渣打信用卡付款；每月限前 2,500 筆。",
+        "period": "活動期內",
+        "content": "首次下單滿 HK$150 減 HK$50。",
+        "platform": "foodpanda",
+        "code": "SCB2021",
+        "link": false
+      },
+      {
+        "section": "2026 年 9 月香港地區優惠碼整理",
+        "scope": "限指定餐廳、指定帳戶與最低消費門檻。",
+        "period": "依 App 顯示",
+        "content": "指定餐廳可享現金折扣，部分優惠整理頁目前仍顯示最高減約 HK$100。",
+        "platform": "foodpanda",
+        "code": "PANDADEAL",
+        "link": false
+      },
+      {
+        "section": "2026 年 9 月香港地區優惠碼整理",
+        "scope": "第三方優惠頁於 8 月底實測仍可使用；帳號與店家資格可能不同。",
+        "period": "長效／依 App",
+        "content": "指定訂單滿 HK$400 減 HK$45。",
+        "platform": "foodpanda",
+        "code": "mc45",
+        "link": false
+      }
+    ]
+  }
+}
