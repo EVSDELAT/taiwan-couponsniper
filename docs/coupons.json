@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-09-18T11:10:27.242Z",
-  "updated": "2026-09-18 19:10",
+  "generatedAt": "2026-09-18T16:22:06.068Z",
+  "updated": "2026-09-19 00:22",
   "sources": {
     "ubereats": "https://raw.githubusercontent.com/ridemountainpig/tasty-coupon/main/coupon-json/ubereats-coupon.json",
     "foodpanda": "https://raw.githubusercontent.com/ridemountainpig/tasty-coupon/main/coupon-json/foodpanda-coupon.json"
@@ -230,7 +230,7 @@
         "section": "本月精選：生鮮雜貨與全聯折扣碼總整理",
         "scope": "好市多首購",
         "period": "~ 10/31",
-        "content": "ken220複製優惠碼並前往使用",
+        "content": "月光貴族複製優惠碼並前往使用ken220複製優惠碼並前往使用",
         "platform": "ubereats",
         "code": null,
         "link": false
