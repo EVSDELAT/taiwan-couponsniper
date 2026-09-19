@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-09-19T10:54:49.926Z",
-  "updated": "2026-09-19 18:54",
+  "generatedAt": "2026-09-19T15:51:31.101Z",
+  "updated": "2026-09-19 23:51",
   "sources": {
     "ubereats": "https://raw.githubusercontent.com/ridemountainpig/tasty-coupon/main/coupon-json/ubereats-coupon.json",
     "foodpanda": "https://raw.githubusercontent.com/ridemountainpig/tasty-coupon/main/coupon-json/foodpanda-coupon.json"
@@ -96,15 +96,6 @@
         "scope": "優市",
         "period": "~ 12/31",
         "content": "優市五歲優複製優惠碼並前往使用",
-        "platform": "ubereats",
-        "code": null,
-        "link": false
-      },
-      {
-        "section": "Uber One 訂閱會員優惠資訊",
-        "scope": "優市",
-        "period": "9/4 ~ 9/17",
-        "content": "感謝祭好優複製優惠碼並前往使用",
         "platform": "ubereats",
         "code": null,
         "link": false
