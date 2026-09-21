@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-09-21T12:43:45.268Z",
-  "updated": "2026-09-21 20:43",
+  "generatedAt": "2026-09-21T19:59:22.274Z",
+  "updated": "2026-09-22 03:59",
   "sources": {
     "ubereats": "https://raw.githubusercontent.com/ridemountainpig/tasty-coupon/main/coupon-json/ubereats-coupon.json",
     "foodpanda": "https://raw.githubusercontent.com/ridemountainpig/tasty-coupon/main/coupon-json/foodpanda-coupon.json"
@@ -718,7 +718,7 @@
         "link": false
       },
       {
-        "section": "生鮮雜貨 優惠碼整理｜9 月最新折扣、全聯週末優惠一次看",
+        "section": "生鮮雜貨優惠碼整理｜9 月最新折扣、全聯週末優惠一次看",
         "scope": "甜蜜蜜台北店",
         "period": "~ 10/16",
         "content": "揪你甜蜜蜜複製優惠碼並前往使用",
@@ -727,7 +727,7 @@
         "link": false
       },
       {
-        "section": "生鮮雜貨 優惠碼整理｜9 月最新折扣、全聯週末優惠一次看",
+        "section": "生鮮雜貨優惠碼整理｜9 月最新折扣、全聯週末優惠一次看",
         "scope": "指定生鮮雜貨商店",
         "period": "9/1 ~ 9/30",
         "content": "揪你買生鮮複製優惠碼並前往使用",
@@ -736,7 +736,7 @@
         "link": false
       },
       {
-        "section": "生鮮雜貨 優惠碼整理｜9 月最新折扣、全聯週末優惠一次看",
+        "section": "生鮮雜貨優惠碼整理｜9 月最新折扣、全聯週末優惠一次看",
         "scope": "全聯福利中心",
         "period": "9/1 ~ 9/30 每週六日",
         "content": "週末買全聯複製優惠碼並前往使用",
@@ -745,7 +745,7 @@
         "link": false
       },
       {
-        "section": "生鮮雜貨 優惠碼整理｜9 月最新折扣、全聯週末優惠一次看",
+        "section": "生鮮雜貨優惠碼整理｜9 月最新折扣、全聯週末優惠一次看",
         "scope": "全聯福利中心",
         "period": "9/1 ~ 9/30 每週日",
         "content": "週日買全聯複製優惠碼並前往使用",
