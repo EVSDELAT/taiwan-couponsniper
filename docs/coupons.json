@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-09-22T23:36:30.962Z",
-  "updated": "2026-09-23 07:36",
+  "generatedAt": "2026-09-23T04:42:02.759Z",
+  "updated": "2026-09-23 12:42",
   "sources": {
     "ubereats": "https://raw.githubusercontent.com/ridemountainpig/tasty-coupon/main/coupon-json/ubereats-coupon.json",
     "foodpanda": "https://raw.githubusercontent.com/ridemountainpig/tasty-coupon/main/coupon-json/foodpanda-coupon.json"
@@ -22,8 +22,8 @@
       {
         "section": "Uber One 訂閱會員優惠資訊",
         "scope": "指定活動商家",
-        "period": "9/9 ~ 9/22",
-        "content": "九月嚴選複製優惠碼並前往使用",
+        "period": "9/23 ~ 10/6",
+        "content": "中秋嚴選複製優惠碼並前往使用",
         "platform": "ubereats",
         "code": null,
         "link": false
@@ -31,8 +31,8 @@
       {
         "section": "Uber One 訂閱會員優惠資訊",
         "scope": "指定活動商家",
-        "period": "9/9 ~ 9/22",
-        "content": "九愛中秋複製優惠碼並前往使用",
+        "period": "9/23 ~ 10/6",
+        "content": "中秋大吃複製優惠碼並前往使用",
         "platform": "ubereats",
         "code": null,
         "link": false
@@ -148,15 +148,6 @@
       {
         "section": "美食外送丨外帶自取 優惠",
         "scope": "外帶自取",
-        "period": "9/16 限定",
-        "content": "週三愛取複製優惠碼並前往使用",
-        "platform": "ubereats",
-        "code": null,
-        "link": false
-      },
-      {
-        "section": "美食外送丨外帶自取 優惠",
-        "scope": "外帶自取",
         "period": "9/23 限定",
         "content": "週三愛省複製優惠碼並前往使用",
         "platform": "ubereats",
@@ -255,246 +246,93 @@
       },
       {
         "section": "連鎖特選餐廳買一送一活動一覽",
-        "scope": "王品牛排",
-        "period": "9/9 ~ 9/22",
-        "content": "立即領取優惠(前往合作頁面)",
+        "scope": "麥當勞",
+        "period": "贈完為止",
+        "content": "查看優惠中薯 買一送一前往查看優惠",
         "platform": "ubereats",
         "code": null,
-        "link": true
-      },
-      {
-        "section": "連鎖特選餐廳買一送一活動一覽",
-        "scope": "西堤牛排",
-        "period": "9/9 ~ 9/22",
-        "content": "立即領取優惠(前往合作頁面)",
-        "platform": "ubereats",
-        "code": null,
-        "link": true
-      },
-      {
-        "section": "連鎖特選餐廳買一送一活動一覽",
-        "scope": "藝奇 日式料理",
-        "period": "9/9 ~ 9/22",
-        "content": "立即領取優惠(前往合作頁面)",
-        "platform": "ubereats",
-        "code": null,
-        "link": true
-      },
-      {
-        "section": "連鎖特選餐廳買一送一活動一覽",
-        "scope": "陶板屋",
-        "period": "9/9 ~ 9/22",
-        "content": "立即領取優惠(前往合作頁面)",
-        "platform": "ubereats",
-        "code": null,
-        "link": true
-      },
-      {
-        "section": "連鎖特選餐廳買一送一活動一覽",
-        "scope": "夏慕尼",
-        "period": "9/9 ~ 9/22",
-        "content": "立即領取優惠(前往合作頁面)",
-        "platform": "ubereats",
-        "code": null,
-        "link": true
-      },
-      {
-        "section": "連鎖特選餐廳買一送一活動一覽",
-        "scope": "就饗 鐵板燒",
-        "period": "9/9 ~ 9/22",
-        "content": "立即領取優惠(前往合作頁面)",
-        "platform": "ubereats",
-        "code": null,
-        "link": true
-      },
-      {
-        "section": "連鎖特選餐廳買一送一活動一覽",
-        "scope": "品田牧場",
-        "period": "9/9 ~ 9/22",
-        "content": "立即領取優惠(前往合作頁面)",
-        "platform": "ubereats",
-        "code": null,
-        "link": true
-      },
-      {
-        "section": "連鎖特選餐廳買一送一活動一覽",
-        "scope": "聚 日式鍋物",
-        "period": "9/9 ~ 9/22",
-        "content": "立即領取優惠(前往合作頁面)",
-        "platform": "ubereats",
-        "code": null,
-        "link": true
-      },
-      {
-        "section": "連鎖特選餐廳買一送一活動一覽",
-        "scope": "青花驕",
-        "period": "9/9 ~ 9/22",
-        "content": "立即領取優惠(前往合作頁面)",
-        "platform": "ubereats",
-        "code": null,
-        "link": true
-      },
-      {
-        "section": "連鎖特選餐廳買一送一活動一覽",
-        "scope": "和牛涮",
-        "period": "9/9 ~ 9/22",
-        "content": "立即領取優惠(前往合作頁面)",
-        "platform": "ubereats",
-        "code": null,
-        "link": true
-      },
-      {
-        "section": "連鎖特選餐廳買一送一活動一覽",
-        "scope": "尬鍋",
-        "period": "9/9 ~ 9/22",
-        "content": "立即領取優惠(前往合作頁面)",
-        "platform": "ubereats",
-        "code": null,
-        "link": true
-      },
-      {
-        "section": "連鎖特選餐廳買一送一活動一覽",
-        "scope": "享鴨",
-        "period": "9/9 ~ 9/22",
-        "content": "立即領取優惠(前往合作頁面)",
-        "platform": "ubereats",
-        "code": null,
-        "link": true
-      },
-      {
-        "section": "連鎖特選餐廳買一送一活動一覽",
-        "scope": "莆田",
-        "period": "9/9 ~ 9/22",
-        "content": "立即領取優惠(前往合作頁面)",
-        "platform": "ubereats",
-        "code": null,
-        "link": true
-      },
-      {
-        "section": "連鎖特選餐廳買一送一活動一覽",
-        "scope": "丰禾",
-        "period": "9/9 ~ 9/22",
-        "content": "立即領取優惠(前往合作頁面)",
-        "platform": "ubereats",
-        "code": null,
-        "link": true
-      },
-      {
-        "section": "連鎖特選餐廳買一送一活動一覽",
-        "scope": "肉次方",
-        "period": "9/9 ~ 9/22",
-        "content": "立即領取優惠(前往合作頁面)",
-        "platform": "ubereats",
-        "code": null,
-        "link": true
-      },
-      {
-        "section": "連鎖特選餐廳買一送一活動一覽",
-        "scope": "金咕",
-        "period": "9/9 ~ 9/22",
-        "content": "立即領取優惠(前往合作頁面)",
-        "platform": "ubereats",
-        "code": null,
-        "link": true
-      },
-      {
-        "section": "連鎖特選餐廳買一送一活動一覽",
-        "scope": "12mini快煮小火鍋",
-        "period": "9/9 ~ 9/22",
-        "content": "立即領取優惠(前往合作頁面)",
-        "platform": "ubereats",
-        "code": null,
-        "link": true
-      },
-      {
-        "section": "連鎖特選餐廳買一送一活動一覽",
-        "scope": "石二鍋",
-        "period": "9/9 ~ 9/22",
-        "content": "立即領取優惠(前往合作頁面)",
-        "platform": "ubereats",
-        "code": null,
-        "link": true
+        "link": false
       },
       {
         "section": "連鎖特選餐廳買一送一活動一覽",
         "scope": "肯德基",
         "period": "贈完為止",
-        "content": "立即領取優惠(前往合作頁面)",
+        "content": "查看優惠中杯飲料前往查看優惠",
         "platform": "ubereats",
         "code": null,
-        "link": true
+        "link": false
       },
       {
         "section": "連鎖特選餐廳買一送一活動一覽",
         "scope": "達美樂",
         "period": "贈完為止",
-        "content": "立即領取優惠(前往合作頁面)",
+        "content": "查看優惠全尺寸披薩前往查看優惠",
         "platform": "ubereats",
         "code": null,
-        "link": true
+        "link": false
       },
       {
         "section": "連鎖特選餐廳買一送一活動一覽",
         "scope": "21PLUS風味館",
         "period": "贈完為止",
-        "content": "立即領取優惠(前往合作頁面)",
+        "content": "查看優惠香草烤雞茸玉米濃湯 原味小棒腿2入 雪豆腐布丁 時蔬雞汁飯配大飲 心型大雞塊2入 經典杏鮑菇 大薯霸 紫玉Q薯前往查看優惠",
         "platform": "ubereats",
         "code": null,
-        "link": true
+        "link": false
       },
       {
         "section": "連鎖特選餐廳買一送一活動一覽",
         "scope": "日向咖啡",
         "period": "贈完為止",
-        "content": "立即領取優惠(前往合作頁面)",
+        "content": "查看優惠美式咖啡 SOE單品美式前往查看優惠",
         "platform": "ubereats",
         "code": null,
-        "link": true
+        "link": false
       },
       {
         "section": "連鎖特選餐廳買一送一活動一覽",
         "scope": "樂法",
         "period": "贈完為止",
-        "content": "立即領取優惠(前往合作頁面)",
+        "content": "查看優惠林華泰梅子鐵觀音-冰 林華泰四季青茶-冰 蘋果蜂蜜綠茶-冰前往查看優惠",
         "platform": "ubereats",
         "code": null,
-        "link": true
+        "link": false
       },
       {
         "section": "連鎖特選餐廳買一送一活動一覽",
         "scope": "黛黛茶 指定分店",
         "period": "贈完為止",
-        "content": "立即領取優惠(前往合作頁面)",
+        "content": "查看優惠白露青檸 百年仙草茶前往查看優惠",
         "platform": "ubereats",
         "code": null,
-        "link": true
+        "link": false
       },
       {
         "section": "連鎖特選餐廳買一送一活動一覽",
         "scope": "初韻",
         "period": "贈完為止",
-        "content": "立即領取優惠(前往合作頁面)",
+        "content": "查看優惠荔枝烏龍凍凍 荔枝多多烏龍前往查看優惠",
         "platform": "ubereats",
         "code": null,
-        "link": true
+        "link": false
       },
       {
         "section": "連鎖特選餐廳買一送一活動一覽",
         "scope": "西雅圖極品咖啡",
         "period": "贈完為止",
-        "content": "立即領取優惠(前往合作頁面)",
+        "content": "查看優惠原味紅茶 原味可頌 拿鐵 義大利美式咖啡前往查看優惠",
         "platform": "ubereats",
         "code": null,
-        "link": true
+        "link": false
       },
       {
         "section": "連鎖特選餐廳買一送一活動一覽",
         "scope": "一番茶",
         "period": "贈完為止",
-        "content": "立即領取優惠(前往合作頁面)",
+        "content": "查看優惠香檸果茶-麝香紅 春烏龍 梔窨茉綠前往查看優惠",
         "platform": "ubereats",
         "code": null,
-        "link": true
+        "link": false
       },
       {
         "section": "2026 下半年 Uber Eats 信用卡／行動支付優惠總整理",
