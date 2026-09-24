@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-09-23T21:28:23.972Z",
-  "updated": "2026-09-24 05:28",
+  "generatedAt": "2026-09-24T04:45:44.518Z",
+  "updated": "2026-09-24 12:45",
   "sources": {
     "ubereats": "https://raw.githubusercontent.com/ridemountainpig/tasty-coupon/main/coupon-json/ubereats-coupon.json",
     "foodpanda": "https://raw.githubusercontent.com/ridemountainpig/tasty-coupon/main/coupon-json/foodpanda-coupon.json"
@@ -15,6 +15,24 @@
         "scope": "未曾下單之新用戶",
         "period": "9/1 ~ 9/30",
         "content": "afftweats926複製優惠碼並前往使用",
+        "platform": "ubereats",
+        "code": null,
+        "link": false
+      },
+      {
+        "section": "Uber One 訂閱會員優惠資訊",
+        "scope": "麥當勞",
+        "period": "贈完為止",
+        "content": "查看優惠滿 $399 贈 六塊麥克雞塊前往查看優惠",
+        "platform": "ubereats",
+        "code": null,
+        "link": false
+      },
+      {
+        "section": "Uber One 訂閱會員優惠資訊",
+        "scope": "路易莎 指定分店",
+        "period": "9/24 ~ 10/31",
+        "content": "查看優惠專區品項 買一送一前往查看優惠",
         "platform": "ubereats",
         "code": null,
         "link": false
@@ -186,6 +204,15 @@
         "scope": "玉山卡友",
         "period": "用完為止",
         "content": "玉山限定優惠複製優惠碼並前往使用玉山限定好禮複製優惠碼並前往使用",
+        "platform": "ubereats",
+        "code": null,
+        "link": false
+      },
+      {
+        "section": "區域限定與分眾專屬折價券（含青少年帳號）",
+        "scope": "指定用戶",
+        "period": "~ 9/30",
+        "content": "快閃八五複製優惠碼並前往使用",
         "platform": "ubereats",
         "code": null,
         "link": false
