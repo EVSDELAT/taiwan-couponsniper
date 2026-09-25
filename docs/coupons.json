@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-09-24T21:28:54.716Z",
-  "updated": "2026-09-25 05:28",
+  "generatedAt": "2026-09-25T04:53:53.344Z",
+  "updated": "2026-09-25 12:53",
   "sources": {
     "ubereats": "https://raw.githubusercontent.com/ridemountainpig/tasty-coupon/main/coupon-json/ubereats-coupon.json",
     "foodpanda": "https://raw.githubusercontent.com/ridemountainpig/tasty-coupon/main/coupon-json/foodpanda-coupon.json"
@@ -15,6 +15,24 @@
         "scope": "未曾下單之新用戶",
         "period": "9/1 ~ 9/30",
         "content": "afftweats926複製優惠碼並前往使用",
+        "platform": "ubereats",
+        "code": null,
+        "link": false
+      },
+      {
+        "section": "Uber One 訂閱會員優惠資訊",
+        "scope": "適用對象未提供",
+        "period": "~ 9/30",
+        "content": "會員來點複製優惠碼並前往使用",
+        "platform": "ubereats",
+        "code": null,
+        "link": false
+      },
+      {
+        "section": "Uber One 訂閱會員優惠資訊",
+        "scope": "美食外送",
+        "period": "~ 9/30",
+        "content": "會員50複製優惠碼並前往使用",
         "platform": "ubereats",
         "code": null,
         "link": false
@@ -132,6 +150,15 @@
         "scope": "優市",
         "period": "9/18 ~ 10/1",
         "content": "中秋大買優複製優惠碼並前往使用",
+        "platform": "ubereats",
+        "code": null,
+        "link": false
+      },
+      {
+        "section": "美食外送丨外帶自取 優惠",
+        "scope": "外送、自取",
+        "period": "10/1~ 10/31",
+        "content": "秋日美食複製優惠碼並前往使用",
         "platform": "ubereats",
         "code": null,
         "link": false
