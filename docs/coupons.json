@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-09-25T11:47:35.338Z",
-  "updated": "2026-09-25 19:47",
+  "generatedAt": "2026-09-25T17:08:08.469Z",
+  "updated": "2026-09-26 01:08",
   "sources": {
     "ubereats": "https://raw.githubusercontent.com/ridemountainpig/tasty-coupon/main/coupon-json/ubereats-coupon.json",
     "foodpanda": "https://raw.githubusercontent.com/ridemountainpig/tasty-coupon/main/coupon-json/foodpanda-coupon.json"
@@ -524,6 +524,15 @@
         "scope": "非訂閱會員",
         "period": "用完為止",
         "content": "semi3複製優惠碼並前往使用",
+        "platform": "foodpanda",
+        "code": null,
+        "link": false
+      },
+      {
+        "section": "pandapro 會員優惠碼",
+        "scope": "聯名卡友",
+        "period": "9/25 限定",
+        "content": "揪你免費吃複製優惠碼並前往使用",
         "platform": "foodpanda",
         "code": null,
         "link": false
