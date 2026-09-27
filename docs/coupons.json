@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-09-27T11:59:07.316Z",
-  "updated": "2026-09-27 19:59",
+  "generatedAt": "2026-09-27T16:56:08.759Z",
+  "updated": "2026-09-28 00:56",
   "sources": {
     "ubereats": "https://raw.githubusercontent.com/ridemountainpig/tasty-coupon/main/coupon-json/ubereats-coupon.json",
     "foodpanda": "https://raw.githubusercontent.com/ridemountainpig/tasty-coupon/main/coupon-json/foodpanda-coupon.json"
@@ -186,15 +186,6 @@
         "scope": "外送、自取",
         "period": "9/1 ~ 10/31",
         "content": "躺著點複製優惠碼並前往使用",
-        "platform": "ubereats",
-        "code": null,
-        "link": false
-      },
-      {
-        "section": "美食外送丨外帶自取 優惠",
-        "scope": "外帶自取",
-        "period": "9/23 限定",
-        "content": "週三愛省複製優惠碼並前往使用",
         "platform": "ubereats",
         "code": null,
         "link": false
@@ -530,36 +521,9 @@
       },
       {
         "section": "pandapro 會員優惠碼",
-        "scope": "聯名卡友",
-        "period": "9/25 限定",
-        "content": "揪你免費吃複製優惠碼並前往使用",
-        "platform": "foodpanda",
-        "code": null,
-        "link": false
-      },
-      {
-        "section": "pandapro 會員優惠碼",
-        "scope": "甜蜜蜜",
-        "period": "~ 10/16",
-        "content": "甜蜜蜜請你吃複製優惠碼並前往使用",
-        "platform": "foodpanda",
-        "code": null,
-        "link": false
-      },
-      {
-        "section": "pandapro 會員優惠碼",
         "scope": "必勝客",
         "period": "~ 9/30",
         "content": "必勝客請你吃複製優惠碼並前往使用",
-        "platform": "foodpanda",
-        "code": null,
-        "link": false
-      },
-      {
-        "section": "pandapro 會員優惠碼",
-        "scope": "喜相逢",
-        "period": "~ 10/7",
-        "content": "喜相逢請你吃複製優惠碼並前往使用",
         "platform": "foodpanda",
         "code": null,
         "link": false
@@ -583,7 +547,25 @@
         "link": false
       },
       {
-        "section": "美食外送 優惠碼整理｜9 月滿額現折、星巴克週二、外帶自取優惠",
+        "section": "pandapro 會員優惠碼",
+        "scope": "喜相逢",
+        "period": "~ 10/7",
+        "content": "喜相逢請你吃複製優惠碼並前往使用",
+        "platform": "foodpanda",
+        "code": null,
+        "link": false
+      },
+      {
+        "section": "pandapro 會員優惠碼",
+        "scope": "甜蜜蜜",
+        "period": "~ 10/16",
+        "content": "甜蜜蜜請你吃複製優惠碼並前往使用",
+        "platform": "foodpanda",
+        "code": null,
+        "link": false
+      },
+      {
+        "section": "美食外送優惠碼整理｜9 月滿額現折、星巴克週二、外帶自取優惠",
         "scope": "外帶自取",
         "period": "~ 9/30",
         "content": "天天取天天爽複製優惠碼並前往使用",
@@ -592,7 +574,7 @@
         "link": false
       },
       {
-        "section": "美食外送 優惠碼整理｜9 月滿額現折、星巴克週二、外帶自取優惠",
+        "section": "美食外送優惠碼整理｜9 月滿額現折、星巴克週二、外帶自取優惠",
         "scope": "外帶自取",
         "period": "9/1 ~ 9/30",
         "content": "揪你自取複製優惠碼並前往使用",
@@ -601,7 +583,7 @@
         "link": false
       },
       {
-        "section": "美食外送 優惠碼整理｜9 月滿額現折、星巴克週二、外帶自取優惠",
+        "section": "美食外送優惠碼整理｜9 月滿額現折、星巴克週二、外帶自取優惠",
         "scope": "指定用戶",
         "period": "9/1 ~ 9/30",
         "content": "爽爽送複製優惠碼並前往使用",
@@ -610,19 +592,10 @@
         "link": false
       },
       {
-        "section": "美食外送 優惠碼整理｜9 月滿額現折、星巴克週二、外帶自取優惠",
+        "section": "美食外送優惠碼整理｜9 月滿額現折、星巴克週二、外帶自取優惠",
         "scope": "星巴克指定專區",
         "period": "9/1 ~ 9/30",
         "content": "週二星享日複製優惠碼並前往使用",
-        "platform": "foodpanda",
-        "code": null,
-        "link": false
-      },
-      {
-        "section": "生鮮雜貨優惠碼整理｜9 月最新折扣、全聯週末優惠一次看",
-        "scope": "甜蜜蜜台北店",
-        "period": "~ 10/16",
-        "content": "揪你甜蜜蜜複製優惠碼並前往使用",
         "platform": "foodpanda",
         "code": null,
         "link": false
@@ -650,6 +623,15 @@
         "scope": "全聯福利中心",
         "period": "9/1 ~ 9/30 每週日",
         "content": "週日買全聯複製優惠碼並前往使用",
+        "platform": "foodpanda",
+        "code": null,
+        "link": false
+      },
+      {
+        "section": "生鮮雜貨優惠碼整理｜9 月最新折扣、全聯週末優惠一次看",
+        "scope": "甜蜜蜜台北店",
+        "period": "~ 10/16",
+        "content": "揪你甜蜜蜜複製優惠碼並前往使用",
         "platform": "foodpanda",
         "code": null,
         "link": false
