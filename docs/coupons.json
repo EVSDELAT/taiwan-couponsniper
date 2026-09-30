@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-09-29T22:12:41.684Z",
-  "updated": "2026-09-30 06:12",
+  "generatedAt": "2026-09-30T05:28:57.339Z",
+  "updated": "2026-09-30 13:28",
   "sources": {
     "ubereats": "https://raw.githubusercontent.com/ridemountainpig/tasty-coupon/main/coupon-json/ubereats-coupon.json",
     "foodpanda": "https://raw.githubusercontent.com/ridemountainpig/tasty-coupon/main/coupon-json/foodpanda-coupon.json"
@@ -159,6 +159,60 @@
         "scope": "優市",
         "period": "9/18 ~ 10/1",
         "content": "中秋大買優複製優惠碼並前往使用",
+        "platform": "ubereats",
+        "code": null,
+        "link": false
+      },
+      {
+        "section": "美食外送丨外帶自取 優惠",
+        "scope": "外帶自取",
+        "period": "10/7限定",
+        "content": "週三狂吃複製優惠碼並前往使用",
+        "platform": "ubereats",
+        "code": null,
+        "link": false
+      },
+      {
+        "section": "美食外送丨外帶自取 優惠",
+        "scope": "外帶自取",
+        "period": "10/14限定",
+        "content": "週三狂點複製優惠碼並前往使用",
+        "platform": "ubereats",
+        "code": null,
+        "link": false
+      },
+      {
+        "section": "美食外送丨外帶自取 優惠",
+        "scope": "外帶自取",
+        "period": "10/21限定",
+        "content": "週三狂取複製優惠碼並前往使用",
+        "platform": "ubereats",
+        "code": null,
+        "link": false
+      },
+      {
+        "section": "美食外送丨外帶自取 優惠",
+        "scope": "外帶自取",
+        "period": "10/28限定",
+        "content": "週三狂省複製優惠碼並前往使用",
+        "platform": "ubereats",
+        "code": null,
+        "link": false
+      },
+      {
+        "section": "美食外送丨外帶自取 優惠",
+        "scope": "外帶自取",
+        "period": "10/1 ~ 10/31",
+        "content": "自取好手複製優惠碼並前往使用",
+        "platform": "ubereats",
+        "code": null,
+        "link": false
+      },
+      {
+        "section": "美食外送丨外帶自取 優惠",
+        "scope": "外帶自取",
+        "period": "10/1 ~ 10/31",
+        "content": "自取好手禮複製優惠碼並前往使用",
         "platform": "ubereats",
         "code": null,
         "link": false
