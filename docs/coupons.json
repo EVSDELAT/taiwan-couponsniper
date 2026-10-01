@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-10-01T10:04:31.028Z",
-  "updated": "2026-10-01 18:04",
+  "generatedAt": "2026-10-01T18:24:59.602Z",
+  "updated": "2026-10-02 02:25",
   "sources": {
     "ubereats": "https://raw.githubusercontent.com/ridemountainpig/tasty-coupon/main/coupon-json/ubereats-coupon.json",
     "foodpanda": "https://raw.githubusercontent.com/ridemountainpig/tasty-coupon/main/coupon-json/foodpanda-coupon.json"
@@ -138,6 +138,15 @@
       },
       {
         "section": "美食外送丨外帶自取 優惠",
+        "scope": "苗栗縣、彰化縣、南投縣、嘉義縣市、雲林縣、台南市、屏東縣、宜蘭縣",
+        "period": "10/1 ~ 10/31",
+        "content": "台新送十光複製優惠碼並前往使用",
+        "platform": "ubereats",
+        "code": null,
+        "link": false
+      },
+      {
+        "section": "美食外送丨外帶自取 優惠",
         "scope": "外帶自取",
         "period": "10/7限定",
         "content": "週三狂吃複製優惠碼並前往使用",
@@ -228,15 +237,6 @@
       },
       {
         "section": "美食外送丨外帶自取 優惠",
-        "scope": "外帶自取",
-        "period": "9/30 限定",
-        "content": "週三愛拿複製優惠碼並前往使用",
-        "platform": "ubereats",
-        "code": null,
-        "link": false
-      },
-      {
-        "section": "美食外送丨外帶自取 優惠",
         "scope": "指定用戶",
         "period": "~ 12/31",
         "content": "省吃七餐複製優惠碼並前往使用",
@@ -248,7 +248,7 @@
         "section": "美食外送丨外帶自取 優惠",
         "scope": "外送、自取",
         "period": "領取後期限14天",
-        "content": "中華電信九月生快複製優惠碼並前往使用",
+        "content": "中華電信十月生快複製優惠碼並前往使用",
         "platform": "ubereats",
         "code": null,
         "link": false
@@ -258,6 +258,24 @@
         "scope": "玉山卡友",
         "period": "用完為止",
         "content": "玉山限定優惠複製優惠碼並前往使用玉山限定好禮複製優惠碼並前往使用",
+        "platform": "ubereats",
+        "code": null,
+        "link": false
+      },
+      {
+        "section": "區域限定與分眾專屬折價券（含青少年帳號）",
+        "scope": "分眾優惠",
+        "period": "10/1 ~ 10/15",
+        "content": "十月點餐複製優惠碼並前往使用",
+        "platform": "ubereats",
+        "code": null,
+        "link": false
+      },
+      {
+        "section": "區域限定與分眾專屬折價券（含青少年帳號）",
+        "scope": "分眾優惠",
+        "period": "10/1 ~ 10/15",
+        "content": "美食十在複製優惠碼並前往使用",
         "platform": "ubereats",
         "code": null,
         "link": false
@@ -355,7 +373,7 @@
       {
         "section": "區域限定與分眾專屬折價券（含青少年帳號）",
         "scope": "澎湖縣",
-        "period": "2026/10/01至 2026/10/1510/1 ~ 10/15",
+        "period": "10/1 ~ 10/15",
         "content": "十飽七五複製優惠碼並前往使用",
         "platform": "ubereats",
         "code": null,
