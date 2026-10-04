@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-10-03T23:45:51.547Z",
-  "updated": "2026-10-04 07:45",
+  "generatedAt": "2026-10-04T05:48:22.733Z",
+  "updated": "2026-10-04 13:48",
   "sources": {
     "ubereats": "https://raw.githubusercontent.com/ridemountainpig/tasty-coupon/main/coupon-json/ubereats-coupon.json",
     "foodpanda": "https://raw.githubusercontent.com/ridemountainpig/tasty-coupon/main/coupon-json/foodpanda-coupon.json"
@@ -640,7 +640,7 @@
         "section": "pandapro 會員優惠碼",
         "scope": "外送／自取",
         "period": "10/8 ~ 10/11",
-        "content": "爽食感謝祭複製 優惠碼",
+        "content": "爽食感謝祭複製優惠碼",
         "platform": "foodpanda",
         "code": null,
         "link": false
@@ -710,7 +710,7 @@
       },
       {
         "section": "美食外送優惠碼整理｜10 月滿額現折、星巴克週二、外帶自取優惠",
-        "scope": "指定 餐廳",
+        "scope": "指定餐廳",
         "period": "10/1 ~ 10/31",
         "content": "爽爽吃複製優惠碼",
         "platform": "foodpanda",
@@ -766,7 +766,7 @@
         "section": "生鮮雜貨優惠碼整理｜10 月最新折扣、全聯週末優惠一次看",
         "scope": "大全聯",
         "period": "10/1 ~ 10/31 平日適用",
-        "content": "生鮮感謝祭複製 優惠碼",
+        "content": "生鮮感謝祭複製優惠碼",
         "platform": "foodpanda",
         "code": null,
         "link": false
@@ -883,7 +883,7 @@
         "section": "生鮮雜貨優惠碼整理｜10 月最新折扣、全聯週末優惠一次看",
         "scope": "萬家福",
         "period": "10/1 ~ 10/6",
-        "content": "咖啡折八十元複製 優惠碼",
+        "content": "咖啡折八十元複製優惠碼",
         "platform": "foodpanda",
         "code": null,
         "link": false
@@ -937,7 +937,7 @@
         "section": "學生、企業用戶優惠",
         "scope": "中信 LINE Pay 卡友",
         "period": "10/1－10/31",
-        "content": "psctbc610複製 優惠碼",
+        "content": "psctbc610複製優惠碼",
         "platform": "foodpanda",
         "code": null,
         "link": false
@@ -1018,7 +1018,7 @@
         "section": "學生、企業用戶優惠",
         "scope": "街口聯名卡卡友",
         "period": "至 12/31",
-        "content": "前往下單複製 優惠碼",
+        "content": "前往下單複製優惠碼",
         "platform": "foodpanda",
         "code": null,
         "link": false
