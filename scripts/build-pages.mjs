@@ -1,4 +1,5 @@
 import { mkdir, readFile, writeFile } from "node:fs/promises";
+import { mobilePage } from "../src/mobile-ui.mjs";
 
 const source = await readFile(new URL("../worker/index.js", import.meta.url), "utf8");
 const prefix = "const PAGE=String.raw" + String.fromCharCode(96);
@@ -53,4 +54,4 @@ const versionedMarkup = '<div class="live"><span class="version">V1.06</span><sp
 page = page.replace(/<div class="live">[\s\S]*?<\/div>/, versionedMarkup);
 
 await mkdir(new URL("../docs", import.meta.url), { recursive: true });
-await writeFile(new URL("../docs/index.html", import.meta.url), page);
+await writeFile(new URL("../docs/index.html", import.meta.url), mobilePage(page));
