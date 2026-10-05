@@ -32,11 +32,14 @@ const value = (row, keys) => {
   return "";
 };
 
+const foreignMarket = (text) => /香港|澳門|澳门|HK\$|HKD|MOP\$|港幣|港币/i.test(text);
+const copyMarker = /\s*[（(]?\s*(?:複製優惠碼並前往使用|複製並前往使用|點擊複製並前往|點擊複製|複製並前往|複製優惠碼|复制优惠码)[）)]?\s*/;
+const linkMarker = /點擊前往|免輸碼直達|點擊領取|前往合作頁面|前往查看優惠|查看優惠|前往下單/;
 const parseCode = (text) => {
   if (!text) return { code: null, link: false };
-  if (/點擊前往|免輸碼直達|點擊領取|前往合作頁面/.test(text)) return { code: null, link: true };
+  if (linkMarker.test(text)) return { code: null, link: true };
   return {
-    code: text.split(/\s*[（(]?\s*(?:複製並前往使用|點擊複製並前往|點擊複製|複製並前往)/)[0].trim() || null,
+    code: text.split(copyMarker)[0].trim() || null,
     link: false,
   };
 };
@@ -45,23 +48,32 @@ const normalize = (raw, platform) => {
   const month = Object.keys(raw || {})[0] || "";
   const coupons = [];
   for (const [section, rows] of Object.entries(raw?.[month] || {})) {
+    if (foreignMarket(section)) continue;
     for (const row of Array.isArray(rows) ? rows : []) {
+      if (foreignMarket(JSON.stringify(row))) continue;
       const scope = value(row, ["適用對象", "適用範圍", "使用條件", "col_2"]);
       const content = value(row, ["優惠內容", "優惠說明", "內容", "col_0"])
         || [value(row, ["銀行／支付工具"]), value(row, ["最高回饋"])].filter(Boolean).join("｜");
       const explicitOffer = value(row, ["優惠碼", "優惠代碼", "優惠碼／使用方式", "優惠碼／使用連結"]);
-      const embeddedOffer = /複製並前往使用|點擊複製並前往|點擊複製|複製並前往|點擊前往|免輸碼直達|點擊領取|前往合作頁面/.test(content)
+      const embeddedOffer = copyMarker.test(content) || linkMarker.test(content)
         ? content
         : "";
-      coupons.push({
+      const offer = explicitOffer || embeddedOffer;
+      const offers = copyMarker.test(offer) && !linkMarker.test(offer)
+        ? offer.split(copyMarker).map(x => x.trim()).filter(Boolean)
+        : [offer];
+      for (const singleOffer of offers) coupons.push({
         section,
         scope,
         period: value(row, ["使用期限", "優惠期間", "活動期間", "期限", "col_1"]),
         content,
         platform,
-        ...parseCode(explicitOffer || embeddedOffer),
+        ...parseCode(singleOffer),
       });
     }
+  }
+  if (!coupons.length || !coupons.some(c => c.code || c.link)) {
+    throw new Error(platform + " 正規化後沒有可用代碼或領取入口，拒絕發布異常資料");
   }
   return { month, coupons };
 };
@@ -98,7 +110,10 @@ for (const [platform, url] of Object.entries(sources)) {
   } catch (error) {
     const message = error instanceof Error ? error.message : String(error);
     result.errors.push(platform + ": " + message);
-    if (previous?.[platform]?.coupons) result[platform] = previous[platform];
+    if (previous?.[platform]?.coupons) result[platform] = {
+      ...previous[platform],
+      coupons: previous[platform].coupons.filter(c => !foreignMarket(JSON.stringify(c))),
+    };
   }
 }
 

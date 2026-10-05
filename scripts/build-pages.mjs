@@ -3,7 +3,7 @@ import { mkdir, readFile, writeFile } from "node:fs/promises";
 const source = await readFile(new URL("../worker/index.js", import.meta.url), "utf8");
 const prefix = "const PAGE=String.raw" + String.fromCharCode(96);
 const start = source.indexOf(prefix);
-const endMarker = String.fromCharCode(96) + ";\nexport default";
+const endMarker = String.fromCharCode(96) + ";";
 const end = source.lastIndexOf(endMarker);
 
 if (start < 0 || end < 0 || end <= start) {
@@ -11,6 +11,15 @@ if (start < 0 || end < 0 || end <= start) {
 }
 
 let page = source.slice(start + prefix.length, end);
+
+// Keep the creator and update metadata together as one compact two-row card.
+// This mirrors the Worker runtime transform so GitHub Pages has the same UI.
+const compactHeaderMarkup = '<div class="headActions"><div class="headerInfo" aria-label="製作人與更新資訊"><div class="creatorCompact"><strong class="owner">製作人：EVS-ZHAO TECH©</strong><div class="footerBtns"><button class="footerBtn" data-contact="contact">聯絡我</button><button class="footerBtn" data-contact="report">回報問題</button></div></div><div class="live"><span class="version">V1.06</span><span class="liveSeparator" aria-hidden="true"> · </span>更新日期：<span id="updated">讀取中</span></div></div></div></header>';
+const compactHeaderCss = '.headActions{min-width:0;max-width:100%}.headerInfo{display:grid;gap:2px;min-width:0;max-width:100%;background:#fff;border:1px solid #dfe6ef;border-radius:12px;padding:5px 8px;box-shadow:0 5px 16px #2534500b}.headerInfo .creatorCompact{display:flex;align-items:center;justify-content:flex-end;gap:8px;min-width:0;min-height:22px;background:transparent;border:0;border-radius:0;padding:0;box-shadow:none}.headerInfo .owner{min-width:0;overflow:hidden;text-overflow:ellipsis;color:#152033;font-size:13px;line-height:1.15;white-space:nowrap}.headerInfo .footerBtns{display:flex;gap:5px;flex-shrink:0}.headerInfo .footerBtn{font-size:12px;line-height:1.15;padding:5px 7px;border-radius:8px;white-space:nowrap}.headerInfo .live{display:flex;align-items:center;justify-content:flex-end;gap:2px;background:transparent;border:0;border-radius:0;padding:0;color:#657184;font-size:11px;line-height:1.2;white-space:nowrap}.headerInfo .live:before{content:"";display:inline-block;width:6px;height:6px;background:#19b181;border-radius:50%;margin-right:3px}.headerInfo .version{font-weight:800;color:#31405b}.headerInfo .liveSeparator{color:#9aa3b1}@media(max-width:900px){.headActions{width:100%}.headerInfo{width:100%}}@media(max-width:580px){.headerInfo{padding:5px 7px}.headerInfo .creatorCompact{gap:6px}.headerInfo .owner{font-size:12px}.headerInfo .footerBtns{gap:4px}.headerInfo .footerBtn{font-size:11px;padding:4px 6px}.headerInfo .live{font-size:10px}}@media(max-width:360px){.headerInfo .creatorCompact{flex-wrap:wrap;justify-content:flex-end}.headerInfo .footerBtns{margin-left:auto}}';
+page = page.replace(/<div class="headActions">[\s\S]*?<\/div><\/header>/, compactHeaderMarkup).replace('</style></head>', '</style><style>'+compactHeaderCss+'</style></head>');
+if (!page.includes('class="headerInfo"') || !page.includes('製作人：EVS-ZHAO TECH©')) {
+  throw new Error('Unable to apply V1.06 compact header');
+}
 const oldLoadStart = page.indexOf("async function load(){");
 const oldLoadEnd = page.indexOf("if(document.modelContext", oldLoadStart);
 
@@ -40,8 +49,8 @@ if (!page.includes(workerLocationRequest)) {
 }
 
 page = page.replace(workerLocationRequest, staticLocationRequest);
-const versionedMarkup = '<div class="live">V1.04 · 更新日期：<span id="updated">讀取中</span></div>';
-page = page.replace(/<div class="live">(?:V[\d.]+ · )?更新日期：<span id="updated">讀取中<\/span><\/div>/, versionedMarkup);
+const versionedMarkup = '<div class="live"><span class="version">V1.06</span><span class="liveSeparator" aria-hidden="true"> · </span>更新日期：<span id="updated">讀取中</span></div>';
+page = page.replace(/<div class="live">[\s\S]*?<\/div>/, versionedMarkup);
 
 await mkdir(new URL("../docs", import.meta.url), { recursive: true });
 await writeFile(new URL("../docs/index.html", import.meta.url), page);

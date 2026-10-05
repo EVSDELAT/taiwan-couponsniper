@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-10-05T14:31:31.069Z",
-  "updated": "2026-10-05 22:31",
+  "generatedAt": "2026-10-05T15:58:26.380Z",
+  "updated": "2026-10-05 23:58",
   "sources": {
     "ubereats": "https://raw.githubusercontent.com/ridemountainpig/tasty-coupon/main/coupon-json/ubereats-coupon.json",
     "foodpanda": "https://raw.githubusercontent.com/ridemountainpig/tasty-coupon/main/coupon-json/foodpanda-coupon.json"
@@ -16,7 +16,7 @@
         "period": "10/1～10/31",
         "content": "會員十月享複製優惠碼",
         "platform": "ubereats",
-        "code": null,
+        "code": "會員十月享",
         "link": false
       },
       {
@@ -25,7 +25,7 @@
         "period": "10/1～10/31",
         "content": "十月會員吃複製優惠碼",
         "platform": "ubereats",
-        "code": null,
+        "code": "十月會員吃",
         "link": false
       },
       {
@@ -34,7 +34,7 @@
         "period": "10/1～10/31",
         "content": "十月來外帶複製優惠碼",
         "platform": "ubereats",
-        "code": null,
+        "code": "十月來外帶",
         "link": false
       },
       {
@@ -44,7 +44,7 @@
         "content": "查看優惠前往查看優惠",
         "platform": "ubereats",
         "code": null,
-        "link": false
+        "link": true
       },
       {
         "section": "Uber One 訂閱會員優惠資訊",
@@ -53,7 +53,7 @@
         "content": "查看優惠前往查看優惠",
         "platform": "ubereats",
         "code": null,
-        "link": false
+        "link": true
       },
       {
         "section": "Uber One 訂閱會員優惠資訊",
@@ -61,7 +61,7 @@
         "period": "9/23 ~ 10/6",
         "content": "中秋嚴選複製優惠碼",
         "platform": "ubereats",
-        "code": null,
+        "code": "中秋嚴選",
         "link": false
       },
       {
@@ -70,7 +70,7 @@
         "period": "9/23 ~ 10/6",
         "content": "中秋大吃複製優惠碼",
         "platform": "ubereats",
-        "code": null,
+        "code": "中秋大吃",
         "link": false
       },
       {
@@ -80,7 +80,7 @@
         "content": "查看優惠前往查看優惠",
         "platform": "ubereats",
         "code": null,
-        "link": false
+        "link": true
       },
       {
         "section": "Uber One 訂閱會員優惠資訊",
@@ -88,7 +88,7 @@
         "period": "6/12 ~ 12/25",
         "content": "初夏買優市複製優惠碼",
         "platform": "ubereats",
-        "code": null,
+        "code": "初夏買優市",
         "link": false
       },
       {
@@ -97,7 +97,7 @@
         "period": "~ 12/31",
         "content": "優市五歲優複製優惠碼",
         "platform": "ubereats",
-        "code": null,
+        "code": "優市五歲優",
         "link": false
       },
       {
@@ -106,7 +106,7 @@
         "period": "10/1 ~ 10/31",
         "content": "台新送十光複製優惠碼",
         "platform": "ubereats",
-        "code": null,
+        "code": "台新送十光",
         "link": false
       },
       {
@@ -115,7 +115,7 @@
         "period": "10/7限定",
         "content": "週三狂吃複製優惠碼",
         "platform": "ubereats",
-        "code": null,
+        "code": "週三狂吃",
         "link": false
       },
       {
@@ -124,7 +124,7 @@
         "period": "10/14限定",
         "content": "週三狂點複製優惠碼",
         "platform": "ubereats",
-        "code": null,
+        "code": "週三狂點",
         "link": false
       },
       {
@@ -133,7 +133,7 @@
         "period": "10/21限定",
         "content": "週三狂取複製優惠碼",
         "platform": "ubereats",
-        "code": null,
+        "code": "週三狂取",
         "link": false
       },
       {
@@ -142,7 +142,7 @@
         "period": "10/28限定",
         "content": "週三狂省複製優惠碼",
         "platform": "ubereats",
-        "code": null,
+        "code": "週三狂省",
         "link": false
       },
       {
@@ -151,7 +151,7 @@
         "period": "10/1 ~ 10/31",
         "content": "自取好手複製優惠碼",
         "platform": "ubereats",
-        "code": null,
+        "code": "自取好手",
         "link": false
       },
       {
@@ -160,7 +160,7 @@
         "period": "10/1 ~ 10/31",
         "content": "自取好手禮複製優惠碼",
         "platform": "ubereats",
-        "code": null,
+        "code": "自取好手禮",
         "link": false
       },
       {
@@ -169,7 +169,7 @@
         "period": "10/1~ 10/31",
         "content": "秋日美食複製優惠碼",
         "platform": "ubereats",
-        "code": null,
+        "code": "秋日美食",
         "link": false
       },
       {
@@ -178,7 +178,34 @@
         "period": "~ 10/15",
         "content": "開學jo要吃複製優惠碼開學完蛋複製優惠碼開學吃美食複製優惠碼開學有ni複製優惠碼",
         "platform": "ubereats",
-        "code": null,
+        "code": "開學jo要吃",
+        "link": false
+      },
+      {
+        "section": "美食外送丨外帶自取 優惠",
+        "scope": "外送、自取",
+        "period": "~ 10/15",
+        "content": "開學jo要吃複製優惠碼開學完蛋複製優惠碼開學吃美食複製優惠碼開學有ni複製優惠碼",
+        "platform": "ubereats",
+        "code": "開學完蛋",
+        "link": false
+      },
+      {
+        "section": "美食外送丨外帶自取 優惠",
+        "scope": "外送、自取",
+        "period": "~ 10/15",
+        "content": "開學jo要吃複製優惠碼開學完蛋複製優惠碼開學吃美食複製優惠碼開學有ni複製優惠碼",
+        "platform": "ubereats",
+        "code": "開學吃美食",
+        "link": false
+      },
+      {
+        "section": "美食外送丨外帶自取 優惠",
+        "scope": "外送、自取",
+        "period": "~ 10/15",
+        "content": "開學jo要吃複製優惠碼開學完蛋複製優惠碼開學吃美食複製優惠碼開學有ni複製優惠碼",
+        "platform": "ubereats",
+        "code": "開學有ni",
         "link": false
       },
       {
@@ -187,7 +214,7 @@
         "period": "7/1 ~ 12/31",
         "content": "彰銀省隊友26複製優惠碼",
         "platform": "ubereats",
-        "code": null,
+        "code": "彰銀省隊友26",
         "link": false
       },
       {
@@ -196,7 +223,7 @@
         "period": "9/1 ~ 10/31",
         "content": "躺著點複製優惠碼",
         "platform": "ubereats",
-        "code": null,
+        "code": "躺著點",
         "link": false
       },
       {
@@ -205,7 +232,7 @@
         "period": "~ 12/31",
         "content": "省吃七餐複製優惠碼",
         "platform": "ubereats",
-        "code": null,
+        "code": "省吃七餐",
         "link": false
       },
       {
@@ -214,7 +241,7 @@
         "period": "領取後期限14天",
         "content": "中華電信十月生快複製優惠碼",
         "platform": "ubereats",
-        "code": null,
+        "code": "中華電信十月生快",
         "link": false
       },
       {
@@ -223,7 +250,16 @@
         "period": "用完為止",
         "content": "玉山限定優惠複製優惠碼玉山限定好禮複製優惠碼",
         "platform": "ubereats",
-        "code": null,
+        "code": "玉山限定優惠",
+        "link": false
+      },
+      {
+        "section": "美食外送丨外帶自取 優惠",
+        "scope": "玉山卡友",
+        "period": "用完為止",
+        "content": "玉山限定優惠複製優惠碼玉山限定好禮複製優惠碼",
+        "platform": "ubereats",
+        "code": "玉山限定好禮",
         "link": false
       },
       {
@@ -232,7 +268,7 @@
         "period": "10/1 ~ 10/15",
         "content": "十省七五複製優惠碼",
         "platform": "ubereats",
-        "code": null,
+        "code": "十省七五",
         "link": false
       },
       {
@@ -241,7 +277,7 @@
         "period": "10/1 ~ 10/15",
         "content": "十要六折複製優惠碼",
         "platform": "ubereats",
-        "code": null,
+        "code": "十要六折",
         "link": false
       },
       {
@@ -250,7 +286,7 @@
         "period": "10/1 ~ 10/15",
         "content": "十月點餐複製優惠碼",
         "platform": "ubereats",
-        "code": null,
+        "code": "十月點餐",
         "link": false
       },
       {
@@ -259,7 +295,7 @@
         "period": "10/1 ~ 10/15",
         "content": "美食十在複製優惠碼",
         "platform": "ubereats",
-        "code": null,
+        "code": "美食十在",
         "link": false
       },
       {
@@ -268,7 +304,7 @@
         "period": "10/1 ~ 10/15",
         "content": "十點七五複製優惠碼",
         "platform": "ubereats",
-        "code": null,
+        "code": "十點七五",
         "link": false
       },
       {
@@ -277,7 +313,7 @@
         "period": "10/1 ~ 10/15",
         "content": "十點六折複製優惠碼",
         "platform": "ubereats",
-        "code": null,
+        "code": "十點六折",
         "link": false
       },
       {
@@ -286,7 +322,7 @@
         "period": "10/1 ~ 10/15",
         "content": "十好六折複製優惠碼",
         "platform": "ubereats",
-        "code": null,
+        "code": "十好六折",
         "link": false
       },
       {
@@ -295,7 +331,7 @@
         "period": "10/1 ~ 10/15",
         "content": "十喜六折複製優惠碼",
         "platform": "ubereats",
-        "code": null,
+        "code": "十喜六折",
         "link": false
       },
       {
@@ -304,7 +340,7 @@
         "period": "10/1 ~ 10/15",
         "content": "十吃六折複製優惠碼",
         "platform": "ubereats",
-        "code": null,
+        "code": "十吃六折",
         "link": false
       },
       {
@@ -313,7 +349,7 @@
         "period": "10/1 ~ 10/15",
         "content": "十飽六折複製優惠碼",
         "platform": "ubereats",
-        "code": null,
+        "code": "十飽六折",
         "link": false
       },
       {
@@ -322,7 +358,7 @@
         "period": "10/1 ~ 10/15",
         "content": "十狂六折複製優惠碼",
         "platform": "ubereats",
-        "code": null,
+        "code": "十狂六折",
         "link": false
       },
       {
@@ -331,7 +367,7 @@
         "period": "10/1 ~ 10/15",
         "content": "十省六折複製優惠碼",
         "platform": "ubereats",
-        "code": null,
+        "code": "十省六折",
         "link": false
       },
       {
@@ -340,7 +376,7 @@
         "period": "10/1 ~ 10/15",
         "content": "十好七五複製優惠碼",
         "platform": "ubereats",
-        "code": null,
+        "code": "十好七五",
         "link": false
       },
       {
@@ -349,7 +385,7 @@
         "period": "10/1 ~ 10/15",
         "content": "十吃七五複製優惠碼",
         "platform": "ubereats",
-        "code": null,
+        "code": "十吃七五",
         "link": false
       },
       {
@@ -358,7 +394,7 @@
         "period": "10/1 ~ 10/15",
         "content": "十飽七五複製優惠碼",
         "platform": "ubereats",
-        "code": null,
+        "code": "十飽七五",
         "link": false
       },
       {
@@ -367,7 +403,16 @@
         "period": "~ 12/31",
         "content": "青春享點複製優惠碼青春我點複製優惠碼",
         "platform": "ubereats",
-        "code": null,
+        "code": "青春享點",
+        "link": false
+      },
+      {
+        "section": "區域限定與分眾專屬折價券（含青少年帳號）",
+        "scope": "青少年用戶",
+        "period": "~ 12/31",
+        "content": "青春享點複製優惠碼青春我點複製優惠碼",
+        "platform": "ubereats",
+        "code": "青春我點",
         "link": false
       },
       {
@@ -376,7 +421,16 @@
         "period": "~ 10/31",
         "content": "月光貴族複製優惠碼ken220複製優惠碼",
         "platform": "ubereats",
-        "code": null,
+        "code": "月光貴族",
+        "link": false
+      },
+      {
+        "section": "本月精選：生鮮雜貨與全聯折扣碼總整理",
+        "scope": "好市多首購",
+        "period": "~ 10/31",
+        "content": "月光貴族複製優惠碼ken220複製優惠碼",
+        "platform": "ubereats",
+        "code": "ken220",
         "link": false
       },
       {
@@ -385,7 +439,7 @@
         "period": "10/1 ~ 10/31",
         "content": "新客點好市多複製優惠碼",
         "platform": "ubereats",
-        "code": null,
+        "code": "新客點好市多",
         "link": false
       },
       {
@@ -394,7 +448,7 @@
         "period": "10/1 ~ 10/31",
         "content": "十月省450複製優惠碼",
         "platform": "ubereats",
-        "code": null,
+        "code": "十月省450",
         "link": false
       },
       {
@@ -403,7 +457,7 @@
         "period": "10/1 ~ 10/31",
         "content": "十月新朋友複製優惠碼",
         "platform": "ubereats",
-        "code": null,
+        "code": "十月新朋友",
         "link": false
       },
       {
@@ -413,7 +467,7 @@
         "content": "查看優惠前往查看優惠",
         "platform": "ubereats",
         "code": null,
-        "link": false
+        "link": true
       },
       {
         "section": "連鎖特選餐廳買一送一活動一覽",
@@ -422,7 +476,7 @@
         "content": "查看優惠前往查看優惠",
         "platform": "ubereats",
         "code": null,
-        "link": false
+        "link": true
       },
       {
         "section": "連鎖特選餐廳買一送一活動一覽",
@@ -431,7 +485,7 @@
         "content": "查看優惠前往查看優惠",
         "platform": "ubereats",
         "code": null,
-        "link": false
+        "link": true
       },
       {
         "section": "連鎖特選餐廳買一送一活動一覽",
@@ -440,7 +494,7 @@
         "content": "查看優惠前往查看優惠",
         "platform": "ubereats",
         "code": null,
-        "link": false
+        "link": true
       },
       {
         "section": "連鎖特選餐廳買一送一活動一覽",
@@ -449,7 +503,7 @@
         "content": "查看優惠前往查看優惠",
         "platform": "ubereats",
         "code": null,
-        "link": false
+        "link": true
       },
       {
         "section": "連鎖特選餐廳買一送一活動一覽",
@@ -458,7 +512,7 @@
         "content": "查看優惠前往查看優惠",
         "platform": "ubereats",
         "code": null,
-        "link": false
+        "link": true
       },
       {
         "section": "連鎖特選餐廳買一送一活動一覽",
@@ -467,7 +521,7 @@
         "content": "查看優惠前往查看優惠",
         "platform": "ubereats",
         "code": null,
-        "link": false
+        "link": true
       },
       {
         "section": "連鎖特選餐廳買一送一活動一覽",
@@ -476,7 +530,7 @@
         "content": "查看優惠前往查看優惠",
         "platform": "ubereats",
         "code": null,
-        "link": false
+        "link": true
       },
       {
         "section": "連鎖特選餐廳買一送一活動一覽",
@@ -485,7 +539,7 @@
         "content": "查看優惠前往查看優惠",
         "platform": "ubereats",
         "code": null,
-        "link": false
+        "link": true
       },
       {
         "section": "連鎖特選餐廳買一送一活動一覽",
@@ -494,7 +548,7 @@
         "content": "查看優惠前往查看優惠",
         "platform": "ubereats",
         "code": null,
-        "link": false
+        "link": true
       },
       {
         "section": "💳 Uber Eats 熱門外送信用卡回饋比較表",
@@ -588,7 +642,7 @@
         "period": "期限未提供",
         "content": "foodpanda複製優惠碼",
         "platform": "foodpanda",
-        "code": null,
+        "code": "foodpanda",
         "link": false
       },
       {
@@ -597,7 +651,7 @@
         "period": "用完為止",
         "content": "JOIN12複製優惠碼",
         "platform": "foodpanda",
-        "code": null,
+        "code": "JOIN12",
         "link": false
       },
       {
@@ -606,7 +660,7 @@
         "period": "用完為止",
         "content": "JOIN6複製優惠碼",
         "platform": "foodpanda",
-        "code": null,
+        "code": "JOIN6",
         "link": false
       },
       {
@@ -615,7 +669,7 @@
         "period": "10/1 ~ 10/31",
         "content": "JOIN1複製優惠碼",
         "platform": "foodpanda",
-        "code": null,
+        "code": "JOIN1",
         "link": false
       },
       {
@@ -625,7 +679,7 @@
         "content": "查看優惠前往查看優惠",
         "platform": "foodpanda",
         "code": null,
-        "link": false
+        "link": true
       },
       {
         "section": "pandapro 會員優惠碼",
@@ -633,7 +687,7 @@
         "period": "10/1 ~ 10/31",
         "content": "美食感謝祭複製優惠碼",
         "platform": "foodpanda",
-        "code": null,
+        "code": "美食感謝祭",
         "link": false
       },
       {
@@ -642,7 +696,7 @@
         "period": "10/8 ~ 10/11",
         "content": "爽食感謝祭複製優惠碼",
         "platform": "foodpanda",
-        "code": null,
+        "code": "爽食感謝祭",
         "link": false
       },
       {
@@ -651,7 +705,7 @@
         "period": "10/1 ~ 10/31",
         "content": "CTBCFREE複製優惠碼",
         "platform": "foodpanda",
-        "code": null,
+        "code": "CTBCFREE",
         "link": false
       },
       {
@@ -660,7 +714,7 @@
         "period": "10/1 ~ 10/15",
         "content": "咖啡請你喝複製優惠碼",
         "platform": "foodpanda",
-        "code": null,
+        "code": "咖啡請你喝",
         "link": false
       },
       {
@@ -669,7 +723,7 @@
         "period": "10/16 ~ 10/31",
         "content": "請你喝路易莎複製優惠碼",
         "platform": "foodpanda",
-        "code": null,
+        "code": "請你喝路易莎",
         "link": false
       },
       {
@@ -678,7 +732,7 @@
         "period": "~ 10/7",
         "content": "喜相逢請你吃複製優惠碼",
         "platform": "foodpanda",
-        "code": null,
+        "code": "喜相逢請你吃",
         "link": false
       },
       {
@@ -687,7 +741,7 @@
         "period": "~ 10/16",
         "content": "甜蜜蜜請你吃複製優惠碼",
         "platform": "foodpanda",
-        "code": null,
+        "code": "甜蜜蜜請你吃",
         "link": false
       },
       {
@@ -696,7 +750,7 @@
         "period": "10/1 ~ 10/31",
         "content": "自取感謝祭複製優惠碼",
         "platform": "foodpanda",
-        "code": null,
+        "code": "自取感謝祭",
         "link": false
       },
       {
@@ -705,7 +759,7 @@
         "period": "10/1 ~ 10/31",
         "content": "自取感謝你複製優惠碼",
         "platform": "foodpanda",
-        "code": null,
+        "code": "自取感謝你",
         "link": false
       },
       {
@@ -714,7 +768,7 @@
         "period": "10/1 ~ 10/31",
         "content": "爽爽吃複製優惠碼",
         "platform": "foodpanda",
-        "code": null,
+        "code": "爽爽吃",
         "link": false
       },
       {
@@ -723,7 +777,7 @@
         "period": "10/1 ~ 10/31",
         "content": "週二星享日複製優惠碼",
         "platform": "foodpanda",
-        "code": null,
+        "code": "週二星享日",
         "link": false
       },
       {
@@ -732,7 +786,7 @@
         "period": "10/1 ~ 10/31",
         "content": "生鮮感謝祭複製優惠碼",
         "platform": "foodpanda",
-        "code": null,
+        "code": "生鮮感謝祭",
         "link": false
       },
       {
@@ -741,7 +795,7 @@
         "period": "10/1 ~ 10/31",
         "content": "生鮮感謝祭複製優惠碼",
         "platform": "foodpanda",
-        "code": null,
+        "code": "生鮮感謝祭",
         "link": false
       },
       {
@@ -750,7 +804,7 @@
         "period": "10/1 ~ 10/31",
         "content": "生鮮感謝祭複製優惠碼",
         "platform": "foodpanda",
-        "code": null,
+        "code": "生鮮感謝祭",
         "link": false
       },
       {
@@ -759,7 +813,7 @@
         "period": "10/1 ~ 10/31",
         "content": "生鮮感謝祭複製優惠碼",
         "platform": "foodpanda",
-        "code": null,
+        "code": "生鮮感謝祭",
         "link": false
       },
       {
@@ -768,7 +822,7 @@
         "period": "10/1 ~ 10/31 平日適用",
         "content": "生鮮感謝祭複製優惠碼",
         "platform": "foodpanda",
-        "code": null,
+        "code": "生鮮感謝祭",
         "link": false
       },
       {
@@ -777,7 +831,7 @@
         "period": "10/1 ~ 10/31 平日適用",
         "content": "生鮮感謝祭複製優惠碼",
         "platform": "foodpanda",
-        "code": null,
+        "code": "生鮮感謝祭",
         "link": false
       },
       {
@@ -786,7 +840,7 @@
         "period": "10/1 ~ 10/31 平日適用",
         "content": "新鮮八複製優惠碼",
         "platform": "foodpanda",
-        "code": null,
+        "code": "新鮮八",
         "link": false
       },
       {
@@ -795,7 +849,7 @@
         "period": "10/1 ~ 10/31",
         "content": "生鮮感謝祭複製優惠碼",
         "platform": "foodpanda",
-        "code": null,
+        "code": "生鮮感謝祭",
         "link": false
       },
       {
@@ -804,7 +858,7 @@
         "period": "10/1 ~ 10/31",
         "content": "生鮮感謝祭複製優惠碼",
         "platform": "foodpanda",
-        "code": null,
+        "code": "生鮮感謝祭",
         "link": false
       },
       {
@@ -813,7 +867,7 @@
         "period": "10/1 ~ 10/31",
         "content": "生鮮感謝祭複製優惠碼",
         "platform": "foodpanda",
-        "code": null,
+        "code": "生鮮感謝祭",
         "link": false
       },
       {
@@ -822,7 +876,7 @@
         "period": "10/1 ~ 10/31",
         "content": "生鮮感謝祭複製優惠碼",
         "platform": "foodpanda",
-        "code": null,
+        "code": "生鮮感謝祭",
         "link": false
       },
       {
@@ -831,7 +885,7 @@
         "period": "10/1 ~ 10/16",
         "content": "揪你甜蜜蜜複製優惠碼",
         "platform": "foodpanda",
-        "code": null,
+        "code": "揪你甜蜜蜜",
         "link": false
       },
       {
@@ -840,7 +894,7 @@
         "period": "10/1 ~ 10/31 指定週六、週日",
         "content": "週末買全聯複製優惠碼",
         "platform": "foodpanda",
-        "code": null,
+        "code": "週末買全聯",
         "link": false
       },
       {
@@ -849,7 +903,7 @@
         "period": "10/1 ~ 10/31 指定週六、週日",
         "content": "週末買全聯複製優惠碼",
         "platform": "foodpanda",
-        "code": null,
+        "code": "週末買全聯",
         "link": false
       },
       {
@@ -858,7 +912,7 @@
         "period": "10/1 ~ 10/31 指定週六、週日",
         "content": "週末買全聯複製優惠碼",
         "platform": "foodpanda",
-        "code": null,
+        "code": "週末買全聯",
         "link": false
       },
       {
@@ -867,7 +921,7 @@
         "period": "10/1 ~ 10/31 指定週日",
         "content": "週日買全聯複製優惠碼",
         "platform": "foodpanda",
-        "code": null,
+        "code": "週日買全聯",
         "link": false
       },
       {
@@ -877,7 +931,7 @@
         "content": "查看優惠前往查看優惠",
         "platform": "foodpanda",
         "code": null,
-        "link": false
+        "link": true
       },
       {
         "section": "生鮮雜貨優惠碼整理｜10 月最新折扣、全聯週末優惠一次看",
@@ -885,7 +939,7 @@
         "period": "10/1 ~ 10/6",
         "content": "咖啡折八十元複製優惠碼",
         "platform": "foodpanda",
-        "code": null,
+        "code": "咖啡折八十元",
         "link": false
       },
       {
@@ -894,7 +948,7 @@
         "period": "10/1 ~ 10/6",
         "content": "咖啡現折八十元複製優惠碼",
         "platform": "foodpanda",
-        "code": null,
+        "code": "咖啡現折八十元",
         "link": false
       },
       {
@@ -903,7 +957,7 @@
         "period": "10/1 ~ 10/6",
         "content": "咖啡折三十元複製優惠碼",
         "platform": "foodpanda",
-        "code": null,
+        "code": "咖啡折三十元",
         "link": false
       },
       {
@@ -913,7 +967,7 @@
         "content": "查看優惠前往查看優惠",
         "platform": "foodpanda",
         "code": null,
-        "link": false
+        "link": true
       },
       {
         "section": "pandago 即時快遞 優惠碼",
@@ -921,7 +975,7 @@
         "period": "期限未提供",
         "content": "快送複製優惠碼",
         "platform": "foodpanda",
-        "code": null,
+        "code": "快送",
         "link": false
       },
       {
@@ -930,7 +984,7 @@
         "period": "10/1－10/31",
         "content": "psctbce610複製優惠碼",
         "platform": "foodpanda",
-        "code": null,
+        "code": "psctbce610",
         "link": false
       },
       {
@@ -939,7 +993,7 @@
         "period": "10/1－10/31",
         "content": "psctbc610複製優惠碼",
         "platform": "foodpanda",
-        "code": null,
+        "code": "psctbc610",
         "link": false
       },
       {
@@ -948,7 +1002,7 @@
         "period": "至 12/31",
         "content": "psctbclp26複製優惠碼",
         "platform": "foodpanda",
-        "code": null,
+        "code": "psctbclp26",
         "link": false
       },
       {
@@ -958,7 +1012,7 @@
         "content": "前往下單複製優惠碼",
         "platform": "foodpanda",
         "code": null,
-        "link": false
+        "link": true
       },
       {
         "section": "學生、企業用戶優惠",
@@ -966,7 +1020,7 @@
         "period": "10/1－10/31",
         "content": "CTBCFREE複製優惠碼",
         "platform": "foodpanda",
-        "code": null,
+        "code": "CTBCFREE",
         "link": false
       },
       {
@@ -976,7 +1030,7 @@
         "content": "前往下單複製優惠碼",
         "platform": "foodpanda",
         "code": null,
-        "link": false
+        "link": true
       },
       {
         "section": "學生、企業用戶優惠",
@@ -985,7 +1039,7 @@
         "content": "前往下單複製優惠碼",
         "platform": "foodpanda",
         "code": null,
-        "link": false
+        "link": true
       },
       {
         "section": "學生、企業用戶優惠",
@@ -994,7 +1048,7 @@
         "content": "前往下單複製優惠碼",
         "platform": "foodpanda",
         "code": null,
-        "link": false
+        "link": true
       },
       {
         "section": "學生、企業用戶優惠",
@@ -1003,7 +1057,7 @@
         "content": "前往下單複製優惠碼",
         "platform": "foodpanda",
         "code": null,
-        "link": false
+        "link": true
       },
       {
         "section": "學生、企業用戶優惠",
@@ -1012,7 +1066,7 @@
         "content": "前往下單複製優惠碼",
         "platform": "foodpanda",
         "code": null,
-        "link": false
+        "link": true
       },
       {
         "section": "學生、企業用戶優惠",
@@ -1021,70 +1075,7 @@
         "content": "前往下單複製優惠碼",
         "platform": "foodpanda",
         "code": null,
-        "link": false
-      },
-      {
-        "section": "2026 年 10 月香港地區 foodpanda 優惠碼整理",
-        "scope": "限首次下單的新用戶，每個帳戶限用 1 次。",
-        "period": "至 12/31",
-        "content": "首張外送訂單滿 HK$150 享 6 折，最高減 HK$120。",
-        "platform": "foodpanda",
-        "code": "FP120",
-        "link": false
-      },
-      {
-        "section": "2026 年 10 月香港地區 foodpanda 優惠碼整理",
-        "scope": "限首次使用 Pick-up 的新客；實際門檻以帳號顯示為準。",
-        "period": "App 顯示為準",
-        "content": "首次使用外帶自取可享指定折扣。",
-        "platform": "foodpanda",
-        "code": "PU50",
-        "link": false
-      },
-      {
-        "section": "2026 年 10 月香港地區 foodpanda 優惠碼整理",
-        "scope": "須刷指定渣打信用卡；每月限前 14,000 筆合資格交易。",
-        "period": "10 月檔期內",
-        "content": "美食外送或自取滿 HK$150 減 HK$20。",
-        "platform": "foodpanda",
-        "code": "SCBDINE",
-        "link": false
-      },
-      {
-        "section": "2026 年 10 月香港地區 foodpanda 優惠碼整理",
-        "scope": "須刷指定渣打信用卡；每月限前 1,000 筆合資格交易。",
-        "period": "10 月檔期內",
-        "content": "foodpanda mall 或 pandamart 滿 HK$150 減 HK$30。",
-        "platform": "foodpanda",
-        "code": "SCBSHOP",
-        "link": false
-      },
-      {
-        "section": "2026 年 10 月香港地區 foodpanda 優惠碼整理",
-        "scope": "限首購新客且刷指定渣打信用卡；每月限前 2,500 筆。",
-        "period": "10 月檔期內",
-        "content": "首次下單滿 HK$150 減 HK$50。",
-        "platform": "foodpanda",
-        "code": "SCB2021",
-        "link": false
-      },
-      {
-        "section": "2026 年 10 月香港地區 foodpanda 優惠碼整理",
-        "scope": "限指定合作店家與指定帳戶門檻。",
-        "period": "依 App 顯示",
-        "content": "指定餐廳可享現折，最高折約 HK$100。",
-        "platform": "foodpanda",
-        "code": "PANDADEAL",
-        "link": false
-      },
-      {
-        "section": "2026 年 10 月香港地區 foodpanda 優惠碼整理",
-        "scope": "長效實測代碼；適用帳號與店家資格依系統判定。",
-        "period": "依 App 顯示",
-        "content": "指定超市訂單滿 HK$400 減 HK$45。",
-        "platform": "foodpanda",
-        "code": "mc45",
-        "link": false
+        "link": true
       }
     ]
   }
