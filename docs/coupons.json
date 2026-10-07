@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-10-07T10:12:07.288Z",
-  "updated": "2026-10-07 18:12",
+  "generatedAt": "2026-10-07T18:56:02.084Z",
+  "updated": "2026-10-08 02:56",
   "sources": {
     "ubereats": "https://raw.githubusercontent.com/ridemountainpig/tasty-coupon/main/coupon-json/ubereats-coupon.json",
     "foodpanda": "https://raw.githubusercontent.com/ridemountainpig/tasty-coupon/main/coupon-json/foodpanda-coupon.json"
@@ -59,9 +59,9 @@
         "section": "Uber One 訂閱會員優惠資訊",
         "scope": "指定活動商家",
         "period": "9/23 ~ 10/6",
-        "content": "中秋嚴選複製 優惠碼",
+        "content": "中秋嚴選複製優惠碼",
         "platform": "ubereats",
-        "code": null,
+        "code": "中秋嚴選",
         "link": false
       },
       {
@@ -230,9 +230,9 @@
         "section": "美食外送丨外帶自取 優惠",
         "scope": "指定用戶",
         "period": "~ 12/31",
-        "content": "省吃七餐複製 優惠碼",
+        "content": "省吃七餐複製優惠碼",
         "platform": "ubereats",
-        "code": null,
+        "code": "省吃七餐",
         "link": false
       },
       {
@@ -401,9 +401,18 @@
         "section": "區域限定與分眾專屬折價券（含青少年帳號）",
         "scope": "青少年用戶",
         "period": "~ 12/31",
-        "content": "青春享點複製 優惠碼青春我點複製優惠碼",
+        "content": "青春享點複製優惠碼青春我點複製優惠碼",
         "platform": "ubereats",
-        "code": "青春享點複製 優惠碼青春我點",
+        "code": "青春享點",
+        "link": false
+      },
+      {
+        "section": "區域限定與分眾專屬折價券（含青少年帳號）",
+        "scope": "青少年用戶",
+        "period": "~ 12/31",
+        "content": "青春享點複製優惠碼青春我點複製優惠碼",
+        "platform": "ubereats",
+        "code": "青春我點",
         "link": false
       },
       {
