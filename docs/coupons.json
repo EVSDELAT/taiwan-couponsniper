@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-10-11T12:44:53.797Z",
-  "updated": "2026-10-11 20:44",
+  "generatedAt": "2026-10-11T19:32:25.620Z",
+  "updated": "2026-10-12 03:32",
   "sources": {
     "ubereats": "https://raw.githubusercontent.com/ridemountainpig/tasty-coupon/main/coupon-json/ubereats-coupon.json",
     "foodpanda": "https://raw.githubusercontent.com/ridemountainpig/tasty-coupon/main/coupon-json/foodpanda-coupon.json"
@@ -593,8 +593,17 @@
       },
       {
         "section": "pandapro 訂閱優惠碼",
+        "scope": "中信foodpanda 聯名卡友",
+        "period": "10/1 ~ 10/31",
+        "content": "CTBCFREE複製優惠碼",
+        "platform": "foodpanda",
+        "code": "CTBCFREE",
+        "link": false
+      },
+      {
+        "section": "pandapro 訂閱優惠碼",
         "scope": "全用戶",
-        "period": "用完為止",
+        "period": "10/1 ~ 10/31",
         "content": "JOIN12複製優惠碼",
         "platform": "foodpanda",
         "code": "JOIN12",
@@ -603,7 +612,7 @@
       {
         "section": "pandapro 訂閱優惠碼",
         "scope": "全用戶",
-        "period": "用完為止",
+        "period": "10/1 ~ 10/31",
         "content": "JOIN6複製優惠碼",
         "platform": "foodpanda",
         "code": "JOIN6",
@@ -649,18 +658,18 @@
         "section": "pandapro 會員優惠碼",
         "scope": "中信 foodpanda 聯名卡友",
         "period": "10/1 ~ 10/31",
-        "content": "CTBCFREE複製優惠碼",
+        "content": "CTBCFREE複製 優惠碼",
         "platform": "foodpanda",
-        "code": "CTBCFREE",
+        "code": null,
         "link": false
       },
       {
         "section": "pandapro 會員優惠碼",
         "scope": "統一超商",
         "period": "10/1 ~ 10/15",
-        "content": "咖啡請你喝複製 優惠碼",
+        "content": "咖啡請你喝複製優惠碼",
         "platform": "foodpanda",
-        "code": null,
+        "code": "咖啡請你喝",
         "link": false
       },
       {
@@ -775,18 +784,18 @@
         "section": "生鮮雜貨優惠碼整理｜10 月最新折扣、全聯週末優惠一次看",
         "scope": "樂家康超市",
         "period": "10/1 ~ 10/31 平日適用",
-        "content": "新鮮八複製優惠碼",
+        "content": "新鮮八複製 優惠碼",
         "platform": "foodpanda",
-        "code": "新鮮八",
+        "code": null,
         "link": false
       },
       {
         "section": "生鮮雜貨優惠碼整理｜10 月最新折扣、全聯週末優惠一次看",
         "scope": "屈臣氏",
         "period": "10/1 ~ 10/31",
-        "content": "生鮮感謝祭複製 優惠碼",
+        "content": "生鮮感謝祭複製優惠碼",
         "platform": "foodpanda",
-        "code": null,
+        "code": "生鮮感謝祭",
         "link": false
       },
       {
