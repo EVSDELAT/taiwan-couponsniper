@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-10-13T10:30:49.301Z",
-  "updated": "2026-10-13 18:30",
+  "generatedAt": "2026-10-13T19:14:16.963Z",
+  "updated": "2026-10-14 03:14",
   "sources": {
     "ubereats": "https://raw.githubusercontent.com/ridemountainpig/tasty-coupon/main/coupon-json/ubereats-coupon.json",
     "foodpanda": "https://raw.githubusercontent.com/ridemountainpig/tasty-coupon/main/coupon-json/foodpanda-coupon.json"
@@ -80,6 +80,24 @@
         "content": "優市五歲優複製優惠碼",
         "platform": "ubereats",
         "code": "優市五歲優",
+        "link": false
+      },
+      {
+        "section": "美食外送丨外帶自取 優惠",
+        "scope": "全用戶",
+        "period": "9/1 ~ 12/31",
+        "content": "朋友吃美食複製優惠碼",
+        "platform": "ubereats",
+        "code": "朋友吃美食",
+        "link": false
+      },
+      {
+        "section": "美食外送丨外帶自取 優惠",
+        "scope": "全用戶",
+        "period": "10/1 ~ 10/31",
+        "content": "十月吃飽複製優惠碼",
+        "platform": "ubereats",
+        "code": "十月吃飽",
         "link": false
       },
       {
@@ -221,9 +239,9 @@
         "section": "區域限定與分眾專屬折價券（含青少年帳號）",
         "scope": "分眾優惠",
         "period": "10/1 ~ 10/15",
-        "content": "十月點餐複製 優惠碼",
+        "content": "十月點餐複製優惠碼",
         "platform": "ubereats",
-        "code": null,
+        "code": "十月點餐",
         "link": false
       },
       {
@@ -365,18 +383,9 @@
         "section": "本月精選：生鮮雜貨與全聯折扣碼總整理",
         "scope": "好市多首購",
         "period": "~ 10/31",
-        "content": "月光貴族複製優惠碼ken220複製優惠碼",
+        "content": "月光貴族複製 優惠碼ken220複製優惠碼",
         "platform": "ubereats",
-        "code": "月光貴族",
-        "link": false
-      },
-      {
-        "section": "本月精選：生鮮雜貨與全聯折扣碼總整理",
-        "scope": "好市多首購",
-        "period": "~ 10/31",
-        "content": "月光貴族複製優惠碼ken220複製優惠碼",
-        "platform": "ubereats",
-        "code": "ken220",
+        "code": "月光貴族複製 優惠碼ken220",
         "link": false
       },
       {
@@ -392,9 +401,9 @@
         "section": "本月精選：生鮮雜貨與全聯折扣碼總整理",
         "scope": "生鮮雜貨首購",
         "period": "10/1 ~ 10/31",
-        "content": "十月省450複製 優惠碼",
+        "content": "十月省450複製優惠碼",
         "platform": "ubereats",
-        "code": null,
+        "code": "十月省450",
         "link": false
       },
       {
