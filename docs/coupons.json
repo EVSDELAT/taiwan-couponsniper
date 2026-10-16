@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-10-16T11:18:24.724Z",
-  "updated": "2026-10-16 19:18",
+  "generatedAt": "2026-10-16T16:35:25.234Z",
+  "updated": "2026-10-17 00:35",
   "sources": {
     "ubereats": "https://raw.githubusercontent.com/ridemountainpig/tasty-coupon/main/coupon-json/ubereats-coupon.json",
     "foodpanda": "https://raw.githubusercontent.com/ridemountainpig/tasty-coupon/main/coupon-json/foodpanda-coupon.json"
@@ -10,6 +10,15 @@
   "ubereats": {
     "month": " 2026 年 10 月",
     "coupons": [
+      {
+        "section": "Uber One 訂閱會員優惠資訊",
+        "scope": "活動餐廳",
+        "period": "10/7 ~ 10/20",
+        "content": "十在好吃複製優惠碼",
+        "platform": "ubereats",
+        "code": "十在好吃",
+        "link": false
+      },
       {
         "section": "Uber One 訂閱會員優惠資訊",
         "scope": "指定活動餐廳",
@@ -32,9 +41,9 @@
         "section": "Uber One 訂閱會員優惠資訊",
         "scope": "外帶自取",
         "period": "10/1～10/31",
-        "content": "十月來外帶複製優惠碼",
+        "content": "十月來外帶複製 優惠碼",
         "platform": "ubereats",
-        "code": "十月來外帶",
+        "code": null,
         "link": false
       },
       {
@@ -68,9 +77,9 @@
         "section": "Uber One 訂閱會員優惠資訊",
         "scope": "優市",
         "period": "6/12 ~ 12/25",
-        "content": "初夏買優市複製 優惠碼",
+        "content": "初夏買優市複製優惠碼",
         "platform": "ubereats",
-        "code": null,
+        "code": "初夏買優市",
         "link": false
       },
       {
@@ -138,7 +147,7 @@
       },
       {
         "section": "美食外送丨外帶自取 優惠",
-        "scope": "外帶自取",
+        "scope": "指定用戶、外帶自取",
         "period": "10/1 ~ 10/31",
         "content": "自取好手禮複製優惠碼",
         "platform": "ubereats",
@@ -167,9 +176,9 @@
         "section": "美食外送丨外帶自取 優惠",
         "scope": "外送、自取",
         "period": "9/1 ~ 10/31",
-        "content": "躺著點複製優惠碼",
+        "content": "躺著點複製 優惠碼",
         "platform": "ubereats",
-        "code": "躺著點",
+        "code": null,
         "link": false
       },
       {
@@ -329,9 +338,45 @@
         "section": "區域限定與分眾專屬折價券（含青少年帳號）",
         "scope": "青少年用戶",
         "period": "~ 12/31",
-        "content": "青春享點複製優惠碼",
+        "content": "青春享點複製 優惠碼",
         "platform": "ubereats",
-        "code": "青春享點",
+        "code": null,
+        "link": false
+      },
+      {
+        "section": "本月精選：生鮮雜貨與全聯折扣碼總整理",
+        "scope": "7-ELEVEN",
+        "period": "10/1 ~ 10/31",
+        "content": "十月499買統一複製優惠碼",
+        "platform": "ubereats",
+        "code": "十月499買統一",
+        "link": false
+      },
+      {
+        "section": "本月精選：生鮮雜貨與全聯折扣碼總整理",
+        "scope": "7-ELEVEN",
+        "period": "10/1 ~ 10/31",
+        "content": "十月1111買統一複製優惠碼",
+        "platform": "ubereats",
+        "code": "十月1111買統一",
+        "link": false
+      },
+      {
+        "section": "本月精選：生鮮雜貨與全聯折扣碼總整理",
+        "scope": "分眾",
+        "period": "~ 10/31",
+        "content": "十月省180複製優惠碼",
+        "platform": "ubereats",
+        "code": "十月省180",
+        "link": false
+      },
+      {
+        "section": "本月精選：生鮮雜貨與全聯折扣碼總整理",
+        "scope": "好市多",
+        "period": "10/5 ~ 10/22",
+        "content": "好市多秋日省複製優惠碼",
+        "platform": "ubereats",
+        "code": "好市多秋日省",
         "link": false
       },
       {
@@ -347,7 +392,7 @@
         "section": "本月精選：生鮮雜貨與全聯折扣碼總整理",
         "scope": "好市多首購",
         "period": "~ 10/31",
-        "content": "月光貴族複製優惠碼ken220複製優惠碼",
+        "content": "月光貴族複製優惠碼",
         "platform": "ubereats",
         "code": "月光貴族",
         "link": false
@@ -355,19 +400,10 @@
       {
         "section": "本月精選：生鮮雜貨與全聯折扣碼總整理",
         "scope": "好市多首購",
-        "period": "~ 10/31",
-        "content": "月光貴族複製優惠碼ken220複製優惠碼",
-        "platform": "ubereats",
-        "code": "ken220",
-        "link": false
-      },
-      {
-        "section": "本月精選：生鮮雜貨與全聯折扣碼總整理",
-        "scope": "好市多首購",
         "period": "10/1 ~ 10/31",
-        "content": "新客點好市多複製 優惠碼",
+        "content": "新客點好市多複製優惠碼",
         "platform": "ubereats",
-        "code": null,
+        "code": "新客點好市多",
         "link": false
       },
       {
@@ -386,6 +422,15 @@
         "content": "十月新朋友複製優惠碼",
         "platform": "ubereats",
         "code": "十月新朋友",
+        "link": false
+      },
+      {
+        "section": "本月精選：生鮮雜貨與全聯折扣碼總整理",
+        "scope": "生鮮雜貨首購",
+        "period": "10/16 ~ 11/30",
+        "content": "嚕藥師150複製優惠碼",
+        "platform": "ubereats",
+        "code": "嚕藥師150",
         "link": false
       },
       {
@@ -652,15 +697,6 @@
         "content": "甜蜜蜜請你吃複製優惠碼",
         "platform": "foodpanda",
         "code": "甜蜜蜜請你吃",
-        "link": false
-      },
-      {
-        "section": "pandapro 會員優惠碼",
-        "scope": "統一超商",
-        "period": "10/1 ~ 10/15",
-        "content": "咖啡請你喝複製優惠碼",
-        "platform": "foodpanda",
-        "code": "咖啡請你喝",
         "link": false
       },
       {
