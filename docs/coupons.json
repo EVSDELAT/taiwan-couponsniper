@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-10-15T21:20:02.255Z",
-  "updated": "2026-10-16 05:20",
+  "generatedAt": "2026-10-16T04:27:17.737Z",
+  "updated": "2026-10-16 12:27",
   "sources": {
     "ubereats": "https://raw.githubusercontent.com/ridemountainpig/tasty-coupon/main/coupon-json/ubereats-coupon.json",
     "foodpanda": "https://raw.githubusercontent.com/ridemountainpig/tasty-coupon/main/coupon-json/foodpanda-coupon.json"
@@ -112,15 +112,6 @@
       {
         "section": "美食外送丨外帶自取 優惠",
         "scope": "外帶自取",
-        "period": "10/14限定",
-        "content": "週三狂點複製優惠碼",
-        "platform": "ubereats",
-        "code": "週三狂點",
-        "link": false
-      },
-      {
-        "section": "美食外送丨外帶自取 優惠",
-        "scope": "外帶自取",
         "period": "10/21限定",
         "content": "週三狂取複製優惠碼",
         "platform": "ubereats",
@@ -165,15 +156,6 @@
       },
       {
         "section": "美食外送丨外帶自取 優惠",
-        "scope": "外送、自取",
-        "period": "~ 10/15",
-        "content": "開學jo要吃複製優惠碼",
-        "platform": "ubereats",
-        "code": "開學jo要吃",
-        "link": false
-      },
-      {
-        "section": "美食外送丨外帶自取 優惠",
         "scope": "彰化銀行Visa無限卡友、商旅御璽Fun心卡友",
         "period": "7/1 ~ 12/31",
         "content": "彰銀省隊友26複製優惠碼",
@@ -212,171 +194,153 @@
         "section": "美食外送丨外帶自取 優惠",
         "scope": "玉山卡友",
         "period": "用完為止",
-        "content": "玉山限定優惠複製 優惠碼",
+        "content": "玉山限定優惠複製優惠碼",
         "platform": "ubereats",
-        "code": null,
+        "code": "玉山限定優惠",
         "link": false
       },
       {
         "section": "區域限定與分眾專屬折價券（含青少年帳號）",
-        "scope": "金門縣",
-        "period": "10/1 ~ 10/15",
-        "content": "十省七五複製優惠碼",
+        "scope": "分眾",
+        "period": "10/16 ~ 10/31",
+        "content": "樂十好料複製優惠碼",
         "platform": "ubereats",
-        "code": "十省七五",
-        "link": false
-      },
-      {
-        "section": "區域限定與分眾專屬折價券（含青少年帳號）",
-        "scope": "台南市",
-        "period": "10/1 ~ 10/15",
-        "content": "十要六折複製優惠碼",
-        "platform": "ubereats",
-        "code": "十要六折",
-        "link": false
-      },
-      {
-        "section": "區域限定與分眾專屬折價券（含青少年帳號）",
-        "scope": "分眾優惠",
-        "period": "10/1 ~ 10/15",
-        "content": "十月點餐複製優惠碼",
-        "platform": "ubereats",
-        "code": "十月點餐",
-        "link": false
-      },
-      {
-        "section": "區域限定與分眾專屬折價券（含青少年帳號）",
-        "scope": "分眾優惠",
-        "period": "10/1 ~ 10/15",
-        "content": "美食十在複製優惠碼",
-        "platform": "ubereats",
-        "code": "美食十在",
+        "code": "樂十好料",
         "link": false
       },
       {
         "section": "區域限定與分眾專屬折價券（含青少年帳號）",
         "scope": "基隆市",
-        "period": "10/1 ~ 10/15",
-        "content": "十點七五複製優惠碼",
+        "period": "10/16 ~ 10/31",
+        "content": "十享七五複製優惠碼",
         "platform": "ubereats",
-        "code": "十點七五",
+        "code": "十享七五",
         "link": false
       },
       {
         "section": "區域限定與分眾專屬折價券（含青少年帳號）",
         "scope": "苗栗縣",
-        "period": "10/1 ~ 10/15",
-        "content": "十點六折複製優惠碼",
+        "period": "10/16 ~ 10/31",
+        "content": "十月點六複製優惠碼",
         "platform": "ubereats",
-        "code": "十點六折",
+        "code": "十月點六",
         "link": false
       },
       {
         "section": "區域限定與分眾專屬折價券（含青少年帳號）",
         "scope": "彰化縣",
-        "period": "10/1 ~ 10/15",
-        "content": "十好六折複製優惠碼",
+        "period": "10/16 ~ 10/31",
+        "content": "十月好六複製優惠碼",
         "platform": "ubereats",
-        "code": "十好六折",
+        "code": "十月好六",
         "link": false
       },
       {
         "section": "區域限定與分眾專屬折價券（含青少年帳號）",
         "scope": "雲林縣",
-        "period": "10/1 ~ 10/15",
-        "content": "十喜六折複製優惠碼",
+        "period": "10/16 ~ 10/31",
+        "content": "十月喜六複製優惠碼",
         "platform": "ubereats",
-        "code": "十喜六折",
+        "code": "十月喜六",
         "link": false
       },
       {
         "section": "區域限定與分眾專屬折價券（含青少年帳號）",
         "scope": "南投縣",
-        "period": "10/1 ~ 10/15",
-        "content": "十吃六折複製優惠碼",
+        "period": "10/16 ~ 10/31",
+        "content": "十月吃六複製優惠碼",
         "platform": "ubereats",
-        "code": "十吃六折",
+        "code": "十月吃六",
         "link": false
       },
       {
         "section": "區域限定與分眾專屬折價券（含青少年帳號）",
         "scope": "嘉義縣市",
-        "period": "10/1 ~ 10/15",
-        "content": "十飽六折複製優惠碼",
+        "period": "10/16 ~ 10/31",
+        "content": "十月飽六複製優惠碼",
         "platform": "ubereats",
-        "code": "十飽六折",
+        "code": "十月飽六",
+        "link": false
+      },
+      {
+        "section": "區域限定與分眾專屬折價券（含青少年帳號）",
+        "scope": "台南市",
+        "period": "10/16 ~ 10/31",
+        "content": "十月要六複製優惠碼",
+        "platform": "ubereats",
+        "code": "十月要六",
         "link": false
       },
       {
         "section": "區域限定與分眾專屬折價券（含青少年帳號）",
         "scope": "屏東縣",
-        "period": "10/1 ~ 10/15",
-        "content": "十狂六折複製優惠碼",
+        "period": "10/16 ~ 10/31",
+        "content": "十月狂六複製優惠碼",
         "platform": "ubereats",
-        "code": "十狂六折",
+        "code": "十月狂六",
         "link": false
       },
       {
         "section": "區域限定與分眾專屬折價券（含青少年帳號）",
         "scope": "宜蘭縣",
-        "period": "10/1 ~ 10/15",
-        "content": "十省六折複製優惠碼",
+        "period": "10/16 ~ 10/31",
+        "content": "十月省六複製優惠碼",
         "platform": "ubereats",
-        "code": "十省六折",
+        "code": "十月省六",
         "link": false
       },
       {
         "section": "區域限定與分眾專屬折價券（含青少年帳號）",
         "scope": "花蓮縣",
-        "period": "10/1 ~ 10/15",
-        "content": "十好七五複製優惠碼",
+        "period": "10/16 ~ 10/31",
+        "content": "十訂七五複製優惠碼",
         "platform": "ubereats",
-        "code": "十好七五",
+        "code": "十訂七五",
         "link": false
       },
       {
         "section": "區域限定與分眾專屬折價券（含青少年帳號）",
         "scope": "台東縣",
-        "period": "10/1 ~ 10/15",
-        "content": "十吃七五複製優惠碼",
+        "period": "10/16 ~ 10/31",
+        "content": "十想七五複製優惠碼",
         "platform": "ubereats",
-        "code": "十吃七五",
+        "code": "十想七五",
         "link": false
       },
       {
         "section": "區域限定與分眾專屬折價券（含青少年帳號）",
         "scope": "澎湖縣",
-        "period": "10/1 ~ 10/15",
-        "content": "十飽七五複製優惠碼",
+        "period": "10/16 ~ 10/31",
+        "content": "十狂七五複製優惠碼",
         "platform": "ubereats",
-        "code": "十飽七五",
+        "code": "十狂七五",
+        "link": false
+      },
+      {
+        "section": "區域限定與分眾專屬折價券（含青少年帳號）",
+        "scope": "金門縣",
+        "period": "10/16 ~ 10/31",
+        "content": "十有七五複製優惠碼",
+        "platform": "ubereats",
+        "code": "十有七五",
         "link": false
       },
       {
         "section": "區域限定與分眾專屬折價券（含青少年帳號）",
         "scope": "青少年用戶",
         "period": "~ 12/31",
-        "content": "青春享點複製優惠碼青春我點複製優惠碼",
+        "content": "青春享點複製優惠碼",
         "platform": "ubereats",
         "code": "青春享點",
-        "link": false
-      },
-      {
-        "section": "區域限定與分眾專屬折價券（含青少年帳號）",
-        "scope": "青少年用戶",
-        "period": "~ 12/31",
-        "content": "青春享點複製優惠碼青春我點複製優惠碼",
-        "platform": "ubereats",
-        "code": "青春我點",
         "link": false
       },
       {
         "section": "本月精選：生鮮雜貨與全聯折扣碼總整理",
         "scope": "7-ELEVEN",
         "period": "10/1 ~ 10/31",
-        "content": "十月499買統一複製 優惠碼",
+        "content": "十月499買統一複製優惠碼",
         "platform": "ubereats",
-        "code": null,
+        "code": "十月499買統一",
         "link": false
       },
       {
@@ -401,9 +365,9 @@
         "section": "本月精選：生鮮雜貨與全聯折扣碼總整理",
         "scope": "好市多首購",
         "period": "10/1 ~ 10/31",
-        "content": "新客點好市多複製優惠碼",
+        "content": "新客點好市多複製 優惠碼",
         "platform": "ubereats",
-        "code": "新客點好市多",
+        "code": null,
         "link": false
       },
       {
