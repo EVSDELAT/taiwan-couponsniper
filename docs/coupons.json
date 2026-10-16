@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-10-16T04:27:17.737Z",
-  "updated": "2026-10-16 12:27",
+  "generatedAt": "2026-10-16T11:18:24.724Z",
+  "updated": "2026-10-16 19:18",
   "sources": {
     "ubereats": "https://raw.githubusercontent.com/ridemountainpig/tasty-coupon/main/coupon-json/ubereats-coupon.json",
     "foodpanda": "https://raw.githubusercontent.com/ridemountainpig/tasty-coupon/main/coupon-json/foodpanda-coupon.json"
