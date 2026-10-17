@@ -64,7 +64,8 @@ const parseKb56Discounts = (html) => {
       .map(m => cleanCell(m[1])).filter(Boolean);
     // 表格欄位順序：優惠碼／使用連結｜優惠內容｜使用期限｜適用對象
     if (cells.length < 4 || !cells[1]) continue;
-    if (code && code !== "無") byCode.set(code, cells[1]);
+    // data-code 可能是「前往下單」這類動作文字而非真正的代碼，視為免輸碼列
+    if (code && code !== "無" && !linkMarker.test(code)) byCode.set(code, cells[1]);
     else byPeriodScope.set(cells[2] + "|" + cells[3], cells[1]);
   }
   return { byCode, byPeriodScope };

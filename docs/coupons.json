@@ -1,10 +1,10 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-10-17T04:52:34.395Z",
-  "updated": "2026-10-17 12:52",
+  "generatedAt": "2026-10-17T05:35:51.956Z",
+  "updated": "2026-10-17 13:35",
   "sources": {
-    "ubereats": "file:///tmp/coupon-repo/fixtures/ubereats.json",
-    "foodpanda": "file:///tmp/coupon-repo/fixtures/foodpanda.json"
+    "ubereats": "file:///tmp/cr2/ubereats.json",
+    "foodpanda": "file:///tmp/cr2/foodpanda.json"
   },
   "errors": [],
   "ubereats": {
@@ -1043,7 +1043,8 @@
         "content": "前往下單複製優惠碼",
         "platform": "foodpanda",
         "code": null,
-        "link": true
+        "link": true,
+        "discount": "中信聯名卡 平台最高 5% 胖達幣 單筆滿 $288 最高 5%；未滿 $288 最高 2%｜加碼部分每月上限 200 胖達幣"
       },
       {
         "section": "學生、企業用戶優惠",
@@ -1062,7 +1063,8 @@
         "content": "前往下單複製 優惠碼",
         "platform": "foodpanda",
         "code": null,
-        "link": true
+        "link": true,
+        "discount": "國泰世華 CUBE 卡 最高 3.3% 小樹點 消費前切換「樂饗購」權益｜Level 1 為 2%、Level 2 為 3%、Level 3 最高 3.3%"
       },
       {
         "section": "學生、企業用戶優惠",
@@ -1071,7 +1073,8 @@
         "content": "前往下單複製優惠碼",
         "platform": "foodpanda",
         "code": null,
-        "link": true
+        "link": true,
+        "discount": "星展傳說對決聯名卡 最高 10% 現金積點 外送平台列入「生活補給」精選通路｜1% 基本回饋＋最高 9% 加碼｜加碼回饋設有每月上限"
       },
       {
         "section": "學生、企業用戶優惠",
@@ -1080,7 +1083,8 @@
         "content": "前往下單複製優惠碼",
         "platform": "foodpanda",
         "code": null,
-        "link": true
+        "link": true,
+        "discount": "聯邦信用卡 登錄後筆筆 3% 刷卡金 每月 10 日 15:00 起開放登錄｜每月限量 6,000 名｜每戶每月最高回饋 $200"
       },
       {
         "section": "學生、企業用戶優惠",
@@ -1089,7 +1093,8 @@
         "content": "前往下單複製優惠碼",
         "platform": "foodpanda",
         "code": null,
-        "link": true
+        "link": true,
+        "discount": "玉山 Unicard 最高 4.5% e point 百大指定消費含外送平台｜簡單選最高 3%、任意選最高 3.5%、UP 選最高 4.5%"
       },
       {
         "section": "學生、企業用戶優惠",
@@ -1098,7 +1103,8 @@
         "content": "前往下單複製優惠碼",
         "platform": "foodpanda",
         "code": null,
-        "link": true
+        "link": true,
+        "discount": "台新 Richart 卡 「好饗刷」最高 3.3% 外送平台列入好饗刷指定通路｜需依 Richart Life App 切換權益"
       },
       {
         "section": "學生、企業用戶優惠",
@@ -1107,7 +1113,8 @@
         "content": "前往下單複製優惠碼",
         "platform": "foodpanda",
         "code": null,
-        "link": true
+        "link": true,
+        "discount": "台新街口聯名卡 最高 3.5% 街口幣 外送美食為精選通路｜實體卡、線上輸入卡號、LINE Pay、Apple Pay 等指定形式皆可"
       }
     ]
   }
