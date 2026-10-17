@@ -1,10 +1,10 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-10-17T05:35:51.956Z",
-  "updated": "2026-10-17 13:35",
+  "generatedAt": "2026-10-17T23:38:59.350Z",
+  "updated": "2026-10-18 07:38",
   "sources": {
-    "ubereats": "file:///tmp/cr2/ubereats.json",
-    "foodpanda": "file:///tmp/cr2/foodpanda.json"
+    "ubereats": "file:///tmp/cr3/ubereats.json",
+    "foodpanda": "file:///tmp/cr3/foodpanda.json"
   },
   "errors": [],
   "ubereats": {
@@ -474,9 +474,29 @@
         "section": "本月精選：生鮮雜貨與全聯折扣碼總整理",
         "scope": "生鮮雜貨首購",
         "period": "10/16 ~ 11/30",
-        "content": "嚕藥師150複製優惠碼",
+        "content": "嚕藥師150複製優惠碼健康折150複製優惠碼abby150複製優惠碼",
         "platform": "ubereats",
         "code": "嚕藥師150",
+        "link": false,
+        "discount": "滿 $449 折抵 $150"
+      },
+      {
+        "section": "本月精選：生鮮雜貨與全聯折扣碼總整理",
+        "scope": "生鮮雜貨首購",
+        "period": "10/16 ~ 11/30",
+        "content": "嚕藥師150複製優惠碼健康折150複製優惠碼abby150複製優惠碼",
+        "platform": "ubereats",
+        "code": "健康折150",
+        "link": false,
+        "discount": "滿 $449 折抵 $150"
+      },
+      {
+        "section": "本月精選：生鮮雜貨與全聯折扣碼總整理",
+        "scope": "生鮮雜貨首購",
+        "period": "10/16 ~ 11/30",
+        "content": "嚕藥師150複製優惠碼健康折150複製優惠碼abby150複製優惠碼",
+        "platform": "ubereats",
+        "code": "abby150",
         "link": false,
         "discount": "滿 $449 折抵 $150"
       },
@@ -579,87 +599,6 @@
         "code": null,
         "link": true,
         "discount": "香檸果茶-麝香紅 春烏龍 梔窨茉綠 買 1 送 1"
-      },
-      {
-        "section": "💳 Uber Eats 熱門外送信用卡回饋比較表",
-        "scope": "",
-        "period": "",
-        "content": "",
-        "platform": "ubereats",
-        "code": null,
-        "link": false
-      },
-      {
-        "section": "💳 Uber Eats 熱門外送信用卡回饋比較表",
-        "scope": "",
-        "period": "",
-        "content": "",
-        "platform": "ubereats",
-        "code": null,
-        "link": false
-      },
-      {
-        "section": "💳 Uber Eats 熱門外送信用卡回饋比較表",
-        "scope": "",
-        "period": "",
-        "content": "",
-        "platform": "ubereats",
-        "code": null,
-        "link": false
-      },
-      {
-        "section": "💳 Uber Eats 熱門外送信用卡回饋比較表",
-        "scope": "",
-        "period": "",
-        "content": "",
-        "platform": "ubereats",
-        "code": null,
-        "link": false
-      },
-      {
-        "section": "💳 Uber Eats 熱門外送信用卡回饋比較表",
-        "scope": "",
-        "period": "",
-        "content": "",
-        "platform": "ubereats",
-        "code": null,
-        "link": false
-      },
-      {
-        "section": "💳 Uber Eats 熱門外送信用卡回饋比較表",
-        "scope": "",
-        "period": "",
-        "content": "",
-        "platform": "ubereats",
-        "code": null,
-        "link": false
-      },
-      {
-        "section": "📱 Uber Eats 行動支付支援與認列注意事項",
-        "scope": "",
-        "period": "",
-        "content": "",
-        "platform": "ubereats",
-        "code": null,
-        "link": false
-      },
-      {
-        "section": "📱 Uber Eats 行動支付支援與認列注意事項",
-        "scope": "",
-        "period": "",
-        "content": "",
-        "platform": "ubereats",
-        "code": null,
-        "link": false
-      },
-      {
-        "section": "📱 Uber Eats 行動支付支援與認列注意事項",
-        "scope": "",
-        "period": "",
-        "content": "",
-        "platform": "ubereats",
-        "code": null,
-        "link": false
       }
     ]
   },
@@ -755,16 +694,6 @@
         "code": null,
         "link": false,
         "discount": "免費莊園美式中杯外帶自取"
-      },
-      {
-        "section": "pandapro 會員優惠碼",
-        "scope": "甜蜜蜜",
-        "period": "~ 10/16",
-        "content": "甜蜜蜜請你吃複製優惠碼",
-        "platform": "foodpanda",
-        "code": "甜蜜蜜請你吃",
-        "link": false,
-        "discount": "免費吃招牌「甜蜜蜜番茄湯麵」或 獨家「甜蜜蜜炸醬炒飯」"
       },
       {
         "section": "美食外送優惠碼整理｜10 月滿額現折、星巴克週二、外帶自取優惠",
@@ -870,9 +799,9 @@
         "section": "生鮮雜貨優惠碼整理｜10 月最新折扣、全聯週末優惠一次看",
         "scope": "萬家福",
         "period": "10/1 ~ 10/31 平日適用",
-        "content": "生鮮感謝祭複製 優惠碼",
+        "content": "生鮮感謝祭複製優惠碼",
         "platform": "foodpanda",
-        "code": null,
+        "code": "生鮮感謝祭",
         "link": false,
         "discount": "滿 $899 享 79 折 最高折 $200 每人限用 2 次"
       },
@@ -880,9 +809,9 @@
         "section": "生鮮雜貨優惠碼整理｜10 月最新折扣、全聯週末優惠一次看",
         "scope": "樂家康超市",
         "period": "10/1 ~ 10/31 平日適用",
-        "content": "新鮮八複製優惠碼",
+        "content": "新鮮八複製 優惠碼",
         "platform": "foodpanda",
-        "code": "新鮮八",
+        "code": null,
         "link": false,
         "discount": "平日滿 $799 享 88 折 最高折 $110"
       },
@@ -925,16 +854,6 @@
         "code": "生鮮感謝祭",
         "link": false,
         "discount": "滿 $899 享 79 折 最高折 $200 每人限用 2 次"
-      },
-      {
-        "section": "生鮮雜貨優惠碼整理｜10 月最新折扣、全聯週末優惠一次看",
-        "scope": "甜蜜蜜聯名周邊",
-        "period": "10/1 ~ 10/16",
-        "content": "揪你甜蜜蜜複製優惠碼",
-        "platform": "foodpanda",
-        "code": "揪你甜蜜蜜",
-        "link": false,
-        "discount": "滿 $499 享 85 折 最高折 $100"
       },
       {
         "section": "生鮮雜貨優惠碼整理｜10 月最新折扣、全聯週末優惠一次看",

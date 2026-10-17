@@ -134,14 +134,19 @@ const normalize = (raw, platform) => {
       const offers = copyMarker.test(offer) && !linkMarker.test(offer)
         ? offer.split(copyMarker).map(x => x.trim()).filter(Boolean)
         : [offer];
-      for (const singleOffer of offers) coupons.push({
-        section,
-        scope,
-        period: value(row, ["使用期限", "優惠期間", "活動期間", "期限", "col_1"]),
-        content,
-        platform,
-        ...parseCode(singleOffer),
-      });
+      for (const singleOffer of offers) {
+        const parsed = parseCode(singleOffer);
+        // 空白列直接丟掉：內容、代碼、連結三者皆無（例如來源信用卡比較表的欄位格式不符）
+        if (!content && !parsed.code && !parsed.link) continue;
+        coupons.push({
+          section,
+          scope,
+          period: value(row, ["使用期限", "優惠期間", "活動期間", "期限", "col_1"]),
+          content,
+          platform,
+          ...parsed,
+        });
+      }
     }
   }
   if (!coupons.length || !coupons.some(c => c.code || c.link)) {
