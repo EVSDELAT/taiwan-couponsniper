@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-10-18T10:59:42.276Z",
-  "updated": "2026-10-18 18:59",
+  "generatedAt": "2026-10-18T15:49:18.776Z",
+  "updated": "2026-10-18 23:49",
   "sources": {
     "ubereats": "https://raw.githubusercontent.com/ridemountainpig/tasty-coupon/main/coupon-json/ubereats-coupon.json",
     "foodpanda": "https://raw.githubusercontent.com/ridemountainpig/tasty-coupon/main/coupon-json/foodpanda-coupon.json"
@@ -39,7 +39,7 @@
       },
       {
         "section": "Uber One 訂閱會員優惠資訊",
-        "scope": "指定活動餐廳",
+        "scope": "指定活動 餐廳",
         "period": "10/1～10/31",
         "content": "會員十月享複製優惠碼",
         "platform": "ubereats",
@@ -461,7 +461,7 @@
         "link": false
       },
       {
-        "section": "連鎖特選餐廳買一送一活動一覽",
+        "section": "連鎖特選 餐廳買一送一活動一覽",
         "scope": "麥當勞",
         "period": "贈完為止",
         "content": "查看優惠前往查看優惠",
@@ -470,7 +470,7 @@
         "link": true
       },
       {
-        "section": "連鎖特選餐廳買一送一活動一覽",
+        "section": "連鎖特選 餐廳買一送一活動一覽",
         "scope": "肯德基",
         "period": "贈完為止",
         "content": "查看優惠前往查看優惠",
@@ -479,7 +479,7 @@
         "link": true
       },
       {
-        "section": "連鎖特選餐廳買一送一活動一覽",
+        "section": "連鎖特選 餐廳買一送一活動一覽",
         "scope": "達美樂",
         "period": "贈完為止",
         "content": "查看優惠前往查看優惠",
@@ -488,7 +488,7 @@
         "link": true
       },
       {
-        "section": "連鎖特選餐廳買一送一活動一覽",
+        "section": "連鎖特選 餐廳買一送一活動一覽",
         "scope": "21PLUS風味館",
         "period": "贈完為止",
         "content": "查看優惠前往查看優惠",
@@ -497,7 +497,7 @@
         "link": true
       },
       {
-        "section": "連鎖特選餐廳買一送一活動一覽",
+        "section": "連鎖特選 餐廳買一送一活動一覽",
         "scope": "日向咖啡",
         "period": "贈完為止",
         "content": "查看優惠前往查看優惠",
@@ -506,7 +506,7 @@
         "link": true
       },
       {
-        "section": "連鎖特選餐廳買一送一活動一覽",
+        "section": "連鎖特選 餐廳買一送一活動一覽",
         "scope": "樂法",
         "period": "贈完為止",
         "content": "查看優惠前往查看優惠",
@@ -515,7 +515,7 @@
         "link": true
       },
       {
-        "section": "連鎖特選餐廳買一送一活動一覽",
+        "section": "連鎖特選 餐廳買一送一活動一覽",
         "scope": "黛黛茶 指定分店",
         "period": "贈完為止",
         "content": "查看優惠前往查看優惠",
@@ -524,7 +524,7 @@
         "link": true
       },
       {
-        "section": "連鎖特選餐廳買一送一活動一覽",
+        "section": "連鎖特選 餐廳買一送一活動一覽",
         "scope": "初韻",
         "period": "贈完為止",
         "content": "查看優惠前往查看優惠",
@@ -533,7 +533,7 @@
         "link": true
       },
       {
-        "section": "連鎖特選餐廳買一送一活動一覽",
+        "section": "連鎖特選 餐廳買一送一活動一覽",
         "scope": "西雅圖極品咖啡",
         "period": "贈完為止",
         "content": "查看優惠前往查看優惠",
@@ -542,7 +542,7 @@
         "link": true
       },
       {
-        "section": "連鎖特選餐廳買一送一活動一覽",
+        "section": "連鎖特選 餐廳買一送一活動一覽",
         "scope": "一番茶",
         "period": "贈完為止",
         "content": "查看優惠前往查看優惠",
