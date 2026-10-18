@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-10-17T23:06:34.972Z",
-  "updated": "2026-10-18 07:06",
+  "generatedAt": "2026-10-18T04:27:09.333Z",
+  "updated": "2026-10-18 12:27",
   "sources": {
     "ubereats": "https://raw.githubusercontent.com/ridemountainpig/tasty-coupon/main/coupon-json/ubereats-coupon.json",
     "foodpanda": "https://raw.githubusercontent.com/ridemountainpig/tasty-coupon/main/coupon-json/foodpanda-coupon.json"
@@ -18,6 +18,24 @@
         "platform": "ubereats",
         "code": "十在好吃",
         "link": false
+      },
+      {
+        "section": "Uber One 訂閱會員優惠資訊",
+        "scope": "無訂閱身分用戶",
+        "period": "~ 11/30",
+        "content": "查看優惠前往查看優惠",
+        "platform": "ubereats",
+        "code": null,
+        "link": true
+      },
+      {
+        "section": "Uber One 訂閱會員優惠資訊",
+        "scope": "無訂閱身分用戶",
+        "period": "~ 12/31",
+        "content": "查看優惠前往查看優惠",
+        "platform": "ubereats",
+        "code": null,
+        "link": true
       },
       {
         "section": "Uber One 訂閱會員優惠資訊",
@@ -41,9 +59,9 @@
         "section": "Uber One 訂閱會員優惠資訊",
         "scope": "外帶自取",
         "period": "10/1～10/31",
-        "content": "十月來外帶複製 優惠碼",
+        "content": "十月來外帶複製優惠碼",
         "platform": "ubereats",
-        "code": null,
+        "code": "十月來外帶",
         "link": false
       },
       {
@@ -59,15 +77,6 @@
         "section": "Uber One 訂閱會員優惠資訊",
         "scope": "路易莎 指定分店",
         "period": "9/24 ~ 10/31",
-        "content": "查看優惠前往查看優惠",
-        "platform": "ubereats",
-        "code": null,
-        "link": true
-      },
-      {
-        "section": "Uber One 訂閱會員優惠資訊",
-        "scope": "無訂閱身分用戶",
-        "period": "~ 12/31",
         "content": "查看優惠前往查看優惠",
         "platform": "ubereats",
         "code": null,
@@ -122,9 +131,9 @@
         "section": "美食外送丨外帶自取 優惠",
         "scope": "外帶自取",
         "period": "10/21限定",
-        "content": "週三狂取複製優惠碼",
+        "content": "週三狂取複製 優惠碼",
         "platform": "ubereats",
-        "code": "週三狂取",
+        "code": null,
         "link": false
       },
       {
@@ -176,9 +185,9 @@
         "section": "美食外送丨外帶自取 優惠",
         "scope": "外送、自取",
         "period": "9/1 ~ 10/31",
-        "content": "躺著點複製 優惠碼",
+        "content": "躺著點複製優惠碼",
         "platform": "ubereats",
-        "code": null,
+        "code": "躺著點",
         "link": false
       },
       {
@@ -284,9 +293,9 @@
         "section": "區域限定與分眾專屬折價券（含青少年帳號）",
         "scope": "屏東縣",
         "period": "10/16 ~ 10/31",
-        "content": "十月狂六複製優惠碼",
+        "content": "十月狂六複製 優惠碼",
         "platform": "ubereats",
-        "code": "十月狂六",
+        "code": null,
         "link": false
       },
       {
@@ -338,9 +347,9 @@
         "section": "區域限定與分眾專屬折價券（含青少年帳號）",
         "scope": "青少年用戶",
         "period": "~ 12/31",
-        "content": "青春享點複製 優惠碼",
+        "content": "青春享點複製優惠碼",
         "platform": "ubereats",
-        "code": null,
+        "code": "青春享點",
         "link": false
       },
       {
