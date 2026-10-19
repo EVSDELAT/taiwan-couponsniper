@@ -25,6 +25,78 @@ const requestJson = async (url) => {
   }
 };
 
+// tasty-coupon 只提供代碼，折扣明細（滿額／折扣率／上限）要從 kb56.tw 頁面表格補。
+// 兩邊是同一批優惠：代碼可 100% 對應；免輸碼列用（使用期限｜適用對象）對應。
+const kb56Pages = {
+  ubereats: "https://kb56.tw/uber-eats-coupon/",
+  foodpanda: "https://kb56.tw/foodpanda-coupon/",
+};
+
+const requestText = async (url) => {
+  const controller = new AbortController();
+  const timer = setTimeout(() => controller.abort(), 30_000);
+  try {
+    const response = await fetch(url, {
+      headers: {
+        accept: "text/html",
+        "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0 Safari/537.36",
+      },
+      signal: controller.signal,
+    });
+    if (!response.ok) throw new Error("HTTP " + response.status);
+    return await response.text();
+  } finally {
+    clearTimeout(timer);
+  }
+};
+
+const cleanCell = (html) => html.replace(/<[^>]+>/g, " ").replace(/\s+/g, " ").trim();
+
+const parseKb56Discounts = (html) => {
+  const byCode = new Map();
+  const byPeriodScope = new Map();
+  for (const match of html.matchAll(/data-code="([^"]+)"/g)) {
+    const code = match[1];
+    const rowStart = html.lastIndexOf("<tr", match.index);
+    const rowEnd = html.indexOf("</tr>", match.index);
+    if (rowStart < 0 || rowEnd < 0) continue;
+    const cells = [...html.slice(rowStart, rowEnd).matchAll(/<t[dh][^>]*>([\s\S]*?)<\/t[dh]>/g)]
+      .map(m => cleanCell(m[1])).filter(Boolean);
+    // 表格欄位順序：優惠碼／使用連結｜優惠內容｜使用期限｜適用對象
+    if (cells.length < 4 || !cells[1]) continue;
+    // data-code 可能是「前往下單」這類動作文字而非真正的代碼，視為免輸碼列
+    if (code && code !== "無" && !linkMarker.test(code)) byCode.set(code, cells[1]);
+    else byPeriodScope.set(cells[2] + "|" + cells[3], cells[1]);
+  }
+  return { byCode, byPeriodScope };
+};
+
+const loadKb56Discounts = async () => {
+  const lookups = {};
+  for (const [platform, url] of Object.entries(kb56Pages)) {
+    try {
+      lookups[platform] = parseKb56Discounts(await requestText(url));
+    } catch (error) {
+      // kb56 失敗不影響主流程：沒有折扣就維持原本顯示。
+      lookups[platform] = { byCode: new Map(), byPeriodScope: new Map() };
+      result.errors.push("kb56 " + platform + ": " + (error instanceof Error ? error.message : String(error)));
+    }
+  }
+  return lookups;
+};
+
+const applyDiscount = (coupon, lookup) => {
+  if (!lookup) return coupon;
+  let hit = (coupon.code && lookup.byCode.get(coupon.code))
+    || (coupon.link && lookup.byPeriodScope.get(coupon.period + "|" + coupon.scope));
+  if (!hit && !coupon.code && !coupon.link && coupon.content) {
+    // 容錯：來源偶爾在「複製優惠碼」中夾帶空白，導致代碼沒被解析出來
+    const guess = coupon.content.replace(/\s+/g, "").split(copyMarker)[0].trim();
+    if (guess) hit = lookup.byCode.get(guess);
+  }
+  return hit ? { ...coupon, discount: hit } : coupon;
+};
+
 const value = (row, keys) => {
   for (const key of keys) {
     if (row?.[key] != null && String(row[key]).trim()) return String(row[key]).trim();
@@ -62,14 +134,19 @@ const normalize = (raw, platform) => {
       const offers = copyMarker.test(offer) && !linkMarker.test(offer)
         ? offer.split(copyMarker).map(x => x.trim()).filter(Boolean)
         : [offer];
-      for (const singleOffer of offers) coupons.push({
-        section,
-        scope,
-        period: value(row, ["使用期限", "優惠期間", "活動期間", "期限", "col_1"]),
-        content,
-        platform,
-        ...parseCode(singleOffer),
-      });
+      for (const singleOffer of offers) {
+        const parsed = parseCode(singleOffer);
+        // 空白列直接丟掉：內容、代碼、連結三者皆無（例如來源信用卡比較表的欄位格式不符）
+        if (!content && !parsed.code && !parsed.link) continue;
+        coupons.push({
+          section,
+          scope,
+          period: value(row, ["使用期限", "優惠期間", "活動期間", "期限", "col_1"]),
+          content,
+          platform,
+          ...parsed,
+        });
+      }
     }
   }
   if (!coupons.length || !coupons.some(c => c.code || c.link)) {
@@ -103,9 +180,14 @@ const result = {
 };
 let successful = 0;
 
+// 先抓 kb56 折扣對照表；失敗時回空表，不影響主流程。
+const kb56 = await loadKb56Discounts();
+
 for (const [platform, url] of Object.entries(sources)) {
   try {
-    result[platform] = normalize(await requestJson(url), platform);
+    const normalized = normalize(await requestJson(url), platform);
+    normalized.coupons = normalized.coupons.map(c => applyDiscount(c, kb56[platform]));
+    result[platform] = normalized;
     successful += 1;
   } catch (error) {
     const message = error instanceof Error ? error.message : String(error);
