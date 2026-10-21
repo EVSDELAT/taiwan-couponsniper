@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-10-21T11:43:58.650Z",
-  "updated": "2026-10-21 19:43",
+  "generatedAt": "2026-10-21T17:08:39.692Z",
+  "updated": "2026-10-22 01:08",
   "sources": {
     "ubereats": "https://raw.githubusercontent.com/ridemountainpig/tasty-coupon/main/coupon-json/ubereats-coupon.json",
     "foodpanda": "https://raw.githubusercontent.com/ridemountainpig/tasty-coupon/main/coupon-json/foodpanda-coupon.json"
@@ -10,6 +10,16 @@
   "ubereats": {
     "month": " 2026 年 10 月",
     "coupons": [
+      {
+        "section": "Uber One 訂閱會員優惠資訊",
+        "scope": "指定訂閱會員",
+        "period": "~ 11/3",
+        "content": "十來運轉複製優惠碼",
+        "platform": "ubereats",
+        "code": "十來運轉",
+        "link": false,
+        "discount": "滿 $399 享 85 折 最高折抵 $90"
+      },
       {
         "section": "Uber One 訂閱會員優惠資訊",
         "scope": "無訂閱身分用戶",
@@ -134,9 +144,9 @@
         "section": "美食外送丨外帶自取 優惠",
         "scope": "外帶自取",
         "period": "10/21限定",
-        "content": "週三狂取複製優惠碼",
+        "content": "週三狂取複製 優惠碼",
         "platform": "ubereats",
-        "code": "週三狂取",
+        "code": null,
         "link": false,
         "discount": "滿 $149 享 5 折"
       },
@@ -144,9 +154,9 @@
         "section": "美食外送丨外帶自取 優惠",
         "scope": "外帶自取",
         "period": "10/28限定",
-        "content": "週三狂省複製 優惠碼",
+        "content": "週三狂省複製優惠碼",
         "platform": "ubereats",
-        "code": null,
+        "code": "週三狂省",
         "link": false,
         "discount": "滿 $149 享 5 折"
       },
@@ -689,9 +699,9 @@
         "section": "pandapro 會員優惠碼",
         "scope": "路易莎",
         "period": "10/16 ~ 10/31",
-        "content": "請你喝路易莎複製優惠碼",
+        "content": "請你喝路易莎複製 優惠碼",
         "platform": "foodpanda",
-        "code": "請你喝路易莎",
+        "code": null,
         "link": false,
         "discount": "免費莊園美式中杯外帶自取"
       },
@@ -717,7 +727,7 @@
       },
       {
         "section": "美食外送優惠碼整理｜10 月滿額現折、星巴克週二、外帶自取優惠",
-        "scope": "指定餐廳",
+        "scope": "指定 餐廳",
         "period": "10/1 ~ 10/31",
         "content": "爽爽吃複製優惠碼",
         "platform": "foodpanda",
@@ -819,9 +829,9 @@
         "section": "生鮮雜貨優惠碼整理｜10 月最新折扣、全聯週末優惠一次看",
         "scope": "樂家康超市",
         "period": "10/1 ~ 10/31 平日適用",
-        "content": "新鮮八複製優惠碼",
+        "content": "新鮮八複製 優惠碼",
         "platform": "foodpanda",
-        "code": "新鮮八",
+        "code": null,
         "link": false,
         "discount": "平日滿 $799 享 88 折 最高折 $110"
       },
@@ -989,7 +999,7 @@
         "section": "學生、企業用戶優惠",
         "scope": "CUBE 卡友",
         "period": "至 12/31",
-        "content": "前往下單複製優惠碼",
+        "content": "前往下單複製 優惠碼",
         "platform": "foodpanda",
         "code": null,
         "link": true,
