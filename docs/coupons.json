@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-10-24T23:10:01.946Z",
-  "updated": "2026-10-25 07:10",
+  "generatedAt": "2026-10-25T04:36:27.477Z",
+  "updated": "2026-10-25 12:36",
   "sources": {
     "ubereats": "https://raw.githubusercontent.com/ridemountainpig/tasty-coupon/main/coupon-json/ubereats-coupon.json",
     "foodpanda": "https://raw.githubusercontent.com/ridemountainpig/tasty-coupon/main/coupon-json/foodpanda-coupon.json"
@@ -609,6 +609,69 @@
         "code": null,
         "link": true,
         "discount": "香檸果茶-麝香紅 春烏龍 梔窨茉綠 買 1 送 1"
+      },
+      {
+        "section": "Uber Eats 信用卡與行動支付優惠",
+        "scope": "",
+        "period": "",
+        "content": "10%\n現金積點",
+        "platform": "ubereats",
+        "code": null,
+        "link": false
+      },
+      {
+        "section": "Uber Eats 信用卡與行動支付優惠",
+        "scope": "",
+        "period": "",
+        "content": "5%\nLINE POINTS",
+        "platform": "ubereats",
+        "code": null,
+        "link": false
+      },
+      {
+        "section": "Uber Eats 信用卡與行動支付優惠",
+        "scope": "",
+        "period": "",
+        "content": "4.5%\n玉山 e point",
+        "platform": "ubereats",
+        "code": null,
+        "link": false
+      },
+      {
+        "section": "Uber Eats 信用卡與行動支付優惠",
+        "scope": "",
+        "period": "",
+        "content": "3%\n刷卡金",
+        "platform": "ubereats",
+        "code": null,
+        "link": false
+      },
+      {
+        "section": "行動支付優惠",
+        "scope": "",
+        "period": "",
+        "content": "平日單筆滿 $199，\n  當月累積 5 筆符合資格交易，\n  可獲幸運轉轉樂機會。",
+        "platform": "ubereats",
+        "code": null,
+        "link": false
+      },
+      {
+        "section": "行動支付優惠",
+        "scope": "",
+        "period": "",
+        "content": "指定平日單筆滿 $199，\n  符合條件享 2% LINE POINTS。",
+        "platform": "ubereats",
+        "code": null,
+        "link": false
+      },
+      {
+        "section": "行動支付優惠",
+        "scope": "",
+        "period": "",
+        "content": "依綁定信用卡回饋計算。",
+        "platform": "ubereats",
+        "code": null,
+        "link": false
       }
     ]
   },
@@ -747,15 +810,6 @@
       },
       {
         "section": "生鮮雜貨優惠碼整理｜10 月最新折扣、全聯週末優惠一次看",
-        "scope": "指定用戶",
-        "period": "~ 10/24",
-        "content": "颱颱來補貨複製優惠碼",
-        "platform": "foodpanda",
-        "code": "颱颱來補貨",
-        "link": false
-      },
-      {
-        "section": "生鮮雜貨優惠碼整理｜10 月最新折扣、全聯週末優惠一次看",
         "scope": "萬家福、樂家康超市",
         "period": "10/1 ~ 10/31 週三",
         "content": "週三買樂家康複製優惠碼",
@@ -828,9 +882,9 @@
         "section": "生鮮雜貨優惠碼整理｜10 月最新折扣、全聯週末優惠一次看",
         "scope": "樂家康超市",
         "period": "10/1 ~ 10/31 平日適用",
-        "content": "新鮮八複製 優惠碼",
+        "content": "新鮮八複製優惠碼",
         "platform": "foodpanda",
-        "code": null,
+        "code": "新鮮八",
         "link": false,
         "discount": "平日滿 $799 享 88 折 最高折 $110"
       },
@@ -838,9 +892,9 @@
         "section": "生鮮雜貨優惠碼整理｜10 月最新折扣、全聯週末優惠一次看",
         "scope": "屈臣氏",
         "period": "10/1 ~ 10/31",
-        "content": "生鮮感謝祭複製優惠碼",
+        "content": "生鮮感謝祭複製 優惠碼",
         "platform": "foodpanda",
-        "code": "生鮮感謝祭",
+        "code": null,
         "link": false,
         "discount": "滿 $899 享 79 折 最高折 $200 每人限用 2 次"
       },
