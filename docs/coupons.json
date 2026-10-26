@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-10-26T12:55:18.745Z",
-  "updated": "2026-10-26 20:55",
+  "generatedAt": "2026-10-26T20:27:32.792Z",
+  "updated": "2026-10-27 04:27",
   "sources": {
     "ubereats": "https://raw.githubusercontent.com/ridemountainpig/tasty-coupon/main/coupon-json/ubereats-coupon.json",
     "foodpanda": "https://raw.githubusercontent.com/ridemountainpig/tasty-coupon/main/coupon-json/foodpanda-coupon.json"
@@ -692,7 +692,17 @@
         "section": "pandapro 訂閱優惠碼",
         "scope": "指定用戶",
         "period": "~ 11/30",
-        "content": "WN12複製優惠碼",
+        "content": "yygg12複製優惠碼WN12複製優惠碼",
+        "platform": "foodpanda",
+        "code": "yygg12",
+        "link": false,
+        "discount": "年費3折"
+      },
+      {
+        "section": "pandapro 訂閱優惠碼",
+        "scope": "指定用戶",
+        "period": "~ 11/30",
+        "content": "yygg12複製優惠碼WN12複製優惠碼",
         "platform": "foodpanda",
         "code": "WN12",
         "link": false,
