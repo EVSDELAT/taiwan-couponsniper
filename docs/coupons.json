@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-10-28T05:36:24.934Z",
-  "updated": "2026-10-28 13:36",
+  "generatedAt": "2026-10-28T12:47:31.428Z",
+  "updated": "2026-10-28 20:47",
   "sources": {
     "ubereats": "https://raw.githubusercontent.com/ridemountainpig/tasty-coupon/main/coupon-json/ubereats-coupon.json",
     "foodpanda": "https://raw.githubusercontent.com/ridemountainpig/tasty-coupon/main/coupon-json/foodpanda-coupon.json"
@@ -147,8 +147,7 @@
         "content": "週三狂取複製 優惠碼",
         "platform": "ubereats",
         "code": null,
-        "link": false,
-        "discount": "滿 $149 享 5 折"
+        "link": false
       },
       {
         "section": "美食外送丨外帶自取 優惠",
@@ -427,8 +426,7 @@
         "content": "好市多秋日省複製優惠碼",
         "platform": "ubereats",
         "code": "好市多秋日省",
-        "link": false,
-        "discount": "滿 $3688 折抵 $350"
+        "link": false
       },
       {
         "section": "本月精選：生鮮雜貨與全聯折扣碼總整理",
@@ -497,8 +495,7 @@
         "content": "嚕藥師150複製優惠碼健康折150複製優惠碼abby150複製優惠碼",
         "platform": "ubereats",
         "code": "健康折150",
-        "link": false,
-        "discount": "滿 $449 折抵 $150"
+        "link": false
       },
       {
         "section": "本月精選：生鮮雜貨與全聯折扣碼總整理",
@@ -507,8 +504,7 @@
         "content": "嚕藥師150複製優惠碼健康折150複製優惠碼abby150複製優惠碼",
         "platform": "ubereats",
         "code": "abby150",
-        "link": false,
-        "discount": "滿 $449 折抵 $150"
+        "link": false
       },
       {
         "section": "連鎖特選 餐廳買一送一活動一覽",
