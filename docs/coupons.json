@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-10-29T09:53:27.555Z",
-  "updated": "2026-10-29 17:53",
+  "generatedAt": "2026-10-29T18:26:31.222Z",
+  "updated": "2026-10-30 02:26",
   "sources": {
     "ubereats": "https://raw.githubusercontent.com/ridemountainpig/tasty-coupon/main/coupon-json/ubereats-coupon.json",
     "foodpanda": "https://raw.githubusercontent.com/ridemountainpig/tasty-coupon/main/coupon-json/foodpanda-coupon.json"
@@ -610,7 +610,7 @@
         "section": "行動支付優惠",
         "scope": "",
         "period": "",
-        "content": "平日單筆滿 $199，\n當月累積 5 筆符合資格交易，\n可獲幸運轉轉樂機會。",
+        "content": "平日單筆滿 $199，\n  當月累積 5 筆符合資格交易，\n  可獲幸運轉轉樂機會。",
         "platform": "ubereats",
         "code": null,
         "link": false
@@ -619,7 +619,7 @@
         "section": "行動支付優惠",
         "scope": "",
         "period": "",
-        "content": "指定平日單筆滿 $199，\n符合條件享 2% LINE POINTS。",
+        "content": "指定平日單筆滿 $199，\n  符合條件享 2% LINE POINTS。",
         "platform": "ubereats",
         "code": null,
         "link": false
