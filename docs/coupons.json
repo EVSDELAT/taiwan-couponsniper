@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-10-29T00:53:05.105Z",
-  "updated": "2026-10-29 08:53",
+  "generatedAt": "2026-10-29T09:53:27.555Z",
+  "updated": "2026-10-29 17:53",
   "sources": {
     "ubereats": "https://raw.githubusercontent.com/ridemountainpig/tasty-coupon/main/coupon-json/ubereats-coupon.json",
     "foodpanda": "https://raw.githubusercontent.com/ridemountainpig/tasty-coupon/main/coupon-json/foodpanda-coupon.json"
@@ -720,8 +720,8 @@
       },
       {
         "section": "pandapro 會員優惠碼",
-        "scope": "適用對象未提供",
-        "period": "10/1 ~ 10/31",
+        "scope": "指定訂閱用戶",
+        "period": "~ 10/31",
         "content": "美食感謝祭複製優惠碼",
         "platform": "foodpanda",
         "code": "美食感謝祭",
@@ -730,11 +730,21 @@
       },
       {
         "section": "pandapro 會員優惠碼",
-        "scope": "中信 foodpanda 聯名卡友",
+        "scope": "適用對象未提供",
         "period": "10/1 ~ 10/31",
-        "content": "CTBCFREE複製 優惠碼",
+        "content": "美食感謝祭複製 優惠碼",
         "platform": "foodpanda",
         "code": null,
+        "link": false,
+        "discount": "滿 $299 享 85 折最高折 $45 每人 2 次"
+      },
+      {
+        "section": "pandapro 會員優惠碼",
+        "scope": "中信 foodpanda 聯名卡友",
+        "period": "10/1 ~ 10/31",
+        "content": "CTBCFREE複製優惠碼",
+        "platform": "foodpanda",
+        "code": "CTBCFREE",
         "link": false,
         "discount": "中信聯名卡 pandapro 年費制免費＋15% 胖達幣 使用指定聯名卡訂閱年費制｜每人限用 1 次｜數量有限"
       },
@@ -747,6 +757,16 @@
         "code": "請你喝路易莎",
         "link": false,
         "discount": "免費莊園美式中杯外帶自取"
+      },
+      {
+        "section": "美食外送優惠碼整理｜10 月滿額現折、星巴克週二、外帶自取優惠",
+        "scope": "麥當勞",
+        "period": "10/28 ~ 11/3",
+        "content": "麥當勞爽爽送複製優惠碼",
+        "platform": "foodpanda",
+        "code": "麥當勞爽爽送",
+        "link": false,
+        "discount": "滿 $320 享現折 $65"
       },
       {
         "section": "美食外送優惠碼整理｜10 月滿額現折、星巴克週二、外帶自取優惠",
@@ -842,9 +862,9 @@
         "section": "生鮮雜貨優惠碼整理｜10 月最新折扣、全聯週末優惠一次看",
         "scope": "大全聯",
         "period": "10/1 ~ 10/31 平日適用",
-        "content": "生鮮感謝祭複製優惠碼",
+        "content": "生鮮感謝祭複製 優惠碼",
         "platform": "foodpanda",
-        "code": "生鮮感謝祭",
+        "code": null,
         "link": false,
         "discount": "滿 $899 享 79 折 最高折 $200 每人限用 2 次"
       },
@@ -852,9 +872,9 @@
         "section": "生鮮雜貨優惠碼整理｜10 月最新折扣、全聯週末優惠一次看",
         "scope": "萬家福",
         "period": "10/1 ~ 10/31 平日適用",
-        "content": "生鮮感謝祭複製 優惠碼",
+        "content": "生鮮感謝祭複製優惠碼",
         "platform": "foodpanda",
-        "code": null,
+        "code": "生鮮感謝祭",
         "link": false,
         "discount": "滿 $899 享 79 折 最高折 $200 每人限用 2 次"
       },
