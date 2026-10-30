@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-10-30T00:56:57.062Z",
-  "updated": "2026-10-30 08:56",
+  "generatedAt": "2026-10-30T09:56:47.526Z",
+  "updated": "2026-10-30 17:56",
   "sources": {
     "ubereats": "https://raw.githubusercontent.com/ridemountainpig/tasty-coupon/main/coupon-json/ubereats-coupon.json",
     "foodpanda": "https://raw.githubusercontent.com/ridemountainpig/tasty-coupon/main/coupon-json/foodpanda-coupon.json"
@@ -610,7 +610,7 @@
         "section": "行動支付優惠",
         "scope": "",
         "period": "",
-        "content": "平日單筆滿 $199，\n  當月累積 5 筆符合資格交易，\n  可獲幸運轉轉樂機會。",
+        "content": "平日單筆滿 $199，\n當月累積 5 筆符合資格交易，\n可獲幸運轉轉樂機會。",
         "platform": "ubereats",
         "code": null,
         "link": false
@@ -619,7 +619,7 @@
         "section": "行動支付優惠",
         "scope": "",
         "period": "",
-        "content": "指定平日單筆滿 $199，\n  符合條件享 2% LINE POINTS。",
+        "content": "指定平日單筆滿 $199，\n符合條件享 2% LINE POINTS。",
         "platform": "ubereats",
         "code": null,
         "link": false
@@ -732,9 +732,9 @@
         "section": "pandapro 會員優惠碼",
         "scope": "適用對象未提供",
         "period": "10/1 ~ 10/31",
-        "content": "美食感謝祭複製 優惠碼",
+        "content": "美食感謝祭複製優惠碼",
         "platform": "foodpanda",
-        "code": null,
+        "code": "美食感謝祭",
         "link": false,
         "discount": "滿 $299 享 85 折最高折 $45 每人 2 次"
       },
@@ -790,7 +790,7 @@
       },
       {
         "section": "美食外送優惠碼整理｜10 月滿額現折、星巴克週二、外帶自取優惠",
-        "scope": "指定 餐廳",
+        "scope": "指定餐廳",
         "period": "10/1 ~ 10/31",
         "content": "爽爽吃複製優惠碼",
         "platform": "foodpanda",
@@ -862,9 +862,9 @@
         "section": "生鮮雜貨優惠碼整理｜10 月最新折扣、全聯週末優惠一次看",
         "scope": "大全聯",
         "period": "10/1 ~ 10/31 平日適用",
-        "content": "生鮮感謝祭複製 優惠碼",
+        "content": "生鮮感謝祭複製優惠碼",
         "platform": "foodpanda",
-        "code": null,
+        "code": "生鮮感謝祭",
         "link": false,
         "discount": "滿 $899 享 79 折 最高折 $200 每人限用 2 次"
       },
@@ -1052,7 +1052,7 @@
         "section": "學生、企業用戶優惠",
         "scope": "CUBE 卡友",
         "period": "至 12/31",
-        "content": "前往下單複製 優惠碼",
+        "content": "前往下單複製優惠碼",
         "platform": "foodpanda",
         "code": null,
         "link": true,
