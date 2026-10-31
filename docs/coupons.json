@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-10-31T05:35:09.048Z",
-  "updated": "2026-10-31 13:35",
+  "generatedAt": "2026-10-31T12:20:35.175Z",
+  "updated": "2026-10-31 20:20",
   "sources": {
     "ubereats": "https://raw.githubusercontent.com/ridemountainpig/tasty-coupon/main/coupon-json/ubereats-coupon.json",
     "foodpanda": "https://raw.githubusercontent.com/ridemountainpig/tasty-coupon/main/coupon-json/foodpanda-coupon.json"
@@ -796,7 +796,7 @@
         "platform": "foodpanda",
         "code": "爽爽吃",
         "link": false,
-        "discount": "滿 $360 最高折 $110 滿 $260 最高折 $80"
+        "discount": "滿 $360 最高折 $110 滿 $260 最高折 $80 滿 $200 最高折 $100 滿 $200 最高折 $150"
       },
       {
         "section": "美食外送優惠碼整理｜10 月滿額現折、星巴克週二、外帶自取優惠",
@@ -1005,8 +1005,7 @@
         "content": "psctbce610複製優惠碼",
         "platform": "foodpanda",
         "code": "psctbce610",
-        "link": false,
-        "discount": "中國信託 LINE Pay 卡 早餐滿 $200 折 $15 每日 5:30－11:00｜每人每月 1 次｜每月限量 800 組"
+        "link": false
       },
       {
         "section": "學生、企業用戶優惠",
@@ -1015,8 +1014,7 @@
         "content": "psctbc610複製優惠碼",
         "platform": "foodpanda",
         "code": "psctbc610",
-        "link": false,
-        "discount": "中國信託 LINE Pay 卡 滿 $260 折 $20 每人每月 1 次｜每月限量 1,400 組"
+        "link": false
       },
       {
         "section": "學生、企業用戶優惠",
@@ -1035,8 +1033,7 @@
         "content": "前往下單複製優惠碼",
         "platform": "foodpanda",
         "code": null,
-        "link": true,
-        "discount": "中信聯名卡 平台最高 5% 胖達幣 單筆滿 $288 最高 5%；未滿 $288 最高 2%｜加碼部分每月上限 200 胖達幣"
+        "link": true
       },
       {
         "section": "學生、企業用戶優惠",
