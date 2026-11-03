@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-11-03T16:59:55.205Z",
-  "updated": "2026-11-04 00:59",
+  "generatedAt": "2026-11-03T23:17:14.293Z",
+  "updated": "2026-11-04 07:17",
   "sources": {
     "ubereats": "https://raw.githubusercontent.com/ridemountainpig/tasty-coupon/main/coupon-json/ubereats-coupon.json",
     "foodpanda": "https://raw.githubusercontent.com/ridemountainpig/tasty-coupon/main/coupon-json/foodpanda-coupon.json"
@@ -114,9 +114,9 @@
         "section": "美食外送丨外帶自取 優惠",
         "scope": "指定用戶",
         "period": "11/1 ~ 11/30",
-        "content": "七餐吃省複製優惠碼",
+        "content": "七餐吃省複製 優惠碼",
         "platform": "ubereats",
-        "code": "七餐吃省",
+        "code": null,
         "link": false,
         "discount": "滿 $199 享 $0 外送費及服務費優惠 最多 7 次"
       },
@@ -154,9 +154,9 @@
         "section": "美食外送丨外帶自取 優惠",
         "scope": "苗栗、彰化、南投、雲林、嘉義縣市、臺南、屏東、宜蘭",
         "period": "11/1～11/30",
-        "content": "十一吃飽複製 優惠碼",
+        "content": "十一吃飽複製優惠碼",
         "platform": "ubereats",
-        "code": null,
+        "code": "十一吃飽",
         "link": false,
         "discount": "輸入後抽選 限使用 LINE Pay"
       },
@@ -274,9 +274,9 @@
         "section": "美食外送丨外帶自取 優惠",
         "scope": "指定用戶",
         "period": "11/1 ~ 11/30",
-        "content": "十一快快點複製優惠碼",
+        "content": "十一快快點複製 優惠碼",
         "platform": "ubereats",
-        "code": "十一快快點",
+        "code": null,
         "link": false,
         "discount": "滿 $100 享 4 折 最高折抵 $100 可用４次"
       },
@@ -324,9 +324,9 @@
         "section": "區域限定與分眾專屬折價券（含青少年帳號）",
         "scope": "南投縣",
         "period": "11/1 ~ 11/15",
-        "content": "十一吃六複製 優惠碼",
+        "content": "十一吃六複製優惠碼",
         "platform": "ubereats",
-        "code": null,
+        "code": "十一吃六",
         "link": false,
         "discount": "滿 $149 享 6 折 最高折抵 $60"
       },
@@ -424,9 +424,9 @@
         "section": "本月精選：生鮮雜貨與全聯折扣碼總整理",
         "scope": "統一超商",
         "period": "11/1～11/30",
-        "content": "十一月499買統一複製優惠碼",
+        "content": "十一月499買統一複製 優惠碼",
         "platform": "ubereats",
-        "code": "十一月499買統一",
+        "code": null,
         "link": false,
         "discount": "滿 $499 折抵 $50 可用５次"
       },
@@ -620,7 +620,7 @@
         "section": "行動支付優惠",
         "scope": "",
         "period": "",
-        "content": "平日單筆滿 $199，\n  當月累積 5 筆符合資格交易，\n  可獲幸運轉轉樂機會。",
+        "content": "平日單筆滿 $199，\n當月累積 5 筆符合資格交易，\n可獲幸運轉轉樂機會。",
         "platform": "ubereats",
         "code": null,
         "link": false
@@ -629,7 +629,7 @@
         "section": "行動支付優惠",
         "scope": "",
         "period": "",
-        "content": "指定平日單筆滿 $199，\n  符合條件享 2% LINE POINTS。",
+        "content": "指定平日單筆滿 $199，\n符合條件享 2% LINE POINTS。",
         "platform": "ubereats",
         "code": null,
         "link": false
