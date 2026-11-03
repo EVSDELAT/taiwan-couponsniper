@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-11-02T21:41:13.161Z",
-  "updated": "2026-11-03 05:41",
+  "generatedAt": "2026-11-03T06:43:16.941Z",
+  "updated": "2026-11-03 14:43",
   "sources": {
     "ubereats": "https://raw.githubusercontent.com/ridemountainpig/tasty-coupon/main/coupon-json/ubereats-coupon.json",
     "foodpanda": "https://raw.githubusercontent.com/ridemountainpig/tasty-coupon/main/coupon-json/foodpanda-coupon.json"
@@ -32,7 +32,7 @@
       },
       {
         "section": "Uber One 訂閱會員優惠資訊",
-        "scope": "指定活動餐廳",
+        "scope": "指定活動 餐廳",
         "period": "11/1～11/30",
         "content": "會員週年慶複製優惠碼",
         "platform": "ubereats",
@@ -154,9 +154,9 @@
         "section": "美食外送丨外帶自取 優惠",
         "scope": "苗栗、彰化、南投、雲林、嘉義縣市、臺南、屏東、宜蘭",
         "period": "11/1～11/30",
-        "content": "十一吃飽複製優惠碼",
+        "content": "十一吃飽複製 優惠碼",
         "platform": "ubereats",
-        "code": "十一吃飽",
+        "code": null,
         "link": false,
         "discount": "輸入後抽選 限使用 LINE Pay"
       },
@@ -324,9 +324,9 @@
         "section": "區域限定與分眾專屬折價券（含青少年帳號）",
         "scope": "南投縣",
         "period": "11/1 ~ 11/15",
-        "content": "十一吃六複製優惠碼",
+        "content": "十一吃六複製 優惠碼",
         "platform": "ubereats",
-        "code": "十一吃六",
+        "code": null,
         "link": false,
         "discount": "滿 $149 享 6 折 最高折抵 $60"
       },
@@ -481,7 +481,7 @@
         "discount": "滿 $449 折抵 $150"
       },
       {
-        "section": "連鎖特選餐廳買一送一活動一覽",
+        "section": "連鎖特選 餐廳買一送一活動一覽",
         "scope": "麥當勞",
         "period": "贈完為止",
         "content": "查看優惠前往查看優惠",
@@ -491,7 +491,7 @@
         "discount": "中薯 買 1 送 1"
       },
       {
-        "section": "連鎖特選餐廳買一送一活動一覽",
+        "section": "連鎖特選 餐廳買一送一活動一覽",
         "scope": "肯德基",
         "period": "贈完為止",
         "content": "查看優惠前往查看優惠",
@@ -501,7 +501,7 @@
         "discount": "中杯飲料 買 1 送 1"
       },
       {
-        "section": "連鎖特選餐廳買一送一活動一覽",
+        "section": "連鎖特選 餐廳買一送一活動一覽",
         "scope": "達美樂",
         "period": "贈完為止",
         "content": "查看優惠前往查看優惠",
@@ -511,7 +511,7 @@
         "discount": "全尺寸披薩 買 1 送 1"
       },
       {
-        "section": "連鎖特選餐廳買一送一活動一覽",
+        "section": "連鎖特選 餐廳買一送一活動一覽",
         "scope": "21PLUS風味館",
         "period": "贈完為止",
         "content": "查看優惠前往查看優惠",
@@ -521,7 +521,7 @@
         "discount": "香草烤雞茸玉米濃湯 原味小棒腿2入 雪豆腐布丁 時蔬雞汁飯配大飲 心型大雞塊2入 經典杏鮑菇 大薯霸 紫玉Q薯 買 1 送 1"
       },
       {
-        "section": "連鎖特選餐廳買一送一活動一覽",
+        "section": "連鎖特選 餐廳買一送一活動一覽",
         "scope": "日向咖啡",
         "period": "贈完為止",
         "content": "查看優惠前往查看優惠",
@@ -531,7 +531,7 @@
         "discount": "美式咖啡 SOE單品美式 買 1 送 1"
       },
       {
-        "section": "連鎖特選餐廳買一送一活動一覽",
+        "section": "連鎖特選 餐廳買一送一活動一覽",
         "scope": "樂法",
         "period": "贈完為止",
         "content": "查看優惠前往查看優惠",
@@ -541,7 +541,7 @@
         "discount": "林華泰梅子鐵觀音-冰 林華泰四季青茶-冰 蘋果蜂蜜綠茶-冰 買 1 送 1"
       },
       {
-        "section": "連鎖特選餐廳買一送一活動一覽",
+        "section": "連鎖特選 餐廳買一送一活動一覽",
         "scope": "黛黛茶 指定分店",
         "period": "贈完為止",
         "content": "查看優惠前往查看優惠",
@@ -551,7 +551,7 @@
         "discount": "白露青檸 百年仙草茶 買 1 送 1"
       },
       {
-        "section": "連鎖特選餐廳買一送一活動一覽",
+        "section": "連鎖特選 餐廳買一送一活動一覽",
         "scope": "初韻",
         "period": "贈完為止",
         "content": "查看優惠前往查看優惠",
@@ -561,7 +561,7 @@
         "discount": "荔枝烏龍凍凍 荔枝多多烏龍 買 1 送 1"
       },
       {
-        "section": "連鎖特選餐廳買一送一活動一覽",
+        "section": "連鎖特選 餐廳買一送一活動一覽",
         "scope": "西雅圖極品咖啡",
         "period": "贈完為止",
         "content": "查看優惠前往查看優惠",
@@ -571,7 +571,7 @@
         "discount": "原味紅茶 原味可頌 拿鐵 義大利美式咖啡 買 1 送 1"
       },
       {
-        "section": "連鎖特選餐廳買一送一活動一覽",
+        "section": "連鎖特選 餐廳買一送一活動一覽",
         "scope": "一番茶",
         "period": "贈完為止",
         "content": "查看優惠前往查看優惠",
