@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-11-05T17:21:57.591Z",
-  "updated": "2026-11-06 01:21",
+  "generatedAt": "2026-11-05T23:36:42.519Z",
+  "updated": "2026-11-06 07:36",
   "sources": {
     "ubereats": "https://raw.githubusercontent.com/ridemountainpig/tasty-coupon/main/coupon-json/ubereats-coupon.json",
     "foodpanda": "https://raw.githubusercontent.com/ridemountainpig/tasty-coupon/main/coupon-json/foodpanda-coupon.json"
@@ -880,12 +880,13 @@
       },
       {
         "section": "美食外送優惠碼整理｜11 月滿額現折、星巴克週二、外帶自取優惠",
-        "scope": "麥當勞",
-        "period": "10/28 ~ 11/3",
-        "content": "麥當勞爽爽送複製 優惠碼",
+        "scope": "大苑子",
+        "period": "11/7 ~ 11/25",
+        "content": "賜你大苑子複製 優惠碼",
         "platform": "foodpanda",
         "code": null,
-        "link": false
+        "link": false,
+        "discount": "疊加優惠68折起"
       },
       {
         "section": "美食外送優惠碼整理｜11 月滿額現折、星巴克週二、外帶自取優惠",
