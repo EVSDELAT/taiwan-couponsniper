@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-11-05T06:40:09.646Z",
-  "updated": "2026-11-05 14:40",
+  "generatedAt": "2026-11-05T17:21:57.591Z",
+  "updated": "2026-11-06 01:21",
   "sources": {
     "ubereats": "https://raw.githubusercontent.com/ridemountainpig/tasty-coupon/main/coupon-json/ubereats-coupon.json",
     "foodpanda": "https://raw.githubusercontent.com/ridemountainpig/tasty-coupon/main/coupon-json/foodpanda-coupon.json"
@@ -885,8 +885,7 @@
         "content": "麥當勞爽爽送複製 優惠碼",
         "platform": "foodpanda",
         "code": null,
-        "link": false,
-        "discount": "滿 $320 享現折 $65"
+        "link": false
       },
       {
         "section": "美食外送優惠碼整理｜11 月滿額現折、星巴克週二、外帶自取優惠",
