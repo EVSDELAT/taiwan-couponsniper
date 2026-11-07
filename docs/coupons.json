@@ -1,14 +1,14 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-11-06T23:05:26.249Z",
-  "updated": "2026-11-07 07:05",
+  "generatedAt": "2026-11-07T05:54:08.925Z",
+  "updated": "2026-11-07 13:54",
   "sources": {
     "ubereats": "https://raw.githubusercontent.com/ridemountainpig/tasty-coupon/main/coupon-json/ubereats-coupon.json",
     "foodpanda": "https://raw.githubusercontent.com/ridemountainpig/tasty-coupon/main/coupon-json/foodpanda-coupon.json"
   },
   "errors": [],
   "ubereats": {
-    "month": " 2026 年 11 月",
+    "month": "2026 年 11 月",
     "coupons": [
       {
         "section": "Uber One 訂閱會員優惠資訊",
@@ -114,9 +114,9 @@
         "section": "美食外送丨外帶自取 優惠",
         "scope": "苗栗縣、彰化縣、南投縣、嘉義嘉義縣市、雲林縣、台南市、屏東縣、宜蘭縣",
         "period": "11/1 ~ 11/30",
-        "content": "FCBUE11複製 優惠碼",
+        "content": "FCBUE11複製優惠碼",
         "platform": "ubereats",
-        "code": null,
+        "code": "FCBUE11",
         "link": false,
         "discount": "輸入後抽選滿額優惠 輸入後14天內使用"
       },
@@ -154,9 +154,9 @@
         "section": "美食外送丨外帶自取 優惠",
         "scope": "指定用戶",
         "period": "9/1 ~ 12/31",
-        "content": "朋友吃美食複製優惠碼",
+        "content": "朋友吃美食複製 優惠碼",
         "platform": "ubereats",
-        "code": "朋友吃美食",
+        "code": null,
         "link": false,
         "discount": "抽滿額折抵 輸入後14天內使用完畢"
       },
@@ -264,9 +264,9 @@
         "section": "美食外送丨外帶自取 優惠",
         "scope": "玉山卡友",
         "period": "用完為止",
-        "content": "玉山限定優惠複製 優惠碼",
+        "content": "玉山限定優惠複製優惠碼",
         "platform": "ubereats",
-        "code": null,
+        "code": "玉山限定優惠",
         "link": false,
         "discount": "抽 滿額 優惠，最低四折"
       },
@@ -324,9 +324,9 @@
         "section": "區域限定與分眾專屬折價券（含青少年帳號）",
         "scope": "彰化縣",
         "period": "11/1 ~ 11/15",
-        "content": "十一好六複製優惠碼",
+        "content": "十一好六複製 優惠碼",
         "platform": "ubereats",
-        "code": "十一好六",
+        "code": null,
         "link": false,
         "discount": "滿 $149 享 6 折 最高折抵 $60"
       },
@@ -424,9 +424,9 @@
         "section": "區域限定與分眾專屬折價券（含青少年帳號）",
         "scope": "金門縣",
         "period": "11/1 ~ 11/15",
-        "content": "秋有七五複製 優惠碼",
+        "content": "秋有七五複製優惠碼",
         "platform": "ubereats",
-        "code": null,
+        "code": "秋有七五",
         "link": false,
         "discount": "滿 $149 享 75 折 最高折抵 $40"
       },
@@ -754,7 +754,7 @@
         "section": "Uber Eats 信用卡與行動支付優惠",
         "scope": "",
         "period": "",
-        "content": "10%\n現金積點",
+        "content": "10% 現金積點",
         "platform": "ubereats",
         "code": null,
         "link": false
@@ -763,7 +763,7 @@
         "section": "Uber Eats 信用卡與行動支付優惠",
         "scope": "",
         "period": "",
-        "content": "5%\nLINE POINTS",
+        "content": "5% LINE POINTS",
         "platform": "ubereats",
         "code": null,
         "link": false
@@ -772,7 +772,7 @@
         "section": "Uber Eats 信用卡與行動支付優惠",
         "scope": "",
         "period": "",
-        "content": "4.5%\n玉山 e point",
+        "content": "4.5% 玉山 e point",
         "platform": "ubereats",
         "code": null,
         "link": false
@@ -781,7 +781,7 @@
         "section": "Uber Eats 信用卡與行動支付優惠",
         "scope": "",
         "period": "",
-        "content": "3%\n刷卡金",
+        "content": "3% 刷卡金",
         "platform": "ubereats",
         "code": null,
         "link": false
@@ -790,7 +790,7 @@
         "section": "行動支付優惠",
         "scope": "",
         "period": "",
-        "content": "平日單筆滿 $199，\n當月累積 5 筆符合資格交易，\n可獲幸運轉轉樂機會。",
+        "content": "平日單筆滿 $199，   當月累積 5 筆符合資格交易，   可獲幸運轉轉樂機會。",
         "platform": "ubereats",
         "code": null,
         "link": false
@@ -799,7 +799,7 @@
         "section": "行動支付優惠",
         "scope": "",
         "period": "",
-        "content": "指定平日單筆滿 $199，\n符合條件享 2% LINE POINTS。",
+        "content": "指定平日單筆滿 $199，   符合條件享 2% LINE POINTS。",
         "platform": "ubereats",
         "code": null,
         "link": false
@@ -816,7 +816,7 @@
     ]
   },
   "foodpanda": {
-    "month": " 2026 年 11 月",
+    "month": "2026 年 11 月",
     "coupons": [
       {
         "section": "新用戶優惠碼",
@@ -882,9 +882,9 @@
         "section": "美食外送優惠碼整理｜11 月滿額現折、星巴克週二、外帶自取優惠",
         "scope": "大苑子",
         "period": "11/7 ~ 11/25",
-        "content": "賜你大苑子複製 優惠碼",
+        "content": "賜你大苑子複製優惠碼",
         "platform": "foodpanda",
-        "code": null,
+        "code": "賜你大苑子",
         "link": false,
         "discount": "疊加優惠68折起"
       },
@@ -1002,9 +1002,9 @@
         "section": "生鮮雜貨優惠碼整理｜10 月最新折扣、全聯週末優惠一次看",
         "scope": "樂家康超市",
         "period": "11/1 ~ 11/30",
-        "content": "1111複製優惠碼",
+        "content": "1111複製 優惠碼",
         "platform": "foodpanda",
-        "code": "1111",
+        "code": null,
         "link": false,
         "discount": "滿 $999 享 85 折 最高折抵 $180 可用2次"
       },
@@ -1022,9 +1022,9 @@
         "section": "生鮮雜貨優惠碼整理｜10 月最新折扣、全聯週末優惠一次看",
         "scope": "康是美",
         "period": "11/1 ~ 11/30",
-        "content": "1111複製 優惠碼",
+        "content": "1111複製優惠碼",
         "platform": "foodpanda",
-        "code": null,
+        "code": "1111",
         "link": false,
         "discount": "滿 $999 享 85 折 最高折抵 $180 可用2次"
       },
@@ -1162,7 +1162,7 @@
         "section": "學生、企業用戶優惠",
         "scope": "CUBE 卡友",
         "period": "至 12/31",
-        "content": "前往下單複製優惠碼",
+        "content": "前往下單複製 優惠碼",
         "platform": "foodpanda",
         "code": null,
         "link": true,
@@ -1212,7 +1212,7 @@
         "section": "學生、企業用戶優惠",
         "scope": "街口聯名卡卡友",
         "period": "至 12/31",
-        "content": "前往下單複製 優惠碼",
+        "content": "前往下單複製優惠碼",
         "platform": "foodpanda",
         "code": null,
         "link": true,
