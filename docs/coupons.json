@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-11-09T19:45:45.934Z",
-  "updated": "2026-11-10 03:45",
+  "generatedAt": "2026-11-10T03:32:45.411Z",
+  "updated": "2026-11-10 11:32",
   "sources": {
     "ubereats": "https://raw.githubusercontent.com/ridemountainpig/tasty-coupon/main/coupon-json/ubereats-coupon.json",
     "foodpanda": "https://raw.githubusercontent.com/ridemountainpig/tasty-coupon/main/coupon-json/foodpanda-coupon.json"
@@ -32,7 +32,7 @@
       },
       {
         "section": "Uber One 訂閱會員優惠資訊",
-        "scope": "指定活動 餐廳",
+        "scope": "指定活動餐廳",
         "period": "11/1～11/30",
         "content": "會員週年慶複製優惠碼",
         "platform": "ubereats",
@@ -501,7 +501,7 @@
         "discount": "滿 $449 折抵 $150"
       },
       {
-        "section": "連鎖特選 餐廳買一送一活動一覽",
+        "section": "連鎖特選餐廳買一送一活動一覽",
         "scope": "丰禾 台味風格料理",
         "period": "11/4 ~ 11/17",
         "content": "查看優惠前往查看優惠",
@@ -511,7 +511,7 @@
         "discount": "丰禾起家雞獨享餐、梅汁梅花肉獨享餐 買 1 送 1"
       },
       {
-        "section": "連鎖特選 餐廳買一送一活動一覽",
+        "section": "連鎖特選餐廳買一送一活動一覽",
         "scope": "青花驕",
         "period": "11/4 ~ 11/17",
         "content": "查看優惠前往查看優惠",
@@ -521,7 +521,7 @@
         "discount": "驕心涼拌酸辣粉套餐 買 1 送 1"
       },
       {
-        "section": "連鎖特選 餐廳買一送一活動一覽",
+        "section": "連鎖特選餐廳買一送一活動一覽",
         "scope": "聚日式鍋物",
         "period": "11/4 ~ 11/17",
         "content": "查看優惠前往查看優惠",
@@ -531,7 +531,7 @@
         "discount": "和風昆布雪花豬肉鍋 買 1 送 1"
       },
       {
-        "section": "連鎖特選 餐廳買一送一活動一覽",
+        "section": "連鎖特選餐廳買一送一活動一覽",
         "scope": "享鴨",
         "period": "11/4 ~ 11/17",
         "content": "查看優惠前往查看優惠",
@@ -541,7 +541,7 @@
         "discount": "芋香鴨絲米粉個人餐 買 1 送 1"
       },
       {
-        "section": "連鎖特選 餐廳買一送一活動一覽",
+        "section": "連鎖特選餐廳買一送一活動一覽",
         "scope": "和牛涮",
         "period": "11/4 ~ 11/17",
         "content": "查看優惠前往查看優惠",
@@ -551,7 +551,7 @@
         "discount": "極上和牛丼飯 買 1 送 1"
       },
       {
-        "section": "連鎖特選 餐廳買一送一活動一覽",
+        "section": "連鎖特選餐廳買一送一活動一覽",
         "scope": "就饗鐵板燒",
         "period": "11/4 ~ 11/17",
         "content": "查看優惠前往查看優惠",
@@ -561,7 +561,7 @@
         "discount": "鐵板雪花牛套餐＋蔥蛋 買 1 送 1"
       },
       {
-        "section": "連鎖特選 餐廳買一送一活動一覽",
+        "section": "連鎖特選餐廳買一送一活動一覽",
         "scope": "原燒",
         "period": "11/4 ~ 11/17",
         "content": "查看優惠前往查看優惠",
@@ -571,7 +571,7 @@
         "discount": "嚴選醬燒豬丼 買 1 送 1"
       },
       {
-        "section": "連鎖特選 餐廳買一送一活動一覽",
+        "section": "連鎖特選餐廳買一送一活動一覽",
         "scope": "王品牛排",
         "period": "11/4 ~ 11/17",
         "content": "查看優惠前往查看優惠",
@@ -581,7 +581,7 @@
         "discount": "比利時巧克力莓果蛋糕 買 1 送 1"
       },
       {
-        "section": "連鎖特選 餐廳買一送一活動一覽",
+        "section": "連鎖特選餐廳買一送一活動一覽",
         "scope": "品田牧場",
         "period": "11/4 ~ 11/17",
         "content": "查看優惠前往查看優惠",
@@ -591,7 +591,7 @@
         "discount": "大阪燒豚丸拼唐揚雞 買 1 送 1"
       },
       {
-        "section": "連鎖特選 餐廳買一送一活動一覽",
+        "section": "連鎖特選餐廳買一送一活動一覽",
         "scope": "西堤",
         "period": "11/4 ~ 11/17",
         "content": "查看優惠前往查看優惠",
@@ -601,7 +601,7 @@
         "discount": "西西里海鮮飯 買 1 送 1"
       },
       {
-        "section": "連鎖特選 餐廳買一送一活動一覽",
+        "section": "連鎖特選餐廳買一送一活動一覽",
         "scope": "藝奇",
         "period": "11/4 ~ 11/17",
         "content": "查看優惠前往查看優惠",
@@ -611,7 +611,7 @@
         "discount": "浮誇海陸雙拼釜飯（炸蝦＋骰牛） 買 1 送 1"
       },
       {
-        "section": "連鎖特選 餐廳買一送一活動一覽",
+        "section": "連鎖特選餐廳買一送一活動一覽",
         "scope": "肉次方",
         "period": "11/4 ~ 11/17",
         "content": "查看優惠前往查看優惠",
@@ -621,7 +621,7 @@
         "discount": "義式牛肉飯＋優酪思果乳 買 1 送 1"
       },
       {
-        "section": "連鎖特選 餐廳買一送一活動一覽",
+        "section": "連鎖特選餐廳買一送一活動一覽",
         "scope": "石二鍋",
         "period": "11/4 ~ 11/17",
         "content": "查看優惠前往查看優惠",
@@ -631,7 +631,7 @@
         "discount": "檸檬冬瓜冰沙 買 1 送 1"
       },
       {
-        "section": "連鎖特選 餐廳買一送一活動一覽",
+        "section": "連鎖特選餐廳買一送一活動一覽",
         "scope": "尬鍋",
         "period": "11/4 ~ 11/17",
         "content": "查看優惠前往查看優惠",
@@ -641,7 +641,7 @@
         "discount": "梅花豬石頭即享鍋 買 1 送 1"
       },
       {
-        "section": "連鎖特選 餐廳買一送一活動一覽",
+        "section": "連鎖特選餐廳買一送一活動一覽",
         "scope": "麥當勞",
         "period": "贈完為止",
         "content": "查看優惠前往查看優惠",
@@ -651,7 +651,7 @@
         "discount": "中薯 買 1 送 1"
       },
       {
-        "section": "連鎖特選 餐廳買一送一活動一覽",
+        "section": "連鎖特選餐廳買一送一活動一覽",
         "scope": "吉野家",
         "period": "11/4 ~ 11/17",
         "content": "查看優惠前往查看優惠",
@@ -661,7 +661,7 @@
         "discount": "茶碗蒸、炭香牛燒肉丼可口可樂套餐 買 1 送 1"
       },
       {
-        "section": "連鎖特選 餐廳買一送一活動一覽",
+        "section": "連鎖特選餐廳買一送一活動一覽",
         "scope": "肯德基",
         "period": "贈完為止",
         "content": "查看優惠前往查看優惠",
@@ -671,7 +671,7 @@
         "discount": "中杯飲料 買 1 送 1"
       },
       {
-        "section": "連鎖特選 餐廳買一送一活動一覽",
+        "section": "連鎖特選餐廳買一送一活動一覽",
         "scope": "達美樂",
         "period": "贈完為止",
         "content": "查看優惠前往查看優惠",
@@ -681,7 +681,7 @@
         "discount": "全尺寸披薩 買 1 送 1"
       },
       {
-        "section": "連鎖特選 餐廳買一送一活動一覽",
+        "section": "連鎖特選餐廳買一送一活動一覽",
         "scope": "21PLUS風味館",
         "period": "贈完為止",
         "content": "查看優惠前往查看優惠",
@@ -691,7 +691,7 @@
         "discount": "香草烤雞茸玉米濃湯 原味小棒腿2入 雪豆腐布丁 時蔬雞汁飯配大飲 心型大雞塊2入 經典杏鮑菇 大薯霸 紫玉Q薯 買 1 送 1"
       },
       {
-        "section": "連鎖特選 餐廳買一送一活動一覽",
+        "section": "連鎖特選餐廳買一送一活動一覽",
         "scope": "日向咖啡",
         "period": "贈完為止",
         "content": "查看優惠前往查看優惠",
@@ -701,7 +701,7 @@
         "discount": "美式咖啡 SOE單品美式 買 1 送 1"
       },
       {
-        "section": "連鎖特選 餐廳買一送一活動一覽",
+        "section": "連鎖特選餐廳買一送一活動一覽",
         "scope": "樂法",
         "period": "贈完為止",
         "content": "查看優惠前往查看優惠",
@@ -711,7 +711,7 @@
         "discount": "林華泰梅子鐵觀音-冰 林華泰四季青茶-冰 蘋果蜂蜜綠茶-冰 買 1 送 1"
       },
       {
-        "section": "連鎖特選 餐廳買一送一活動一覽",
+        "section": "連鎖特選餐廳買一送一活動一覽",
         "scope": "黛黛茶 指定分店",
         "period": "贈完為止",
         "content": "查看優惠前往查看優惠",
@@ -721,7 +721,7 @@
         "discount": "白露青檸 百年仙草茶 買 1 送 1"
       },
       {
-        "section": "連鎖特選 餐廳買一送一活動一覽",
+        "section": "連鎖特選餐廳買一送一活動一覽",
         "scope": "初韻",
         "period": "贈完為止",
         "content": "查看優惠前往查看優惠",
@@ -731,7 +731,7 @@
         "discount": "荔枝烏龍凍凍 荔枝多多烏龍 買 1 送 1"
       },
       {
-        "section": "連鎖特選 餐廳買一送一活動一覽",
+        "section": "連鎖特選餐廳買一送一活動一覽",
         "scope": "西雅圖極品咖啡",
         "period": "贈完為止",
         "content": "查看優惠前往查看優惠",
@@ -741,7 +741,7 @@
         "discount": "原味紅茶 原味可頌 拿鐵 義大利美式咖啡 買 1 送 1"
       },
       {
-        "section": "連鎖特選 餐廳買一送一活動一覽",
+        "section": "連鎖特選餐廳買一送一活動一覽",
         "scope": "一番茶",
         "period": "贈完為止",
         "content": "查看優惠前往查看優惠",
@@ -790,7 +790,7 @@
         "section": "行動支付優惠",
         "scope": "",
         "period": "",
-        "content": "平日單筆滿 $199，   當月累積 5 筆符合資格交易，   可獲幸運轉轉樂機會。",
+        "content": "平日單筆滿 $199， 當月累積 5 筆符合資格交易， 可獲幸運轉轉樂機會。",
         "platform": "ubereats",
         "code": null,
         "link": false
@@ -799,7 +799,7 @@
         "section": "行動支付優惠",
         "scope": "",
         "period": "",
-        "content": "指定平日單筆滿 $199，   符合條件享 2% LINE POINTS。",
+        "content": "指定平日單筆滿 $199， 符合條件享 2% LINE POINTS。",
         "platform": "ubereats",
         "code": null,
         "link": false
@@ -882,9 +882,9 @@
         "section": "美食外送優惠碼整理｜11 月滿額現折、星巴克週二、外帶自取優惠",
         "scope": "大苑子",
         "period": "11/7 ~ 11/25",
-        "content": "賜你大苑子複製 優惠碼",
+        "content": "賜你大苑子複製優惠碼",
         "platform": "foodpanda",
-        "code": null,
+        "code": "賜你大苑子",
         "link": false,
         "discount": "疊加優惠68折起"
       },
@@ -1002,9 +1002,9 @@
         "section": "生鮮雜貨優惠碼整理｜10 月最新折扣、全聯週末優惠一次看",
         "scope": "樂家康超市",
         "period": "11/1 ~ 11/30",
-        "content": "1111複製優惠碼",
+        "content": "1111複製 優惠碼",
         "platform": "foodpanda",
-        "code": "1111",
+        "code": null,
         "link": false,
         "discount": "滿 $999 享 85 折 最高折抵 $180 可用2次"
       },
@@ -1022,9 +1022,9 @@
         "section": "生鮮雜貨優惠碼整理｜10 月最新折扣、全聯週末優惠一次看",
         "scope": "康是美",
         "period": "11/1 ~ 11/30",
-        "content": "1111複製 優惠碼",
+        "content": "1111複製優惠碼",
         "platform": "foodpanda",
-        "code": null,
+        "code": "1111",
         "link": false,
         "discount": "滿 $999 享 85 折 最高折抵 $180 可用2次"
       },
@@ -1162,7 +1162,7 @@
         "section": "學生、企業用戶優惠",
         "scope": "CUBE 卡友",
         "period": "至 12/31",
-        "content": "前往下單複製優惠碼",
+        "content": "前往下單複製 優惠碼",
         "platform": "foodpanda",
         "code": null,
         "link": true,
@@ -1212,7 +1212,7 @@
         "section": "學生、企業用戶優惠",
         "scope": "街口聯名卡卡友",
         "period": "至 12/31",
-        "content": "前往下單複製 優惠碼",
+        "content": "前往下單複製優惠碼",
         "platform": "foodpanda",
         "code": null,
         "link": true,
