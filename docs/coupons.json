@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-11-11T01:15:46.021Z",
-  "updated": "2026-11-11 09:15",
+  "generatedAt": "2026-11-11T10:51:05.917Z",
+  "updated": "2026-11-11 18:51",
   "sources": {
     "ubereats": "https://raw.githubusercontent.com/ridemountainpig/tasty-coupon/main/coupon-json/ubereats-coupon.json",
     "foodpanda": "https://raw.githubusercontent.com/ridemountainpig/tasty-coupon/main/coupon-json/foodpanda-coupon.json"
@@ -841,6 +841,16 @@
       {
         "section": "pandapro 訂閱優惠碼",
         "scope": "指定用戶",
+        "period": "11/15",
+        "content": "11111111111複製優惠碼",
+        "platform": "foodpanda",
+        "code": "11111111111",
+        "link": false,
+        "discount": "半年費 $111"
+      },
+      {
+        "section": "pandapro 訂閱優惠碼",
+        "scope": "指定用戶",
         "period": "~ 11/30",
         "content": "yygg12複製優惠碼",
         "platform": "foodpanda",
@@ -857,6 +867,16 @@
         "code": null,
         "link": true,
         "discount": "月費制方案免費"
+      },
+      {
+        "section": "pandapro 訂閱優惠碼",
+        "scope": "全用戶",
+        "period": "依官方公告",
+        "content": "UPGRADE複製優惠碼",
+        "platform": "foodpanda",
+        "code": "UPGRADE",
+        "link": false,
+        "discount": "半年費七折"
       },
       {
         "section": "pandapro 會員優惠碼",
