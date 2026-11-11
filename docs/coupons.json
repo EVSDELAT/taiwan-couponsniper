@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-11-11T10:51:05.917Z",
-  "updated": "2026-11-11 18:51",
+  "generatedAt": "2026-11-11T19:33:19.202Z",
+  "updated": "2026-11-12 03:33",
   "sources": {
     "ubereats": "https://raw.githubusercontent.com/ridemountainpig/tasty-coupon/main/coupon-json/ubereats-coupon.json",
     "foodpanda": "https://raw.githubusercontent.com/ridemountainpig/tasty-coupon/main/coupon-json/foodpanda-coupon.json"
@@ -134,9 +134,9 @@
         "section": "美食外送丨外帶自取 優惠",
         "scope": "全用戶",
         "period": "~ 12/1",
-        "content": "傳說補給到複製優惠碼",
+        "content": "傳說補給到複製 優惠碼",
         "platform": "ubereats",
-        "code": "傳說補給到",
+        "code": null,
         "link": false,
         "discount": "輸入後 抽最低 4 折"
       },
@@ -484,9 +484,9 @@
         "section": "本月精選：生鮮雜貨與全聯折扣碼總整理",
         "scope": "優市",
         "period": "11/20～12/3",
-        "content": "十週年來優市複製優惠碼",
+        "content": "十週年來優市複製 優惠碼",
         "platform": "ubereats",
-        "code": "十週年來優市",
+        "code": null,
         "link": false,
         "discount": "滿 $999 折 $110"
       },
@@ -1042,9 +1042,9 @@
         "section": "生鮮雜貨優惠碼整理｜10 月最新折扣、全聯週末優惠一次看",
         "scope": "屈臣氏",
         "period": "11/1 ~ 11/30",
-        "content": "1111複製優惠碼",
+        "content": "1111複製 優惠碼",
         "platform": "foodpanda",
-        "code": "1111",
+        "code": null,
         "link": false,
         "discount": "滿 $999 享 85 折 最高折抵 $180 可用2次"
       },
@@ -1242,7 +1242,7 @@
         "section": "學生、企業用戶優惠",
         "scope": "街口聯名卡卡友",
         "period": "至 12/31",
-        "content": "前往下單複製優惠碼",
+        "content": "前往下單複製 優惠碼",
         "platform": "foodpanda",
         "code": null,
         "link": true,
