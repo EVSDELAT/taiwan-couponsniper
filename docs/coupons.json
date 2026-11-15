@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-11-14T22:19:54.547Z",
-  "updated": "2026-11-15 06:19",
+  "generatedAt": "2026-11-15T06:22:44.219Z",
+  "updated": "2026-11-15 14:22",
   "sources": {
     "ubereats": "https://raw.githubusercontent.com/ridemountainpig/tasty-coupon/main/coupon-json/ubereats-coupon.json",
     "foodpanda": "https://raw.githubusercontent.com/ridemountainpig/tasty-coupon/main/coupon-json/foodpanda-coupon.json"
@@ -134,9 +134,9 @@
         "section": "美食外送丨外帶自取 優惠",
         "scope": "全用戶",
         "period": "~ 12/1",
-        "content": "傳說補給到複製優惠碼",
+        "content": "傳說補給到複製 優惠碼",
         "platform": "ubereats",
-        "code": "傳說補給到",
+        "code": null,
         "link": false,
         "discount": "輸入後 抽最低 4 折"
       },
@@ -254,9 +254,9 @@
         "section": "美食外送丨外帶自取 優惠",
         "scope": "外送、自取",
         "period": "領取後期限14天",
-        "content": "中華電信十一月生快複製 優惠碼",
+        "content": "中華電信十一月生快複製優惠碼",
         "platform": "ubereats",
-        "code": null,
+        "code": "中華電信十一月生快",
         "link": false,
         "discount": "抽 滿額 優惠，最低四折"
       },
@@ -304,9 +304,9 @@
         "section": "區域限定與分眾專屬折價券（含青少年帳號）",
         "scope": "基隆市",
         "period": "11/1 ~ 11/15",
-        "content": "秋享七五複製優惠碼",
+        "content": "秋享七五複製 優惠碼",
         "platform": "ubereats",
-        "code": "秋享七五",
+        "code": null,
         "link": false,
         "discount": "滿 $149 享 75 折 最高折抵 $40"
       },
@@ -414,9 +414,9 @@
         "section": "區域限定與分眾專屬折價券（含青少年帳號）",
         "scope": "澎湖縣",
         "period": "11/1 ~ 11/15",
-        "content": "秋狂七五複製 優惠碼",
+        "content": "秋狂七五複製優惠碼",
         "platform": "ubereats",
-        "code": null,
+        "code": "秋狂七五",
         "link": false,
         "discount": "滿 $149 享 75 折 最高折抵 $40"
       },
@@ -484,9 +484,9 @@
         "section": "本月精選：生鮮雜貨與全聯折扣碼總整理",
         "scope": "優市",
         "period": "11/20～12/3",
-        "content": "十週年來優市複製優惠碼",
+        "content": "十週年來優市複製 優惠碼",
         "platform": "ubereats",
-        "code": "十週年來優市",
+        "code": null,
         "link": false,
         "discount": "滿 $999 折 $110"
       },
@@ -800,7 +800,7 @@
         "section": "行動支付優惠",
         "scope": "",
         "period": "",
-        "content": "平日單筆滿 $199， 當月累積 5 筆符合資格交易， 可獲幸運轉轉樂機會。",
+        "content": "平日單筆滿 $199，   當月累積 5 筆符合資格交易，   可獲幸運轉轉樂機會。",
         "platform": "ubereats",
         "code": null,
         "link": false
@@ -809,7 +809,7 @@
         "section": "行動支付優惠",
         "scope": "",
         "period": "",
-        "content": "指定平日單筆滿 $199， 符合條件享 2% LINE POINTS。",
+        "content": "指定平日單筆滿 $199，   符合條件享 2% LINE POINTS。",
         "platform": "ubereats",
         "code": null,
         "link": false
@@ -837,6 +837,16 @@
         "code": "foodpanda",
         "link": false,
         "discount": "美食外送 滿 $99 享 3 折 最高折抵 $200 生鮮雜貨 滿 $450 享 5 折 最高折抵 $250"
+      },
+      {
+        "section": "pandapro 訂閱優惠碼",
+        "scope": "指定用戶",
+        "period": "11/1 ~ 11/30",
+        "content": "JOIN6複製優惠碼",
+        "platform": "foodpanda",
+        "code": "JOIN6",
+        "link": false,
+        "discount": "半年費 $195"
       },
       {
         "section": "pandapro 訂閱優惠碼",
@@ -909,7 +919,7 @@
         "discount": "免費兌換經典鹽酥雞一份 限 外帶自取"
       },
       {
-        "section": "美食外送優惠碼整理｜11 月滿額現折、星巴克週二、外帶自取優惠",
+        "section": "美食外送 優惠碼整理｜11 月滿額現折、星巴克週二、外帶自取優惠",
         "scope": "大苑子",
         "period": "11/7 ~ 11/25",
         "content": "賜你大苑子複製優惠碼",
@@ -919,7 +929,7 @@
         "discount": "疊加優惠68折起"
       },
       {
-        "section": "美食外送優惠碼整理｜11 月滿額現折、星巴克週二、外帶自取優惠",
+        "section": "美食外送 優惠碼整理｜11 月滿額現折、星巴克週二、外帶自取優惠",
         "scope": "外帶自取",
         "period": "11/1 ~ 11/30",
         "content": "天天取天天爽複製優惠碼",
@@ -929,7 +939,7 @@
         "discount": "於指定店家滿 $360 現折 $110 於指定店家滿 $260 現折 $80"
       },
       {
-        "section": "美食外送優惠碼整理｜11 月滿額現折、星巴克週二、外帶自取優惠",
+        "section": "美食外送 優惠碼整理｜11 月滿額現折、星巴克週二、外帶自取優惠",
         "scope": "外帶自取",
         "period": "11/1 ~ 11/30",
         "content": "自取感謝你複製優惠碼",
@@ -939,7 +949,7 @@
         "discount": "滿 $100 享 7 折 最高折抵 $30 可用３次"
       },
       {
-        "section": "美食外送優惠碼整理｜11 月滿額現折、星巴克週二、外帶自取優惠",
+        "section": "美食外送 優惠碼整理｜11 月滿額現折、星巴克週二、外帶自取優惠",
         "scope": "指定 餐廳",
         "period": "11/1 ~ 11/30",
         "content": "爽爽吃複製優惠碼",
@@ -949,7 +959,7 @@
         "discount": "滿 $360 最高折 $110 滿 $260 最高折 $80 滿 $200 最高折 $100 滿 $200 最高折 $150"
       },
       {
-        "section": "美食外送優惠碼整理｜11 月滿額現折、星巴克週二、外帶自取優惠",
+        "section": "美食外送 優惠碼整理｜11 月滿額現折、星巴克週二、外帶自取優惠",
         "scope": "星巴克指定專區",
         "period": "11/1 ~ 11/30",
         "content": "週二星享日複製優惠碼",
@@ -1042,9 +1052,9 @@
         "section": "生鮮雜貨優惠碼整理｜10 月最新折扣、全聯週末優惠一次看",
         "scope": "康是美",
         "period": "11/1 ~ 11/30",
-        "content": "1111複製優惠碼",
+        "content": "1111複製 優惠碼",
         "platform": "foodpanda",
-        "code": "1111",
+        "code": null,
         "link": false,
         "discount": "滿 $999 享 85 折 最高折抵 $180 可用2次"
       },
@@ -1052,9 +1062,9 @@
         "section": "生鮮雜貨優惠碼整理｜10 月最新折扣、全聯週末優惠一次看",
         "scope": "楓康超市",
         "period": "11/1 ~ 11/30",
-        "content": "1111複製 優惠碼",
+        "content": "1111複製優惠碼",
         "platform": "foodpanda",
-        "code": null,
+        "code": "1111",
         "link": false,
         "discount": "滿 $999 享 85 折 最高折抵 $180 可用2次"
       },
