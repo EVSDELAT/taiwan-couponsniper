@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-11-16T19:33:26.854Z",
-  "updated": "2026-11-17 03:33",
+  "generatedAt": "2026-11-17T03:48:51.216Z",
+  "updated": "2026-11-17 11:48",
   "sources": {
     "ubereats": "https://raw.githubusercontent.com/ridemountainpig/tasty-coupon/main/coupon-json/ubereats-coupon.json",
     "foodpanda": "https://raw.githubusercontent.com/ridemountainpig/tasty-coupon/main/coupon-json/foodpanda-coupon.json"
@@ -658,7 +658,7 @@
         "platform": "ubereats",
         "code": "開局補給666",
         "link": false,
-        "discount": "滿 $666 折抵 $100"
+        "discount": "滿 $666 折抵 $100 可與 Uber One 併用，限信用卡／簽帳金融卡付款"
       },
       {
         "section": "本月精選：生鮮雜貨與全聯折扣碼總整理",
@@ -708,7 +708,7 @@
         "platform": "ubereats",
         "code": null,
         "link": true,
-        "discount": "優市首購・滿 $399 折 $100 每帳戶可用 2 次"
+        "discount": "優市首購・滿 $399 折 $100 限首次訂購優市用戶，每帳戶可用 2 次；限收到序號之帳戶，轉發無效，序號以 App 通知為準"
       },
       {
         "section": "本月精選：生鮮雜貨與全聯折扣碼總整理",
@@ -1010,7 +1010,7 @@
         "section": "行動支付優惠",
         "scope": "",
         "period": "",
-        "content": "平日單筆滿 $199，   當月累積 5 筆符合資格交易，   可獲幸運轉轉樂機會。",
+        "content": "平日單筆滿 $199， 當月累積 5 筆符合資格交易， 可獲幸運轉轉樂機會。",
         "platform": "ubereats",
         "code": null,
         "link": false
@@ -1019,7 +1019,7 @@
         "section": "行動支付優惠",
         "scope": "",
         "period": "",
-        "content": "指定平日單筆滿 $199，   符合條件享 2% LINE POINTS。",
+        "content": "指定平日單筆滿 $199， 符合條件享 2% LINE POINTS。",
         "platform": "ubereats",
         "code": null,
         "link": false
