@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-11-17T03:48:51.216Z",
-  "updated": "2026-11-17 11:48",
+  "generatedAt": "2026-11-17T15:55:47.495Z",
+  "updated": "2026-11-17 23:55",
   "sources": {
     "ubereats": "https://raw.githubusercontent.com/ridemountainpig/tasty-coupon/main/coupon-json/ubereats-coupon.json",
     "foodpanda": "https://raw.githubusercontent.com/ridemountainpig/tasty-coupon/main/coupon-json/foodpanda-coupon.json"
@@ -652,7 +652,7 @@
       },
       {
         "section": "本月精選：生鮮雜貨與全聯折扣碼總整理",
-        "scope": "全聯、大全聯、樂家康、萬家福、優市",
+        "scope": "分眾",
         "period": "11/12 ~ 11/24",
         "content": "開局補給666複製優惠碼",
         "platform": "ubereats",
@@ -662,11 +662,41 @@
       },
       {
         "section": "本月精選：生鮮雜貨與全聯折扣碼總整理",
+        "scope": "好市多首購",
+        "period": "以 App 公告為準",
+        "content": "十週年220複製優惠碼",
+        "platform": "ubereats",
+        "code": "十週年220",
+        "link": false,
+        "discount": "滿 $1,099 折抵 $220 好市多首購限定，第一次在 Uber Eats 點好市多輸入序號使用"
+      },
+      {
+        "section": "本月精選：生鮮雜貨與全聯折扣碼總整理",
+        "scope": "好市多（全用戶）",
+        "period": "以 App 公告為準",
+        "content": "查看優惠前往查看優惠",
+        "platform": "ubereats",
+        "code": null,
+        "link": true,
+        "discount": "滿 $3,488 免外送費＋免服務費 好市多訂單，全用戶適用"
+      },
+      {
+        "section": "本月精選：生鮮雜貨與全聯折扣碼總整理",
+        "scope": "好市多（全用戶）",
+        "period": "以 App 公告為準",
+        "content": "查看優惠前往查看優惠",
+        "platform": "ubereats",
+        "code": null,
+        "link": true,
+        "discount": "滿 $3,488 免外送費＋免服務費 好市多訂單，全用戶適用"
+      },
+      {
+        "section": "本月精選：生鮮雜貨與全聯折扣碼總整理",
         "scope": "統一超商",
         "period": "11/1～11/30",
-        "content": "十一月499買統一複製優惠碼",
+        "content": "十一月499買統一複製 優惠碼",
         "platform": "ubereats",
-        "code": "十一月499買統一",
+        "code": null,
         "link": false,
         "discount": "滿 $499 折抵 $50 可用５次"
       },
@@ -714,9 +744,9 @@
         "section": "本月精選：生鮮雜貨與全聯折扣碼總整理",
         "scope": "生鮮雜貨首購",
         "period": "10/16 ~ 11/30",
-        "content": "嚕藥師150複製 優惠碼",
+        "content": "嚕藥師150複製優惠碼",
         "platform": "ubereats",
-        "code": null,
+        "code": "嚕藥師150",
         "link": false,
         "discount": "滿 $449 折抵 $150"
       },
