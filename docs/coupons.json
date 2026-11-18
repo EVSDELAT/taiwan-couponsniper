@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-11-18T00:56:13.934Z",
-  "updated": "2026-11-18 08:56",
+  "generatedAt": "2026-11-18T11:34:54.700Z",
+  "updated": "2026-11-18 19:34",
   "sources": {
     "ubereats": "https://raw.githubusercontent.com/ridemountainpig/tasty-coupon/main/coupon-json/ubereats-coupon.json",
     "foodpanda": "https://raw.githubusercontent.com/ridemountainpig/tasty-coupon/main/coupon-json/foodpanda-coupon.json"
@@ -752,143 +752,53 @@
       },
       {
         "section": "連鎖特選 餐廳買一送一活動一覽",
-        "scope": "丰禾 台味風格料理",
-        "period": "11/4 ~ 11/17",
-        "content": "查看優惠前往查看優惠",
+        "scope": "可不可熟成紅茶",
+        "period": "11/18 ~ 12/1",
+        "content": "查看優惠免輸碼前往搶購",
         "platform": "ubereats",
         "code": null,
         "link": true,
-        "discount": "丰禾起家雞獨享餐、梅汁梅花肉獨享餐 買 1 送 1"
+        "discount": "熟成冷露／春芽綠茶（指定飲品） 買 1 送 1"
       },
       {
         "section": "連鎖特選 餐廳買一送一活動一覽",
-        "scope": "青花驕",
-        "period": "11/4 ~ 11/17",
-        "content": "查看優惠前往查看優惠",
+        "scope": "必勝客",
+        "period": "11/18 ~ 12/1",
+        "content": "查看優惠免輸碼前往搶購",
         "platform": "ubereats",
         "code": null,
         "link": true,
-        "discount": "驕心涼拌酸辣粉套餐 買 1 送 1"
+        "discount": "指定個人比薩／人氣副食 買 1 送 1"
       },
       {
         "section": "連鎖特選 餐廳買一送一活動一覽",
-        "scope": "聚日式鍋物",
-        "period": "11/4 ~ 11/17",
-        "content": "查看優惠前往查看優惠",
+        "scope": "摩斯漢堡",
+        "period": "11/18 ~ 12/1",
+        "content": "查看優惠免輸碼前往搶購",
         "platform": "ubereats",
         "code": null,
         "link": true,
-        "discount": "和風昆布雪花豬肉鍋 買 1 送 1"
+        "discount": "冰紅茶／指定點心單品 買 1 送 1"
       },
       {
         "section": "連鎖特選 餐廳買一送一活動一覽",
-        "scope": "享鴨",
-        "period": "11/4 ~ 11/17",
-        "content": "查看優惠前往查看優惠",
+        "scope": "Q Burger",
+        "period": "11/18 ~ 12/1",
+        "content": "查看優惠免輸碼前往搶購",
         "platform": "ubereats",
         "code": null,
         "link": true,
-        "discount": "芋香鴨絲米粉個人餐 買 1 送 1"
+        "discount": "指定經典早午餐飲品／點心 買 1 送 1"
       },
       {
         "section": "連鎖特選 餐廳買一送一活動一覽",
-        "scope": "和牛涮",
-        "period": "11/4 ~ 11/17",
-        "content": "查看優惠前往查看優惠",
+        "scope": "三商巧福",
+        "period": "11/18 ~ 12/1",
+        "content": "查看優惠免輸碼前往搶購",
         "platform": "ubereats",
         "code": null,
         "link": true,
-        "discount": "極上和牛丼飯 買 1 送 1"
-      },
-      {
-        "section": "連鎖特選 餐廳買一送一活動一覽",
-        "scope": "就饗鐵板燒",
-        "period": "11/4 ~ 11/17",
-        "content": "查看優惠前往查看優惠",
-        "platform": "ubereats",
-        "code": null,
-        "link": true,
-        "discount": "鐵板雪花牛套餐＋蔥蛋 買 1 送 1"
-      },
-      {
-        "section": "連鎖特選 餐廳買一送一活動一覽",
-        "scope": "原燒",
-        "period": "11/4 ~ 11/17",
-        "content": "查看優惠前往查看優惠",
-        "platform": "ubereats",
-        "code": null,
-        "link": true,
-        "discount": "嚴選醬燒豬丼 買 1 送 1"
-      },
-      {
-        "section": "連鎖特選 餐廳買一送一活動一覽",
-        "scope": "王品牛排",
-        "period": "11/4 ~ 11/17",
-        "content": "查看優惠前往查看優惠",
-        "platform": "ubereats",
-        "code": null,
-        "link": true,
-        "discount": "比利時巧克力莓果蛋糕 買 1 送 1"
-      },
-      {
-        "section": "連鎖特選 餐廳買一送一活動一覽",
-        "scope": "品田牧場",
-        "period": "11/4 ~ 11/17",
-        "content": "查看優惠前往查看優惠",
-        "platform": "ubereats",
-        "code": null,
-        "link": true,
-        "discount": "大阪燒豚丸拼唐揚雞 買 1 送 1"
-      },
-      {
-        "section": "連鎖特選 餐廳買一送一活動一覽",
-        "scope": "西堤",
-        "period": "11/4 ~ 11/17",
-        "content": "查看優惠前往查看優惠",
-        "platform": "ubereats",
-        "code": null,
-        "link": true,
-        "discount": "西西里海鮮飯 買 1 送 1"
-      },
-      {
-        "section": "連鎖特選 餐廳買一送一活動一覽",
-        "scope": "藝奇",
-        "period": "11/4 ~ 11/17",
-        "content": "查看優惠前往查看優惠",
-        "platform": "ubereats",
-        "code": null,
-        "link": true,
-        "discount": "浮誇海陸雙拼釜飯（炸蝦＋骰牛） 買 1 送 1"
-      },
-      {
-        "section": "連鎖特選 餐廳買一送一活動一覽",
-        "scope": "肉次方",
-        "period": "11/4 ~ 11/17",
-        "content": "查看優惠前往查看優惠",
-        "platform": "ubereats",
-        "code": null,
-        "link": true,
-        "discount": "義式牛肉飯＋優酪思果乳 買 1 送 1"
-      },
-      {
-        "section": "連鎖特選 餐廳買一送一活動一覽",
-        "scope": "石二鍋",
-        "period": "11/4 ~ 11/17",
-        "content": "查看優惠前往查看優惠",
-        "platform": "ubereats",
-        "code": null,
-        "link": true,
-        "discount": "檸檬冬瓜冰沙 買 1 送 1"
-      },
-      {
-        "section": "連鎖特選 餐廳買一送一活動一覽",
-        "scope": "尬鍋",
-        "period": "11/4 ~ 11/17",
-        "content": "查看優惠前往查看優惠",
-        "platform": "ubereats",
-        "code": null,
-        "link": true,
-        "discount": "梅花豬石頭即享鍋 買 1 送 1"
+        "discount": "招牌小菜／指定麵食套餐 買 1 送 1"
       },
       {
         "section": "連鎖特選 餐廳買一送一活動一覽",
@@ -899,16 +809,6 @@
         "code": null,
         "link": true,
         "discount": "中薯 買 1 送 1"
-      },
-      {
-        "section": "連鎖特選 餐廳買一送一活動一覽",
-        "scope": "吉野家",
-        "period": "11/4 ~ 11/17",
-        "content": "查看優惠前往查看優惠",
-        "platform": "ubereats",
-        "code": null,
-        "link": true,
-        "discount": "茶碗蒸、炭香牛燒肉丼可口可樂套餐 買 1 送 1"
       },
       {
         "section": "連鎖特選 餐廳買一送一活動一覽",
