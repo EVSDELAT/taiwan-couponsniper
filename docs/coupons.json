@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-11-20T02:17:10.398Z",
-  "updated": "2026-11-20 10:17",
+  "generatedAt": "2026-11-20T11:29:51.777Z",
+  "updated": "2026-11-20 19:29",
   "sources": {
     "ubereats": "https://raw.githubusercontent.com/ridemountainpig/tasty-coupon/main/coupon-json/ubereats-coupon.json",
     "foodpanda": "https://raw.githubusercontent.com/ridemountainpig/tasty-coupon/main/coupon-json/foodpanda-coupon.json"
@@ -63,7 +63,7 @@
       {
         "section": "Uber Eats 十周年 優惠活動",
         "scope": "全用戶",
-        "period": "11/16 ~ 11/20",
+        "period": "11/16 ~ /12/20",
         "content": "UE慶生複製優惠碼",
         "platform": "ubereats",
         "code": "UE慶生",
@@ -202,6 +202,16 @@
       },
       {
         "section": "美食外送丨外帶自取 優惠",
+        "scope": "全用戶",
+        "period": "~ 11/24",
+        "content": "開打補給66複製優惠碼",
+        "platform": "ubereats",
+        "code": "開打補給66",
+        "link": false,
+        "discount": "滿 $360 折 $66"
+      },
+      {
+        "section": "美食外送丨外帶自取 優惠",
         "scope": "綁台新信用卡或簽帳金融卡",
         "period": "11/1 ~ 11/30",
         "content": "台新瘋雙11複製優惠碼",
@@ -224,9 +234,9 @@
         "section": "美食外送丨外帶自取 優惠",
         "scope": "全用戶",
         "period": "~ 12/1",
-        "content": "傳說補給到複製優惠碼",
+        "content": "傳說補給到複製 優惠碼",
         "platform": "ubereats",
-        "code": "傳說補給到",
+        "code": null,
         "link": false,
         "discount": "輸入後 抽最低 4 折"
       },
@@ -234,9 +244,9 @@
         "section": "美食外送丨外帶自取 優惠",
         "scope": "指定用戶",
         "period": "11/1 ~ 11/30",
-        "content": "六折省點複製 優惠碼",
+        "content": "六折省點複製優惠碼",
         "platform": "ubereats",
-        "code": null,
+        "code": "六折省點",
         "link": false,
         "discount": "滿 $149 享 6 折 最高折 $100 輸入後14天"
       },
@@ -384,9 +394,9 @@
         "section": "美食外送丨外帶自取 優惠",
         "scope": "指定用戶",
         "period": "11/1 ~ 11/30",
-        "content": "十一快快點複製優惠碼",
+        "content": "十一快快點複製 優惠碼",
         "platform": "ubereats",
-        "code": "十一快快點",
+        "code": null,
         "link": false,
         "discount": "滿 $100 享 4 折 最高折抵 $100 可用４次"
       },
@@ -474,9 +484,9 @@
         "section": "Uber Eats 11 月地區限定優惠（11/16–11/30）",
         "scope": "嘉義縣市",
         "period": "2026/11/30",
-        "content": "十一飽五複製優惠碼",
+        "content": "十一飽五複製 優惠碼",
         "platform": "ubereats",
-        "code": "十一飽五",
+        "code": null,
         "link": false,
         "discount": "滿 $149 享 5 折，最高折抵 $80 限美食外送／外帶商家、限指定用戶，共可使用 4 次；數量有限，兌完為止"
       },
@@ -494,9 +504,9 @@
         "section": "Uber Eats 11 月地區限定優惠（11/16–11/30）",
         "scope": "屏東縣",
         "period": "2026/11/30",
-        "content": "十一狂五複製 優惠碼",
+        "content": "十一狂五複製優惠碼",
         "platform": "ubereats",
-        "code": null,
+        "code": "十一狂五",
         "link": false,
         "discount": "滿 $149 享 5 折，最高折抵 $80 限美食外送／外帶商家、限指定用戶，共可使用 4 次；數量有限，兌完為止"
       },
@@ -574,9 +584,9 @@
         "section": "Uber Eats 11 月地區限定優惠（11/16–11/30）",
         "scope": "台東縣",
         "period": "2026/11/30",
-        "content": "秋想五折複製優惠碼",
+        "content": "秋想五折複製 優惠碼",
         "platform": "ubereats",
-        "code": "秋想五折",
+        "code": null,
         "link": false,
         "discount": "滿 $149 享 5 折，最高折抵 $80 限美食外送／外帶商家、限指定用戶，共可使用 4 次；數量有限，兌完為止"
       },
@@ -594,9 +604,9 @@
         "section": "Uber Eats 11 月地區限定優惠（11/16–11/30）",
         "scope": "澎湖縣",
         "period": "2026/11/30",
-        "content": "秋狂五折複製 優惠碼",
+        "content": "秋狂五折複製優惠碼",
         "platform": "ubereats",
-        "code": null,
+        "code": "秋狂五折",
         "link": false,
         "discount": "滿 $149 享 5 折，最高折抵 $80 限美食外送／外帶商家、限指定用戶，共可使用 4 次；數量有限，兌完為止"
       },
