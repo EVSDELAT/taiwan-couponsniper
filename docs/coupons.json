@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-11-20T20:09:28.756Z",
-  "updated": "2026-11-21 04:09",
+  "generatedAt": "2026-11-21T02:10:59.660Z",
+  "updated": "2026-11-21 10:11",
   "sources": {
     "ubereats": "https://raw.githubusercontent.com/ridemountainpig/tasty-coupon/main/coupon-json/ubereats-coupon.json",
     "foodpanda": "https://raw.githubusercontent.com/ridemountainpig/tasty-coupon/main/coupon-json/foodpanda-coupon.json"
@@ -408,7 +408,7 @@
         "platform": "ubereats",
         "code": "十一點五",
         "link": false,
-        "discount": "滿 $149 享 5 折，最高折抵 $80 限美食外送／外帶商家、限指定用戶，共可使用 4 次；數量有限，兌完為止"
+        "discount": "滿 $149 享 5 折，最高折抵 $80 可用 4 次"
       },
       {
         "section": "Uber Eats 11 月地區限定優惠（11/16–11/30）",
@@ -418,7 +418,7 @@
         "platform": "ubereats",
         "code": "苗栗免費",
         "link": false,
-        "discount": "滿 $149 享 $0 外送費和服務費 限美食外送商家、限指定用戶，共可使用 4 次；數量有限，兌完為止"
+        "discount": "滿 $149 享 $0 外送費和服務費 可用 4 次"
       },
       {
         "section": "Uber Eats 11 月地區限定優惠（11/16–11/30）",
@@ -428,7 +428,7 @@
         "platform": "ubereats",
         "code": "十一好五",
         "link": false,
-        "discount": "滿 $149 享 5 折，最高折抵 $80 限美食外送／外帶商家、限指定用戶，共可使用 4 次；數量有限，兌完為止"
+        "discount": "滿 $149 享 5 折，最高折抵 $80 可用 4 次"
       },
       {
         "section": "Uber Eats 11 月地區限定優惠（11/16–11/30）",
@@ -438,7 +438,7 @@
         "platform": "ubereats",
         "code": "彰化免費",
         "link": false,
-        "discount": "滿 $149 享 $0 外送費和服務費 限美食外送商家、限指定用戶，共可使用 4 次；數量有限，兌完為止"
+        "discount": "滿 $149 享 $0 外送費和服務費 可用 4 次"
       },
       {
         "section": "Uber Eats 11 月地區限定優惠（11/16–11/30）",
@@ -448,7 +448,7 @@
         "platform": "ubereats",
         "code": "十一喜五",
         "link": false,
-        "discount": "滿 $149 享 5 折，最高折抵 $80 限美食外送／外帶商家、限指定用戶，共可使用 4 次；數量有限，兌完為止"
+        "discount": "滿 $149 享 5 折，最高折抵 $80 可用 4 次"
       },
       {
         "section": "Uber Eats 11 月地區限定優惠（11/16–11/30）",
@@ -458,7 +458,7 @@
         "platform": "ubereats",
         "code": "雲林免費",
         "link": false,
-        "discount": "滿 $149 享 $0 外送費和服務費 限美食外送商家、限指定用戶，共可使用 4 次；數量有限，兌完為止"
+        "discount": "滿 $149 享 $0 外送費和服務費 可用 4 次"
       },
       {
         "section": "Uber Eats 11 月地區限定優惠（11/16–11/30）",
@@ -468,7 +468,7 @@
         "platform": "ubereats",
         "code": "十一吃五",
         "link": false,
-        "discount": "滿 $149 享 5 折，最高折抵 $80 限美食外送／外帶商家、限指定用戶，共可使用 4 次；數量有限，兌完為止"
+        "discount": "滿 $149 享 5 折，最高折抵 $80 可用 4 次"
       },
       {
         "section": "Uber Eats 11 月地區限定優惠（11/16–11/30）",
@@ -478,7 +478,7 @@
         "platform": "ubereats",
         "code": "南投免費",
         "link": false,
-        "discount": "滿 $149 享 $0 外送費和服務費 限美食外送商家、限指定用戶，共可使用 4 次；數量有限，兌完為止"
+        "discount": "滿 $149 享 $0 外送費和服務費 可用 4 次"
       },
       {
         "section": "Uber Eats 11 月地區限定優惠（11/16–11/30）",
@@ -488,7 +488,7 @@
         "platform": "ubereats",
         "code": null,
         "link": false,
-        "discount": "滿 $149 享 5 折，最高折抵 $80 限美食外送／外帶商家、限指定用戶，共可使用 4 次；數量有限，兌完為止"
+        "discount": "滿 $149 享 5 折，最高折抵 $80 可用 4 次"
       },
       {
         "section": "Uber Eats 11 月地區限定優惠（11/16–11/30）",
@@ -498,7 +498,7 @@
         "platform": "ubereats",
         "code": "嘉義免費",
         "link": false,
-        "discount": "滿 $149 享 $0 外送費和服務費 限美食外送商家、限指定用戶，共可使用 4 次；數量有限，兌完為止"
+        "discount": "滿 $149 享 $0 外送費和服務費 可用 4 次"
       },
       {
         "section": "Uber Eats 11 月地區限定優惠（11/16–11/30）",
@@ -508,7 +508,7 @@
         "platform": "ubereats",
         "code": "十一狂五",
         "link": false,
-        "discount": "滿 $149 享 5 折，最高折抵 $80 限美食外送／外帶商家、限指定用戶，共可使用 4 次；數量有限，兌完為止"
+        "discount": "滿 $149 享 5 折，最高折抵 $80 可用 4 次"
       },
       {
         "section": "Uber Eats 11 月地區限定優惠（11/16–11/30）",
@@ -518,7 +518,7 @@
         "platform": "ubereats",
         "code": "屏東免費",
         "link": false,
-        "discount": "滿 $149 享 $0 外送費和服務費 限美食外送商家、限指定用戶，共可使用 4 次；數量有限，兌完為止"
+        "discount": "滿 $149 享 $0 外送費和服務費 可用 4 次"
       },
       {
         "section": "Uber Eats 11 月地區限定優惠（11/16–11/30）",
@@ -528,7 +528,7 @@
         "platform": "ubereats",
         "code": "十一省五",
         "link": false,
-        "discount": "滿 $149 享 5 折，最高折抵 $80 限美食外送／外帶商家、限指定用戶，共可使用 4 次；數量有限，兌完為止"
+        "discount": "滿 $149 享 5 折，最高折抵 $80 可用 4 次"
       },
       {
         "section": "Uber Eats 11 月地區限定優惠（11/16–11/30）",
@@ -538,7 +538,7 @@
         "platform": "ubereats",
         "code": "宜蘭免費",
         "link": false,
-        "discount": "滿 $149 享 $0 外送費和服務費 限美食外送商家、限指定用戶，共可使用 4 次；數量有限，兌完為止"
+        "discount": "滿 $149 享 $0 外送費和服務費 可用 4 次"
       },
       {
         "section": "Uber Eats 11 月地區限定優惠（11/16–11/30）",
@@ -548,7 +548,7 @@
         "platform": "ubereats",
         "code": "秋享五折",
         "link": false,
-        "discount": "滿 $149 享 5 折，最高折抵 $80 限美食外送／外帶商家、限指定用戶，共可使用 4 次；數量有限，兌完為止"
+        "discount": "滿 $149 享 5 折，最高折抵 $80 可用 4 次"
       },
       {
         "section": "Uber Eats 11 月地區限定優惠（11/16–11/30）",
@@ -558,7 +558,7 @@
         "platform": "ubereats",
         "code": "基隆免費",
         "link": false,
-        "discount": "滿 $149 享 $0 外送費和服務費 限美食外送商家、限指定用戶，共可使用 4 次；數量有限，兌完為止"
+        "discount": "滿 $149 享 $0 外送費和服務費 可用 4 次"
       },
       {
         "section": "Uber Eats 11 月地區限定優惠（11/16–11/30）",
@@ -568,7 +568,7 @@
         "platform": "ubereats",
         "code": "秋訂五折",
         "link": false,
-        "discount": "滿 $149 享 5 折，最高折抵 $80 限美食外送／外帶商家、限指定用戶，共可使用 4 次；數量有限，兌完為止"
+        "discount": "滿 $149 享 5 折，最高折抵 $80 可用 4 次"
       },
       {
         "section": "Uber Eats 11 月地區限定優惠（11/16–11/30）",
@@ -578,7 +578,7 @@
         "platform": "ubereats",
         "code": "花蓮免費",
         "link": false,
-        "discount": "滿 $149 享 $0 外送費和服務費 限美食外送商家、限指定用戶，共可使用 4 次；數量有限，兌完為止"
+        "discount": "滿 $149 享 $0 外送費和服務費 可用 4 次"
       },
       {
         "section": "Uber Eats 11 月地區限定優惠（11/16–11/30）",
@@ -588,7 +588,7 @@
         "platform": "ubereats",
         "code": null,
         "link": false,
-        "discount": "滿 $149 享 5 折，最高折抵 $80 限美食外送／外帶商家、限指定用戶，共可使用 4 次；數量有限，兌完為止"
+        "discount": "滿 $149 享 5 折，最高折抵 $80 可用 4 次"
       },
       {
         "section": "Uber Eats 11 月地區限定優惠（11/16–11/30）",
@@ -598,7 +598,7 @@
         "platform": "ubereats",
         "code": "台東免費",
         "link": false,
-        "discount": "滿 $149 享 $0 外送費和服務費 限美食外送商家、限指定用戶，共可使用 4 次；數量有限，兌完為止"
+        "discount": "滿 $149 享 $0 外送費和服務費 可用 4 次"
       },
       {
         "section": "Uber Eats 11 月地區限定優惠（11/16–11/30）",
@@ -608,7 +608,7 @@
         "platform": "ubereats",
         "code": "秋狂五折",
         "link": false,
-        "discount": "滿 $149 享 5 折，最高折抵 $80 限美食外送／外帶商家、限指定用戶，共可使用 4 次；數量有限，兌完為止"
+        "discount": "滿 $149 享 5 折，最高折抵 $80 可用 4 次"
       },
       {
         "section": "Uber Eats 11 月地區限定優惠（11/16–11/30）",
@@ -618,7 +618,7 @@
         "platform": "ubereats",
         "code": "澎湖免費",
         "link": false,
-        "discount": "滿 $149 享 $0 外送費和服務費 限美食外送商家、限指定用戶，共可使用 4 次；數量有限，兌完為止"
+        "discount": "滿 $149 享 $0 外送費和服務費 可用 4 次"
       },
       {
         "section": "Uber Eats 11 月地區限定優惠（11/16–11/30）",
@@ -628,7 +628,7 @@
         "platform": "ubereats",
         "code": "秋有五折",
         "link": false,
-        "discount": "滿 $149 享 5 折，最高折抵 $80 限美食外送／外帶商家、限指定用戶，共可使用 4 次；數量有限，兌完為止"
+        "discount": "滿 $149 享 5 折，最高折抵 $80 可用 4 次"
       },
       {
         "section": "Uber Eats 11 月地區限定優惠（11/16–11/30）",
@@ -638,7 +638,7 @@
         "platform": "ubereats",
         "code": "金門免費",
         "link": false,
-        "discount": "滿 $149 享 $0 外送費和服務費 限美食外送商家、限指定用戶，共可使用 4 次；數量有限，兌完為止"
+        "discount": "滿 $149 享 $0 外送費和服務費 可用 4 次"
       },
       {
         "section": "Uber Eats 11 月地區限定優惠（11/16–11/30）",
@@ -648,7 +648,7 @@
         "platform": "ubereats",
         "code": "十一六折",
         "link": false,
-        "discount": "滿 $149 享 6 折，最高折抵 $60 限美食外送／外帶商家、限指定用戶，限使用 1 次；數量有限，兌完為止"
+        "discount": "滿 $149 享 6 折，最高折抵 $60"
       },
       {
         "section": "Uber Eats 11 月地區限定優惠（11/16–11/30）",
@@ -727,8 +727,7 @@
         "content": "十週年買優市複製優惠碼",
         "platform": "ubereats",
         "code": "十週年買優市",
-        "link": false,
-        "discount": "滿 $899 折 $120"
+        "link": false
       },
       {
         "section": "本月精選：生鮮雜貨與全聯折扣碼總整理",
