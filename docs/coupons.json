@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-11-23T01:39:32.464Z",
-  "updated": "2026-11-23 09:39",
+  "generatedAt": "2026-11-23T12:26:49.565Z",
+  "updated": "2026-11-23 20:26",
   "sources": {
     "ubereats": "https://raw.githubusercontent.com/ridemountainpig/tasty-coupon/main/coupon-json/ubereats-coupon.json",
     "foodpanda": "https://raw.githubusercontent.com/ridemountainpig/tasty-coupon/main/coupon-json/foodpanda-coupon.json"
@@ -23,17 +23,17 @@
       {
         "section": "Uber Eats 十周年 優惠活動",
         "scope": "全用戶",
-        "period": "2026/12/20",
-        "content": "十歲開搶複製優惠碼",
+        "period": "11/23 ~ 11/29",
+        "content": "十周年搶複製優惠碼",
         "platform": "ubereats",
-        "code": "十歲開搶",
+        "code": "十周年搶",
         "link": false,
         "discount": "每週限時優惠・最低 1 折 每週一 10:00 開搶，輸入序號試手氣抽專屬獎勵優惠，最低 1 折；實際折扣、門檻與上限以 App 顯示為準，效期至當週週日 23:59；每週限量 20,000 組 官方說明"
       },
       {
         "section": "Uber Eats 十周年 優惠活動",
         "scope": "全用戶",
-        "period": "11/16 ~ /12/22",
+        "period": "11/16 ~ 12/22",
         "content": "十歲吃49複製優惠碼",
         "platform": "ubereats",
         "code": "十歲吃49",
@@ -43,7 +43,7 @@
       {
         "section": "Uber Eats 十周年 優惠活動",
         "scope": "全用戶",
-        "period": "11/16 ~ /12/22",
+        "period": "11/16 ~ 12/22",
         "content": "十歲吃79複製優惠碼",
         "platform": "ubereats",
         "code": "十歲吃79",
@@ -53,7 +53,7 @@
       {
         "section": "Uber Eats 十周年 優惠活動",
         "scope": "全用戶",
-        "period": "11/16 ~ /12/22",
+        "period": "11/16 ~ 12/22",
         "content": "十歲吃99複製優惠碼",
         "platform": "ubereats",
         "code": "十歲吃99",
@@ -63,7 +63,7 @@
       {
         "section": "Uber Eats 十周年 優惠活動",
         "scope": "全用戶",
-        "period": "11/16 ~ /12/20",
+        "period": "11/16 ~ 12/20",
         "content": "UE慶生複製優惠碼",
         "platform": "ubereats",
         "code": "UE慶生",
@@ -73,32 +73,12 @@
       {
         "section": "Uber Eats 十周年 優惠活動",
         "scope": "全用戶",
-        "period": "11/16 ~ /12/20",
+        "period": "11/16 ~ 12/20",
         "content": "UE生快複製優惠碼",
         "platform": "ubereats",
         "code": "UE生快",
         "link": false,
         "discount": "滿 $450 享 8 折 最高折抵 $100 可用２次"
-      },
-      {
-        "section": "Uber Eats 十周年 優惠活動",
-        "scope": "胖老爹",
-        "period": "11/16 ~ 11/22",
-        "content": "十歲吃胖老爹複製優惠碼",
-        "platform": "ubereats",
-        "code": "十歲吃胖老爹",
-        "link": false,
-        "discount": "滿 $450 享 8 折 最高折抵 $100"
-      },
-      {
-        "section": "Uber Eats 十周年 優惠活動",
-        "scope": "麻膳堂",
-        "period": "11/16 ~ 11/22",
-        "content": "十歲吃麻膳堂複製優惠碼",
-        "platform": "ubereats",
-        "code": "十歲吃麻膳堂",
-        "link": false,
-        "discount": "滿 $450 享 8 折 最高折抵 $100"
       },
       {
         "section": "Uber One 訂閱會員優惠資訊",
@@ -212,6 +192,16 @@
       },
       {
         "section": "美食外送丨外帶自取 優惠",
+        "scope": "台新新戶",
+        "period": "至 2026/12/31",
+        "content": "TSIB複製優惠碼",
+        "platform": "ubereats",
+        "code": "TSIB",
+        "link": false,
+        "discount": "台新銀行新戶綁卡 2 次 5 折優惠 單筆滿 $80 享 5 折、每次最高折 $200；輸入序號後 14 天內用完，總限量 20 萬組"
+      },
+      {
+        "section": "美食外送丨外帶自取 優惠",
         "scope": "苗栗縣、彰化縣、南投縣、嘉義嘉義縣市、雲林縣、台南市、屏東縣、宜蘭縣",
         "period": "11/1 ~ 11/30",
         "content": "FCBUE11複製優惠碼",
@@ -222,11 +212,21 @@
       },
       {
         "section": "美食外送丨外帶自取 優惠",
+        "scope": "第一銀行卡友（新用戶）",
+        "period": "至 2026/12/31",
+        "content": "FCBUE複製優惠碼",
+        "platform": "ubereats",
+        "code": "FCBUE",
+        "link": false,
+        "discount": "第一銀行卡友新用戶 2 次 5 折優惠 單筆滿 $80 享 5 折、每次最高折 $200；輸入序號後 14 天內使用"
+      },
+      {
+        "section": "美食外送丨外帶自取 優惠",
         "scope": "全用戶",
         "period": "~ 12/1",
-        "content": "傳說補給到複製優惠碼",
+        "content": "傳說補給到複製 優惠碼",
         "platform": "ubereats",
-        "code": "傳說補給到",
+        "code": null,
         "link": false,
         "discount": "輸入後 抽最低 4 折"
       },
@@ -254,9 +254,9 @@
         "section": "美食外送丨外帶自取 優惠",
         "scope": "指定用戶",
         "period": "9/1 ~ 12/31",
-        "content": "朋友吃美食複製 優惠碼",
+        "content": "朋友吃美食複製優惠碼",
         "platform": "ubereats",
-        "code": null,
+        "code": "朋友吃美食",
         "link": false,
         "discount": "抽滿額折抵 輸入後14天內使用完畢"
       },
@@ -394,9 +394,9 @@
         "section": "區域限定與分眾專屬折價券（含青少年帳號）",
         "scope": "苗栗縣",
         "period": "2026/11/30",
-        "content": "十一點五複製 優惠碼",
+        "content": "十一點五複製優惠碼",
         "platform": "ubereats",
-        "code": null,
+        "code": "十一點五",
         "link": false,
         "discount": "滿 $149 享 5 折，最高折抵 $80 可用 4 次"
       },
@@ -534,9 +534,9 @@
         "section": "區域限定與分眾專屬折價券（含青少年帳號）",
         "scope": "基隆市",
         "period": "2026/11/30",
-        "content": "秋享五折複製優惠碼",
+        "content": "秋享五折複製 優惠碼",
         "platform": "ubereats",
-        "code": "秋享五折",
+        "code": null,
         "link": false,
         "discount": "滿 $149 享 5 折，最高折抵 $80 可用 4 次"
       },
@@ -554,9 +554,9 @@
         "section": "區域限定與分眾專屬折價券（含青少年帳號）",
         "scope": "花蓮縣",
         "period": "2026/11/30",
-        "content": "秋訂五折複製 優惠碼",
+        "content": "秋訂五折複製優惠碼",
         "platform": "ubereats",
-        "code": null,
+        "code": "秋訂五折",
         "link": false,
         "discount": "滿 $149 享 5 折，最高折抵 $80 可用 4 次"
       },
@@ -927,10 +927,10 @@
         "link": false
       },
       {
-        "section": "行動支付優惠",
+        "section": "Uber Eats 信用卡與行動支付優惠",
         "scope": "",
         "period": "",
-        "content": "平日單筆滿 $199， 當月累積 5 筆符合資格交易， 可獲幸運轉轉樂機會。",
+        "content": "5% 刷卡金",
         "platform": "ubereats",
         "code": null,
         "link": false
@@ -939,7 +939,7 @@
         "section": "行動支付優惠",
         "scope": "",
         "period": "",
-        "content": "指定平日單筆滿 $199， 符合條件享 2% LINE POINTS。",
+        "content": "平日單筆滿 $199， 當月累積 5 筆符合資格交易， 可獲幸運轉轉樂機會。",
         "platform": "ubereats",
         "code": null,
         "link": false
@@ -1010,11 +1010,11 @@
       },
       {
         "section": "pandapro 會員優惠碼",
-        "scope": "全用戶",
+        "scope": "pandapro 會員",
         "period": "11/1 ~ 11/30",
-        "content": "十一爽訂餐複製優惠碼",
+        "content": "十一爽訂餐複製 優惠碼",
         "platform": "foodpanda",
-        "code": "十一爽訂餐",
+        "code": null,
         "link": false,
         "discount": "滿 $299 享 85 折 最高折抵 $45 可用 2 次"
       },
@@ -1029,7 +1029,7 @@
         "discount": "免費兌換經典鹽酥雞一份 限 外帶自取"
       },
       {
-        "section": "美食外送 優惠碼整理｜11 月滿額現折、星巴克週二、外帶自取優惠",
+        "section": "美食外送優惠碼整理｜11 月滿額現折、星巴克週二、外帶自取優惠",
         "scope": "大苑子",
         "period": "11/7 ~ 11/25",
         "content": "賜你大苑子複製優惠碼",
@@ -1039,7 +1039,7 @@
         "discount": "疊加優惠68折起"
       },
       {
-        "section": "美食外送 優惠碼整理｜11 月滿額現折、星巴克週二、外帶自取優惠",
+        "section": "美食外送優惠碼整理｜11 月滿額現折、星巴克週二、外帶自取優惠",
         "scope": "外帶自取",
         "period": "11/1 ~ 11/30",
         "content": "天天取天天爽複製優惠碼",
@@ -1049,7 +1049,7 @@
         "discount": "於指定店家滿 $360 現折 $110 於指定店家滿 $260 現折 $80"
       },
       {
-        "section": "美食外送 優惠碼整理｜11 月滿額現折、星巴克週二、外帶自取優惠",
+        "section": "美食外送優惠碼整理｜11 月滿額現折、星巴克週二、外帶自取優惠",
         "scope": "外帶自取",
         "period": "11/1 ~ 11/30",
         "content": "自取感謝你複製優惠碼",
@@ -1059,27 +1059,37 @@
         "discount": "滿 $100 享 7 折 最高折抵 $30 可用３次"
       },
       {
-        "section": "美食外送 優惠碼整理｜11 月滿額現折、星巴克週二、外帶自取優惠",
+        "section": "美食外送優惠碼整理｜11 月滿額現折、星巴克週二、外帶自取優惠",
         "scope": "指定 餐廳",
         "period": "11/1 ~ 11/30",
         "content": "爽爽吃複製優惠碼",
         "platform": "foodpanda",
         "code": "爽爽吃",
         "link": false,
-        "discount": "滿 $360 最高折 $110 滿 $260 最高折 $80 滿 $200 最高折 $100 滿 $200 最高折 $150"
+        "discount": "滿 $360 最高折 $110 滿 $260 最高折 $80 滿 $200 最高折 $100／$150 實際折抵金額依帳號顯示為準"
       },
       {
-        "section": "美食外送 優惠碼整理｜11 月滿額現折、星巴克週二、外帶自取優惠",
+        "section": "美食外送優惠碼整理｜11 月滿額現折、星巴克週二、外帶自取優惠",
         "scope": "星巴克指定專區",
         "period": "11/1 ~ 11/30",
         "content": "週二星享日複製優惠碼",
         "platform": "foodpanda",
         "code": "週二星享日",
         "link": false,
-        "discount": "星巴克週二優惠 指定專區現折 $70 每週二下訂星巴克指定專區適用"
+        "discount": "星巴克週二優惠 指定專區滿 $279 現折 $70 每週二下訂星巴克指定專區適用"
       },
       {
-        "section": "生鮮雜貨優惠碼整理｜10 月最新折扣、全聯週末優惠一次看",
+        "section": "美食外送優惠碼整理｜11 月滿額現折、星巴克週二、外帶自取優惠",
+        "scope": "星巴克",
+        "period": "11/17 ~ 11/30",
+        "content": "查看優惠查看優惠",
+        "platform": "foodpanda",
+        "code": null,
+        "link": true,
+        "discount": "星巴克指定飲品第二杯半價 點購兩杯大杯以上指定飲品（焦糖奶香星享那堤、焦糖奶香紅茶那堤、巧克力可可碎片星冰樂），第二杯半價"
+      },
+      {
+        "section": "生鮮雜貨優惠碼整理｜11 月最新折扣、全聯週末優惠一次看",
         "scope": "小北百貨",
         "period": "11/1 ~ 11/30",
         "content": "1111複製優惠碼",
@@ -1089,7 +1099,7 @@
         "discount": "滿 $999 享 85 折 最高折抵 $180 可用2次"
       },
       {
-        "section": "生鮮雜貨優惠碼整理｜10 月最新折扣、全聯週末優惠一次看",
+        "section": "生鮮雜貨優惠碼整理｜11 月最新折扣、全聯週末優惠一次看",
         "scope": "美廉社",
         "period": "11/1 ~ 11/30",
         "content": "1111複製優惠碼",
@@ -1099,7 +1109,7 @@
         "discount": "滿 $999 享 85 折 最高折抵 $180 可用2次"
       },
       {
-        "section": "生鮮雜貨優惠碼整理｜10 月最新折扣、全聯週末優惠一次看",
+        "section": "生鮮雜貨優惠碼整理｜11 月最新折扣、全聯週末優惠一次看",
         "scope": "統一超商",
         "period": "11/1 ~ 11/30",
         "content": "1111複製優惠碼",
@@ -1109,17 +1119,17 @@
         "discount": "滿 $999 享 85 折 最高折抵 $180 可用2次"
       },
       {
-        "section": "生鮮雜貨優惠碼整理｜10 月最新折扣、全聯週末優惠一次看",
+        "section": "生鮮雜貨優惠碼整理｜11 月最新折扣、全聯週末優惠一次看",
         "scope": "全家便利商店",
         "period": "11/1 ~ 11/30",
-        "content": "1111複製優惠碼",
+        "content": "1111複製 優惠碼",
         "platform": "foodpanda",
-        "code": "1111",
+        "code": null,
         "link": false,
         "discount": "滿 $999 享 85 折 最高折抵 $180 可用2次"
       },
       {
-        "section": "生鮮雜貨優惠碼整理｜10 月最新折扣、全聯週末優惠一次看",
+        "section": "生鮮雜貨優惠碼整理｜11 月最新折扣、全聯週末優惠一次看",
         "scope": "大全聯",
         "period": "11/1 ~ 11/30",
         "content": "1111複製優惠碼",
@@ -1129,7 +1139,7 @@
         "discount": "滿 $999 享 85 折 最高折抵 $180 可用2次"
       },
       {
-        "section": "生鮮雜貨優惠碼整理｜10 月最新折扣、全聯週末優惠一次看",
+        "section": "生鮮雜貨優惠碼整理｜11 月最新折扣、全聯週末優惠一次看",
         "scope": "萬家福",
         "period": "11/1 ~ 11/30",
         "content": "1111複製優惠碼",
@@ -1139,7 +1149,7 @@
         "discount": "滿 $999 享 85 折 最高折抵 $180 可用2次"
       },
       {
-        "section": "生鮮雜貨優惠碼整理｜10 月最新折扣、全聯週末優惠一次看",
+        "section": "生鮮雜貨優惠碼整理｜11 月最新折扣、全聯週末優惠一次看",
         "scope": "樂家康超市",
         "period": "11/1 ~ 11/30",
         "content": "1111複製優惠碼",
@@ -1149,17 +1159,17 @@
         "discount": "滿 $999 享 85 折 最高折抵 $180 可用2次"
       },
       {
-        "section": "生鮮雜貨優惠碼整理｜10 月最新折扣、全聯週末優惠一次看",
+        "section": "生鮮雜貨優惠碼整理｜11 月最新折扣、全聯週末優惠一次看",
         "scope": "屈臣氏",
         "period": "11/1 ~ 11/30",
-        "content": "1111複製 優惠碼",
+        "content": "1111複製優惠碼",
         "platform": "foodpanda",
-        "code": null,
+        "code": "1111",
         "link": false,
         "discount": "滿 $999 享 85 折 最高折抵 $180 可用2次"
       },
       {
-        "section": "生鮮雜貨優惠碼整理｜10 月最新折扣、全聯週末優惠一次看",
+        "section": "生鮮雜貨優惠碼整理｜11 月最新折扣、全聯週末優惠一次看",
         "scope": "康是美",
         "period": "11/1 ~ 11/30",
         "content": "1111複製優惠碼",
@@ -1169,7 +1179,7 @@
         "discount": "滿 $999 享 85 折 最高折抵 $180 可用2次"
       },
       {
-        "section": "生鮮雜貨優惠碼整理｜10 月最新折扣、全聯週末優惠一次看",
+        "section": "生鮮雜貨優惠碼整理｜11 月最新折扣、全聯週末優惠一次看",
         "scope": "楓康超市",
         "period": "11/1 ~ 11/30",
         "content": "1111複製優惠碼",
@@ -1179,7 +1189,7 @@
         "discount": "滿 $999 享 85 折 最高折抵 $180 可用2次"
       },
       {
-        "section": "生鮮雜貨優惠碼整理｜10 月最新折扣、全聯週末優惠一次看",
+        "section": "生鮮雜貨優惠碼整理｜11 月最新折扣、全聯週末優惠一次看",
         "scope": "寵物公園",
         "period": "11/1 ~ 11/30",
         "content": "1111複製優惠碼",
@@ -1189,7 +1199,7 @@
         "discount": "滿 $999 享 85 折 最高折抵 $180 可用2次"
       },
       {
-        "section": "生鮮雜貨優惠碼整理｜10 月最新折扣、全聯週末優惠一次看",
+        "section": "生鮮雜貨優惠碼整理｜11 月最新折扣、全聯週末優惠一次看",
         "scope": "聖德科斯",
         "period": "11/1 ~ 11/30",
         "content": "1111複製優惠碼",
@@ -1199,7 +1209,7 @@
         "discount": "滿 $999 享 85 折 最高折抵 $180 可用2次"
       },
       {
-        "section": "生鮮雜貨優惠碼整理｜10 月最新折扣、全聯週末優惠一次看",
+        "section": "生鮮雜貨優惠碼整理｜11 月最新折扣、全聯週末優惠一次看",
         "scope": "燦坤3C",
         "period": "11/1 ~ 11/30",
         "content": "1111複製優惠碼",
@@ -1209,17 +1219,17 @@
         "discount": "滿 $999 享 85 折 最高折抵 $180 可用2次"
       },
       {
-        "section": "生鮮雜貨優惠碼整理｜10 月最新折扣、全聯週末優惠一次看",
+        "section": "生鮮雜貨優惠碼整理｜11 月最新折扣、全聯週末優惠一次看",
         "scope": "全聯福利中心",
         "period": "11月指定週六日指定時段",
-        "content": "查看優惠前往查看優惠",
+        "content": "查看優惠查看優惠",
         "platform": "foodpanda",
         "code": null,
         "link": true,
         "discount": "滿額享 6~85~9折 最高折$110~$120"
       },
       {
-        "section": "生鮮雜貨優惠碼整理｜10 月最新折扣、全聯週末優惠一次看",
+        "section": "生鮮雜貨優惠碼整理｜11 月最新折扣、全聯週末優惠一次看",
         "scope": "全用戶",
         "period": "11月指定週日（1日、8日、15日、22日、29日）",
         "content": "週日買全聯複製優惠碼",
@@ -1229,17 +1239,7 @@
         "discount": "滿 $899 享10% 胖達幣回饋 最高回饋100胖達幣 可用2次"
       },
       {
-        "section": "生鮮雜貨優惠碼整理｜10 月最新折扣、全聯週末優惠一次看",
-        "scope": "康是美",
-        "period": "11/21 ~ 11/30",
-        "content": "平日買康是美複製優惠碼",
-        "platform": "foodpanda",
-        "code": "平日買康是美",
-        "link": false,
-        "discount": "滿額享 6~85~9折 最高折$110~$120"
-      },
-      {
-        "section": "生鮮雜貨優惠碼整理｜10 月最新折扣、全聯週末優惠一次看",
+        "section": "生鮮雜貨優惠碼整理｜11 月最新折扣、全聯週末優惠一次看",
         "scope": "寵物公園",
         "period": "11/21 ~ 11/30",
         "content": "平日買寵公複製優惠碼",
@@ -1292,7 +1292,7 @@
         "section": "學生、企業用戶優惠",
         "scope": "中信聯名卡卡友",
         "period": "11/1－11/30",
-        "content": "前往下單複製優惠碼",
+        "content": "前往下單前往下單",
         "platform": "foodpanda",
         "code": null,
         "link": true,
@@ -1302,7 +1302,7 @@
         "section": "學生、企業用戶優惠",
         "scope": "CUBE 卡友",
         "period": "至 12/31",
-        "content": "前往下單複製 優惠碼",
+        "content": "前往下單前往下單",
         "platform": "foodpanda",
         "code": null,
         "link": true,
@@ -1312,7 +1312,7 @@
         "section": "學生、企業用戶優惠",
         "scope": "星展卡友",
         "period": "至 12/31",
-        "content": "前往下單複製優惠碼",
+        "content": "前往下單前往下單",
         "platform": "foodpanda",
         "code": null,
         "link": true,
@@ -1322,7 +1322,7 @@
         "section": "學生、企業用戶優惠",
         "scope": "聯邦卡友",
         "period": "至 12/31",
-        "content": "前往下單複製優惠碼",
+        "content": "前往下單前往下單",
         "platform": "foodpanda",
         "code": null,
         "link": true,
@@ -1332,7 +1332,7 @@
         "section": "學生、企業用戶優惠",
         "scope": "玉山 Unicard 卡友",
         "period": "2026 年權益",
-        "content": "前往下單複製優惠碼",
+        "content": "前往下單前往下單",
         "platform": "foodpanda",
         "code": null,
         "link": true,
@@ -1342,7 +1342,7 @@
         "section": "學生、企業用戶優惠",
         "scope": "Richart 卡友",
         "period": "至 2027/3/31",
-        "content": "前往下單複製優惠碼",
+        "content": "前往下單前往下單",
         "platform": "foodpanda",
         "code": null,
         "link": true,
@@ -1352,11 +1352,31 @@
         "section": "學生、企業用戶優惠",
         "scope": "街口聯名卡卡友",
         "period": "至 12/31",
-        "content": "前往下單複製優惠碼",
+        "content": "前往下單前往下單",
         "platform": "foodpanda",
         "code": null,
         "link": true,
         "discount": "台新街口聯名卡 最高 3.5% 街口幣 外送美食為精選通路｜實體卡、線上輸入卡號、LINE Pay、Apple Pay 等指定形式皆可"
+      },
+      {
+        "section": "學生、企業用戶優惠",
+        "scope": "台新卡友",
+        "period": "至 2027/12/31",
+        "content": "tsb2027複製 優惠碼",
+        "platform": "foodpanda",
+        "code": null,
+        "link": false,
+        "discount": "台新銀行卡友 pandapro 半年制 3 折 訂閱半年制折後 $195（原價 $650），每帳戶限用 1 次；經銀行活動頁另享一個月免費試用"
+      },
+      {
+        "section": "學生、企業用戶優惠",
+        "scope": "台新新戶",
+        "period": "依銀行公告",
+        "content": "pstsb27複製優惠碼",
+        "platform": "foodpanda",
+        "code": "pstsb27",
+        "link": false,
+        "discount": "台新銀行新戶首購 美食／生鮮 3 折 美食外送滿 $99 享 3 折、最高折 $200；生鮮雜貨滿 $300 享 3 折、最高折 $250"
       }
     ]
   }
