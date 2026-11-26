@@ -23,7 +23,7 @@ jobs:
       name: github-pages
     steps:
       - name: 下載專案
-        uses: actions/checkout@v4
+        uses: actions/checkout@v7
       - name: 更新優惠券快取
         if: github.event_name == 'schedule' || github.event_name == 'workflow_dispatch'
         run: node scripts/fetch-coupons.mjs
@@ -42,11 +42,11 @@ jobs:
       - name: 建置靜態頁面
         run: node scripts/build-pages.mjs
       - name: 啟用 Pages
-        uses: actions/configure-pages@v5
+        uses: actions/configure-pages@v6
         with:
           enablement: true
       - name: 上傳 Pages artifact
-        uses: actions/upload-pages-artifact@v3
+        uses: actions/upload-pages-artifact@v5
         with:
           path: docs
       # deploy-pages 會立刻查詢 artifact 清單，偶爾 GitHub 尚未同步完成，
@@ -54,7 +54,7 @@ jobs:
       - name: 發布到 Pages
         id: deployment1
         continue-on-error: true
-        uses: actions/deploy-pages@v4
+        uses: actions/deploy-pages@v5
       - name: 等待 artifact 同步後重試發布
         if: steps.deployment1.outcome == 'failure'
         run: sleep 20
@@ -62,11 +62,11 @@ jobs:
         id: deployment2
         if: steps.deployment1.outcome == 'failure'
         continue-on-error: true
-        uses: actions/deploy-pages@v4
+        uses: actions/deploy-pages@v5
       - name: 再次等待 artifact 同步
         if: steps.deployment2.outcome == 'failure'
         run: sleep 40
       - name: 發布到 Pages（重試 2）
         id: deployment
         if: steps.deployment2.outcome == 'failure'
-        uses: actions/deploy-pages@v4
+        uses: actions/deploy-pages@v5
